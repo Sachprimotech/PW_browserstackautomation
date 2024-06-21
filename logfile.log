@@ -1,0 +1,12 @@
+2024-06-20 21:23:00,221 :INFO : test_menubar :chrome
+2024-06-20 21:23:00,221 :INFO : test_menubar :start
+2024-06-20 21:23:20,290 :INFO : test_menubar :chrome
+2024-06-20 21:23:20,290 :INFO : test_menubar :start
+2024-06-20 21:23:47,221 :INFO : test_menubar :chrome
+2024-06-20 21:23:47,222 :INFO : test_menubar :start
+2024-06-20 21:23:47,821 :INFO : test_menubar :None
+2024-06-20 21:23:47,822 :INFO : test_menubar :end
+2024-06-20 21:26:12,528 :INFO : test_menubar :chrome
+2024-06-20 21:26:12,528 :INFO : test_menubar :start
+2024-06-20 21:26:13,049 :INFO : test_menubar :None
+2024-06-20 21:26:13,049 :INFO : test_menubar :end
