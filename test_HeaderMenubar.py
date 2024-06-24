@@ -24,6 +24,8 @@ class Testone(BaseClass):
         Css_values=[]
         megamenu_cssvalues=[]
         Css_linksvalues=[]
+        menubar_links=[]
+        all_windowslinks=[]
         log.info("start")
         window_size =self.driver.get_window_size()
         if window_size['width']> 767:
@@ -65,6 +67,44 @@ class Testone(BaseClass):
                      Css_linksvalues.append(mecss.value_of_css_property(me))
             linkset={'0.8px', '16px', '500', '700', 'elza', 'rgba(255, 255, 255, 1)'}
             assert len(set(Css_linksvalues))==6 or set(Css_linksvalues)==linkset
+            menubar_links.append("https://www.physiciansweekly.com/")
+            
+            menu_lilinks=By.CSS_SELECTOR,"a.mega-menu-link"
+            mnu_lilinks=wait.until(EC.presence_of_all_elements_located(menu_lilinks))
+            
+
+            for linkis in mnu_lilinks:
+              if linkis!=None  :
+               htags=linkis.get_attribute('href')
+               log.info('href')
+               
+               menubar_links.append(htags)
+            for soc in menubar_links:
+             self.driver.execute_script("window.open(arguments[0])", soc)   
+
+            handles =self.driver.window_handles
+
+            for windows in handles:
+             self.driver.switch_to.window(windows)
+             alllinks=self.driver.current_url
+             all_windowslinks.append(alllinks)
+         
+            log.info("verifying all social links")
+            assert set(menubar_links)==set(all_windowslinks) or len(menubar_links)==34
+            log.info("All social links are verified sucessfully")
+            for social in all_windowslinks:
+              response = requests.get(social)
+
+
+              status_code = response.status_code
+              log.info("verfying any broken links")
+              assert not status_code == 404
+              log.info("No broken links")  
+
+
+
+
+
         else:
            pass
 
