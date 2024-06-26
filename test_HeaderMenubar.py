@@ -29,7 +29,7 @@ class Testone(BaseClass):
         log.info("start")
         window_size =self.driver.get_window_size()
         if window_size['width']> 767:
-            popup=self.driver.find_element(By.XPATH,"//div[@id='normal-slidedown']/div[2]/button[2]")
+            popup=self.driver.find_element(By.CSS_SELECTOR,"#onesignal-popover-container")
             popup.click()
             menu_bar=self.driver.find_element(By.XPATH,"//div[@id='top-nv-section']")
             assert menu_bar.is_displayed
