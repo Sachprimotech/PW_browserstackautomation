@@ -28,7 +28,7 @@ class Testone(BaseClass):
         
         window_size =self.driver.get_window_size()
         if window_size['width']> 767:
-          popup=self.driver.find_element(By.CSS_SELECTOR,"#onesignal-popover-container")
+          popup=self.driver.find_element(By.CSS_SELECTOR,"#onesignal-slidedown-dialog .primary.slidedown-button")
           popup.click()
           
           log.info('start')

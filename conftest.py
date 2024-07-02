@@ -19,7 +19,7 @@ def setup(request):
  
   driver.get("https://www.physiciansweekly.com/")
   driver.maximize_window()
-
+  driver.execute_script("window.scrollTo(0,500);")
   request.cls.driver = driver
   yield
   # driver.quit()

@@ -99,7 +99,7 @@ class Testone(BaseClass):
         elif window_size['width']<=767:
            
            
-            popup=self.driver.find_element(By.CSS_SELECTOR,"#onesignal-popover-container")
+            popup=self.driver.find_element(By.CSS_SELECTOR,"#onesignal-slidedown-dialog .primary.slidedown-button")
             popup.click()
             footer_links=self.driver.find_elements(By.CSS_SELECTOR,".ft-custom-menu a")
             
