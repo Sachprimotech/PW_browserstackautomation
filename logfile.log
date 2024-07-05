@@ -26,3 +26,9 @@
 2024-07-02 18:09:44,595 :INFO : test_HomePage :chrome
 2024-07-02 18:09:44,597 :INFO : test_HomePage :start
 
+
+2024-07-05 19:48:30,802 :INFO : test_HomePageFeatured :chrome
+2024-07-05 19:48:30,885 :INFO : test_HomePageFeatured :start
+2024-07-05 19:48:31,329 :INFO : test_HomePageFeatured :end
+2024-07-05 19:48:31,330 :INFO : test_HomePageFeatured :Verifying links for multiple selectors
+2024-07-05 19:49:07,567 :INFO : test_HomePageFeatured :All links verified successfully
