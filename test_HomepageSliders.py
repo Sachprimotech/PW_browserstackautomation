@@ -13,107 +13,223 @@ import requests
 import time
 
 
-
 class Testone(BaseClass):
     def test_HomePageFeatured(self):
-        wait=WebDriverWait(self.driver,20)
+        wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
-        
+
         log = self.getLogger()
         log.info(name)
         helper = SeleniumHelper(self.driver)
-      
-        window_size =self.driver.get_window_size()
-        if window_size['width']> 980:
-            popup=self.driver.find_element(By.CSS_SELECTOR,"#onesignal-slidedown-dialog .primary.slidedown-button")
+
+        window_size = self.driver.get_window_size()
+        if window_size["width"] > 980:
+            popup = self.driver.find_element(
+                By.CSS_SELECTOR, "#onesignal-slidedown-dialog .primary.slidedown-button"
+            )
             popup.click()
-            
-            
-        
-            log.info('start')
-          
 
-
-
+            log.info("start")
 
             selectors_and_properties = [
-            (".custom-slider #slider-container #slider .slide a img", {'1px solid #bfbfbf','cover','182px','182px','100%'} , ['border', 'object-fit', 'min-height','max-height','width']),
-            ("body.home .custom-slider .slide p",{"10px", "#152c6c", "left", "0", "25px", "600", "20px", "Elza"},["margin-top","color","text-align","letter-spacing","line-height","font-weight","font-size","font-family"])
-         ]
+                (
+                    ".custom-slider #slider-container #slider .slide a img",
+                    {
+                        "cover",
+                        "182px",
+                        "182px",
+                        "289px",
+                        "1px solid rgb(191, 191, 191)",
+                    },
+                    ["border", "object-fit", "min-height", "max-height", "width"],
+                ),
+                (
+                    "body.home .custom-slider .slide p",
+                    {"10px", "#152c6c", "left", "0", "25px", "600", "20px", "Elza"},
+                    [
+                        "margin-top",
+                        "color",
+                        "text-align",
+                        "letter-spacing",
+                        "line-height",
+                        "font-weight",
+                        "font-size",
+                        "font-family",
+                    ],
+                ),
+                (
+                    "body.home .custom-slider #slider-container .btn i",
+                    {"41px", "41px"},
+                    ("width", "height"),
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-right",
+                    {"30%", "8px"},
+                    ["top", "right"],
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-left",
+                    {"30%", "13px"},
+                    ["top", "left"],
+                ),
+            ]
 
-            for css_selector, expected_css_properties, css_properties_list in selectors_and_properties:
-             result = helper.fetch_and_check_css_properties(css_selector, expected_css_properties, css_properties_list)
-             assert result, f"CSS properties do not match the expected values for selector {css_selector}"
+            for (
+                css_selector,
+                expected_css_properties,
+                css_properties_list,
+            ) in selectors_and_properties:
+                result = helper.fetch_and_check_css_properties(
+                    css_selector, expected_css_properties, css_properties_list
+                )
+                assert (
+                    result
+                ), f"CSS properties do not match the expected values for selector {css_selector}"
 
-            log.info('end')
-            
+            log.info("end")
 
             selectors = ["#home-meeting-brifs.et_pb_section  a"]
             additional_links = ["https://www.physiciansweekly.com/"]
             expected_link_count = 13
-        
+
             log.info("Verifying links for multiple selectors")
             helper.verify_links(selectors, additional_links, expected_link_count)
             log.info("All links verified successfully")
 
-        elif window_size['width']>767 and window_size['width']<981:
+        elif window_size["width"] > 767 and window_size["width"] < 981:
 
-
-            log.info('start')
-          
-
-
-
+            log.info("start")
 
             selectors_and_properties = [
-            ("#home-condition-section #conditionSpotlightsection #conditionSpotlighleftsec", {'2.5%','50%','1px solid #bfbfbf'} , ['margin-right', 'width', 'border-right']),
-            ("#conditionSpotlightsection div#conditionSpotlightrightsec div#lightfeaturedsec img", {'100%'}, ['width']),
-            ("#conditionSpotlightsection div#conditionSpotlighleftsec .conditionSpotlightblogsec .et_pb_blurb_container h4 a",{'30px','600','24px','Elza'},['line-height','font-weight','font-size','font-family']),
-            ("#lightfeaturedsec h3",{'10px','#152c6c','38px','700','32px','Elza'},['margin-top','color','line-height','font-weight','font-size','font-family']),
-         ]
-            for css_selector, expected_css_properties, css_properties_list in selectors_and_properties:
-              result = helper.fetch_and_check_css_properties(css_selector, expected_css_properties, css_properties_list)
-              assert result, f"CSS properties do not match the expected values for selector {css_selector}"
+                (
+                    ".custom-slider #slider-container #slider .slide a img",
+                    {
+                        "cover",
+                        "182px",
+                        "182px",
+                        "289px",
+                        "1px solid rgb(191, 191, 191)",
+                    },
+                    ["border", "object-fit", "min-height", "max-height", "width"],
+                ),
+                (
+                    "body.home .custom-slider .slide p",
+                    {"10px", "#152c6c", "left", "0", "25px", "600", "20px", "Elza"},
+                    [
+                        "margin-top",
+                        "color",
+                        "text-align",
+                        "letter-spacing",
+                        "line-height",
+                        "font-weight",
+                        "font-size",
+                        "font-family",
+                    ],
+                ),
+                (
+                    "body.home .custom-slider #slider-container .btn i",
+                    {"41px", "41px"},
+                    ("width", "height"),
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-right",
+                    {"30%", "8px"},
+                    ["top", "right"],
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-left",
+                    {"30%", "13px"},
+                    ["top", "left"],
+                ),
+            ]
 
-              log.info('end')
-            
+            for (
+                css_selector,
+                expected_css_properties,
+                css_properties_list,
+            ) in selectors_and_properties:
+                result = helper.fetch_and_check_css_properties(
+                    css_selector, expected_css_properties, css_properties_list
+                )
+                assert (
+                    result
+                ), f"CSS properties do not match the expected values for selector {css_selector}"
 
-            selectors = ["#Editorpickssec .editorBlog h2.entry-title a", ".et_pb_post_extra .post-categories","#Editorpickssec .editorBlog .post-media a"]
+            log.info("end")
+
+            selectors = ["#home-meeting-brifs.et_pb_section  a"]
             additional_links = ["https://www.physiciansweekly.com/"]
             expected_link_count = 13
-        
+
             log.info("Verifying links for multiple selectors")
             helper.verify_links(selectors, additional_links, expected_link_count)
             log.info("All links verified successfully")
 
-        elif  window_size['width']<=767:
-           
-            log.info('start')
-          
+        elif window_size["width"] <= 767:
 
-
-
+            log.info("start")
 
             selectors_and_properties = [
-            ("#home-condition-section #conditionSpotlightsection #conditionSpotlighleftsec", {'2.5%','50%','1px solid #bfbfbf'} , ['margin-right', 'width', 'border-right']),
-            ("#conditionSpotlightsection div#conditionSpotlightrightsec div#lightfeaturedsec img", {'100%'}, ['width']),
-            ("#conditionSpotlightsection div#conditionSpotlighleftsec .conditionSpotlightblogsec .et_pb_blurb_container h4 a",{'30px','600','24px','Elza'},['line-height','font-weight','font-size','font-family']),
-            ("#lightfeaturedsec h3",{'10px','#152c6c','38px','700','32px','Elza'},['margin-top','color','line-height','font-weight','font-size','font-family']),
-         ]
+                (
+                    ".custom-slider #slider-container #slider .slide a img",
+                    {
+                        "cover",
+                        "182px",
+                        "182px",
+                        "289px",
+                        "1px solid rgb(191, 191, 191)",
+                    },
+                    ["border", "object-fit", "min-height", "max-height", "width"],
+                ),
+                (
+                    "body.home .custom-slider .slide p",
+                    {"10px", "#152c6c", "left", "0", "25px", "600", "20px", "Elza"},
+                    [
+                        "margin-top",
+                        "color",
+                        "text-align",
+                        "letter-spacing",
+                        "line-height",
+                        "font-weight",
+                        "font-size",
+                        "font-family",
+                    ],
+                ),
+                (
+                    "body.home .custom-slider #slider-container .btn i",
+                    {"41px", "41px"},
+                    ("width", "height"),
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-right",
+                    {"30%", "8px"},
+                    ["top", "right"],
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-left",
+                    {"30%", "13px"},
+                    ["top", "left"],
+                ),
+            ]
 
-            for css_selector, expected_css_properties, css_properties_list in selectors_and_properties:
-              result = helper.fetch_and_check_css_properties(css_selector, expected_css_properties, css_properties_list)
-              assert result, f"CSS properties do not match the expected values for selector {css_selector}"
+            for (
+                css_selector,
+                expected_css_properties,
+                css_properties_list,
+            ) in selectors_and_properties:
+                result = helper.fetch_and_check_css_properties(
+                    css_selector, expected_css_properties, css_properties_list
+                )
+                assert (
+                    result
+                ), f"CSS properties do not match the expected values for selector {css_selector,}"
 
-              log.info('end')
-            
+            log.info("end")
 
-            selectors = ["#doctorVoicesection a"]
+            selectors = ["#home-meeting-brifs.et_pb_section  a"]
             additional_links = ["https://www.physiciansweekly.com/"]
-            expected_link_count = 8
-        
+            expected_link_count = 13
+
             log.info("Verifying links for multiple selectors")
             helper.verify_links(selectors, additional_links, expected_link_count)
             log.info("All links verified successfully")
-
-    

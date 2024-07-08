@@ -27,8 +27,22 @@
 2024-07-02 18:09:44,597 :INFO : test_HomePage :start
 
 
-2024-07-05 19:48:30,802 :INFO : test_HomePageFeatured :chrome
-2024-07-05 19:48:30,885 :INFO : test_HomePageFeatured :start
-2024-07-05 19:48:31,329 :INFO : test_HomePageFeatured :end
-2024-07-05 19:48:31,330 :INFO : test_HomePageFeatured :Verifying links for multiple selectors
-2024-07-05 19:49:07,567 :INFO : test_HomePageFeatured :All links verified successfully
+
+2024-07-08 16:45:22,559 :INFO : test_HomePageFeatured :chrome
+2024-07-08 16:52:16,087 :INFO : test_HomePageFeatured :chrome
+2024-07-08 16:52:16,161 :INFO : test_HomePageFeatured :start
+2024-07-08 16:55:39,619 :INFO : test_HomePageFeatured :chrome
+2024-07-08 16:55:58,914 :INFO : test_HomePageFeatured :chrome
+2024-07-08 16:55:58,989 :INFO : test_HomePageFeatured :start
+2024-07-08 16:56:24,483 :INFO : test_HomePageFeatured :chrome
+2024-07-08 16:56:24,558 :INFO : test_HomePageFeatured :start
+2024-07-08 19:33:19,142 :INFO : test_HomePageFeatured :chrome
+2024-07-08 19:33:19,217 :INFO : test_HomePageFeatured :start
+2024-07-08 19:33:20,716 :INFO : test_HomePageFeatured :end
+2024-07-08 19:33:20,718 :INFO : test_HomePageFeatured :Verifying links for multiple selectors
+2024-07-08 19:34:14,672 :INFO : test_HomePageFeatured :All links verified successfully
+2024-07-08 20:42:12,899 :INFO : test_HomePageFeatured :chrome
+2024-07-08 20:42:12,996 :INFO : test_HomePageFeatured :start
+2024-07-08 20:42:14,124 :INFO : test_HomePageFeatured :end
+2024-07-08 20:42:14,125 :INFO : test_HomePageFeatured :Verifying links for multiple selectors
+2024-07-08 20:44:47,474 :INFO : test_HomePageFeatured :All links verified successfully
