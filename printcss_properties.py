@@ -15,18 +15,27 @@ try:
 except Exception:
     ()
 
-elements = driver.find_elements(
-    By.CSS_SELECTOR, ".custom-slider #slider-container #slider .slide a img"
-)
+elements = driver.find_elements(By.CSS_SELECTOR, "p.post-meta")
 
 
 fetched_css_properties = []
 
 for element in elements:
 
-    d = ["border", "object-fit", "min-height", "max-height", "width"]
+    d = [
+        "margin",
+        "display",
+        "color",
+        "text-align",
+        "line-height",
+        "font-weight",
+        "font-size",
+        "font-family",
+        "letter-spacing",
+        "text-transform",
+    ]
     for i in d:
         fetched_css_properties.append(element.value_of_css_property(i))
 
 
-print(fetched_css_properties)
+print(set(fetched_css_properties))
