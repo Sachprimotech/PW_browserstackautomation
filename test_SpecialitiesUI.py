@@ -13,8 +13,9 @@ import requests
 import time
 
 
+# this file is pending for changes as speciality UI
 class Testone(BaseClass):
-    def test_HomePageEditor(self):
+    def test_HomePageslider(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
@@ -24,32 +25,38 @@ class Testone(BaseClass):
 
         window_size = self.driver.get_window_size()
         if window_size["width"] > 980:
-            popup = self.driver.find_element(
-                By.CSS_SELECTOR, "#onesignal-slidedown-dialog .primary.slidedown-button"
-            )
-            popup.click()
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
+            self.driver.get("https://www.physiciansweekly.com/specialties/")
 
             log.info("start")
 
             selectors_and_properties = [
                 (
-                    "#Editorpickssec .et_pb_code_inner article",
+                    ".custom-slider #slider-container #slider .slide a img",
                     {
-                        "0px",
-                        "0px none rgb(148, 148, 148)",
-                        "19px",
+                        "cover",
+                        "182px",
+                        "182px",
+                        "289px",
                         "1px solid rgb(191, 191, 191)",
-                        "block",
                     },
-                    ["display", "padding-right", "border-right"],
+                    ["border", "object-fit", "min-height", "max-height", "width"],
                 ),
                 (
-                    "#Editorpickssec .et_pb_code_inner article .post-content .post-categories",
-                    {"5px", "uppercase", "#0179d9", "18px", "600", "14px", "Elza"},
+                    "body.home .custom-slider .slide p",
+                    {"10px", "#152c6c", "left", "0", "25px", "600", "20px", "Elza"},
                     [
-                        "margin-bottom",
-                        "text-transform",
+                        "margin-top",
                         "color",
+                        "text-align",
+                        "letter-spacing",
                         "line-height",
                         "font-weight",
                         "font-size",
@@ -57,9 +64,19 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "#Editorpickssec .editorBlog .post-media a.entry-featured-image-url img",
-                    {"183px"},
-                    ["height"],
+                    "body.home .custom-slider #slider-container .btn i",
+                    {"41px", "41px"},
+                    ("width", "height"),
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-right",
+                    {"30%", "8px"},
+                    ["top", "right"],
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-left",
+                    {"30%", "13px"},
+                    ["top", "left"],
                 ),
             ]
 
@@ -77,11 +94,7 @@ class Testone(BaseClass):
 
             log.info("end")
 
-            selectors = [
-                "#Editorpickssec .editorBlog h2.entry-title a",
-                ".et_pb_post_extra .post-categories",
-                "#Editorpickssec .editorBlog .post-media a",
-            ]
+            selectors = ["#home-meeting-brifs.et_pb_section  a"]
             additional_links = ["https://www.physiciansweekly.com/"]
             expected_link_count = 13
 
@@ -95,37 +108,44 @@ class Testone(BaseClass):
 
             selectors_and_properties = [
                 (
-                    "#Editorpickssec .et_pb_code_inner article",
-                    {"48.5%", "block"},
-                    ["display", "width"],
+                    ".custom-slider #slider-container #slider .slide a img",
+                    {
+                        "cover",
+                        "182px",
+                        "182px",
+                        "289px",
+                        "1px solid rgb(191, 191, 191)",
+                    },
+                    ["border", "object-fit", "min-height", "max-height", "width"],
                 ),
                 (
-                    "#Editorpickssec .et_pb_code_inner article .post-content .post-categories",
-                    {
-                        "5px",
-                        "uppercase",
-                        "#0179d9",
-                        "18px",
-                        "600",
-                        "14px",
-                        "Elza",
-                        ".025em",
-                    },
+                    "body.home .custom-slider .slide p",
+                    {"10px", "#152c6c", "left", "0", "25px", "600", "20px", "Elza"},
                     [
-                        "margin-bottom",
-                        "text-transform",
+                        "margin-top",
                         "color",
+                        "text-align",
+                        "letter-spacing",
                         "line-height",
                         "font-weight",
                         "font-size",
                         "font-family",
-                        "letter-spacing",
                     ],
                 ),
                 (
-                    "#Editorpickssec .editorBlog .post-media a.entry-featured-image-url img",
-                    {"183px"},
-                    ["height"],
+                    "body.home .custom-slider #slider-container .btn i",
+                    {"41px", "41px"},
+                    ("width", "height"),
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-right",
+                    {"30%", "8px"},
+                    ["top", "right"],
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-left",
+                    {"30%", "13px"},
+                    ["top", "left"],
                 ),
             ]
 
@@ -141,13 +161,9 @@ class Testone(BaseClass):
                     result
                 ), f"CSS properties do not match the expected values for selector {css_selector}"
 
-                log.info("end")
+            log.info("end")
 
-            selectors = [
-                "#Editorpickssec .editorBlog h2.entry-title a",
-                ".et_pb_post_extra .post-categories",
-                "#Editorpickssec .editorBlog .post-media a",
-            ]
+            selectors = ["#home-meeting-brifs.et_pb_section  a"]
             additional_links = ["https://www.physiciansweekly.com/"]
             expected_link_count = 13
 
@@ -161,37 +177,44 @@ class Testone(BaseClass):
 
             selectors_and_properties = [
                 (
-                    "#Editorpickssec .et_pb_code_inner article",
-                    {"100%", "block", "32px", "10px"},
-                    ["display", "width", "padding-bottom", "padding-top"],
+                    ".custom-slider #slider-container #slider .slide a img",
+                    {
+                        "cover",
+                        "182px",
+                        "182px",
+                        "289px",
+                        "1px solid rgb(191, 191, 191)",
+                    },
+                    ["border", "object-fit", "min-height", "max-height", "width"],
                 ),
                 (
-                    "#Editorpickssec .et_pb_code_inner article .post-content .post-categories",
-                    {
-                        "5px",
-                        "uppercase",
-                        "#0179d9",
-                        "18px",
-                        "600",
-                        "14px",
-                        "Elza",
-                        ".025em",
-                    },
+                    "body.home .custom-slider .slide p",
+                    {"10px", "#152c6c", "left", "0", "25px", "600", "20px", "Elza"},
                     [
-                        "margin-bottom",
-                        "text-transform",
+                        "margin-top",
                         "color",
+                        "text-align",
+                        "letter-spacing",
                         "line-height",
                         "font-weight",
                         "font-size",
                         "font-family",
-                        "letter-spacing",
                     ],
                 ),
                 (
-                    "#Editorpickssec .editorBlog .post-media a.entry-featured-image-url img",
-                    {"200px"},
-                    ["height"],
+                    "body.home .custom-slider #slider-container .btn i",
+                    {"41px", "41px"},
+                    ("width", "height"),
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-right",
+                    {"30%", "8px"},
+                    ["top", "right"],
+                ),
+                (
+                    ".custom-slider #slider-container .btn i.fa-chevron-left",
+                    {"30%", "13px"},
+                    ["top", "left"],
                 ),
             ]
 
@@ -205,11 +228,11 @@ class Testone(BaseClass):
                 )
                 assert (
                     result
-                ), f"CSS properties do not match the expected values for selector {css_selector}"
+                ), f"CSS properties do not match the expected values for selector {css_selector,}"
 
-                log.info("end")
+            log.info("end")
 
-            selectors = ["div#editor-pick-section a"]
+            selectors = ["#home-meeting-brifs.et_pb_section  a"]
             additional_links = ["https://www.physiciansweekly.com/"]
             expected_link_count = 13
 

@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_HomePageFeatured(self):
+    def test_HomePageslider(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 

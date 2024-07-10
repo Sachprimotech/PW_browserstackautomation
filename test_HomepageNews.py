@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_HomePageFeatured(self):
+    def test_HomePageNews(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
