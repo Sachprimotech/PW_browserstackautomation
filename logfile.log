@@ -30,3 +30,8 @@
 
 
 
+2024-07-18 20:46:23,118 :INFO : test_Meetingsbrief :chrome
+2024-07-18 20:46:25,173 :INFO : test_Meetingsbrief :start
+2024-07-18 20:50:02,217 :INFO : test_Meetingsbrief :chrome
+2024-07-18 20:50:05,979 :INFO : test_Meetingsbrief :start
+2024-07-18 20:50:10,521 :INFO : test_Meetingsbrief :end
