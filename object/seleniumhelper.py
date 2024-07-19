@@ -6,11 +6,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
 
+
 class SeleniumHelper:
     def __init__(self, driver):
         self.driver = driver
 
-    def fetch_and_check_css_properties(self, css_selector, expected_css_properties, css_properties_list):
+    def fetch_and_check_css_properties(
+        self, css_selector, expected_css_properties, css_properties_list
+    ):
         """
         Fetches CSS properties from elements found using the given CSS selector and checks them against expected values.
 
@@ -24,11 +27,15 @@ class SeleniumHelper:
 
         for element in elements:
             for css_property in css_properties_list:
-                fetched_css_properties.append(element.value_of_css_property(css_property))
+                fetched_css_properties.append(
+                    element.value_of_css_property(css_property)
+                )
 
         fetched_css_properties_set = set(fetched_css_properties)
 
-        return fetched_css_properties_set == expected_css_properties or len(fetched_css_properties_set) == len(css_properties_list)
+        return fetched_css_properties_set == expected_css_properties or len(
+            fetched_css_properties_set
+        ) == len(css_properties_list)
 
     def verify_links(self, selectors, additional_links, expected_link_count):
         all_links = []
@@ -51,9 +58,24 @@ class SeleniumHelper:
             self.driver.switch_to.window(window)
             opened_links.append(self.driver.current_url)
 
-        assert set(all_links) == set(opened_links) or (expected_link_count and len(all_links) == expected_link_count)
+        assert set(all_links) == set(opened_links) or (
+            expected_link_count and len(all_links) == expected_link_count
+        )
 
         for link in opened_links:
             response = requests.get(link)
             status_code = response.status_code
-            assert status_code != 404, f"Link {link} is broken with status code {status_code}"
+            assert (
+                status_code != 404
+            ), f"Link {link} is broken with status code {status_code}"
+
+
+def get_pseudo_element_styles(self, element, pseudo_element, property_name):
+    return self.driver.execute_script(
+        f"""
+        var element = arguments[0];
+        var pseudo = window.getComputedStyle(element, "{pseudo_element}");
+        return pseudo.getPropertyValue("{property_name}");
+        """,
+        element,
+    )
