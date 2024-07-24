@@ -30,3 +30,68 @@
 
 
 
+2024-07-24 16:29:44,455 :INFO : test_spotlightlandingpage :chrome
+2024-07-24 16:29:46,622 :INFO : test_spotlightlandingpage :start
+2024-07-24 17:58:28,297 :INFO : test_spotlightlandingpage :chrome
+2024-07-24 17:58:29,995 :INFO : test_spotlightlandingpage :start
+2024-07-24 17:59:43,404 :INFO : test_spotlightlandingpage :chrome
+2024-07-24 17:59:45,031 :INFO : test_spotlightlandingpage :start
+2024-07-24 18:15:21,122 :INFO : test_spotlightlandingpage :chrome
+2024-07-24 18:15:23,786 :INFO : test_spotlightlandingpage :start
+2024-07-24 18:18:17,005 :INFO : test_spotlightlandingpage :chrome
+2024-07-24 18:18:18,686 :INFO : test_spotlightlandingpage :start
+2024-07-24 18:38:15,653 :INFO : test_spotlightlandingpage :chrome
+2024-07-24 18:38:17,255 :INFO : test_spotlightlandingpage :start
+2024-07-24 18:38:49,323 :INFO : test_spotlightlandingpage :Verifying links for multiple selectors
+2024-07-24 20:22:22,745 :INFO : test_Meetingsbriefprograme :chrome
+2024-07-24 20:22:26,374 :INFO : test_Meetingsbriefprograme :start
+2024-07-24 20:25:35,549 :INFO : test_Meetingsbriefprograme :chrome
+2024-07-24 20:25:39,360 :INFO : test_Meetingsbriefprograme :start
+2024-07-24 20:27:18,036 :INFO : test_Meetingsbriefprograme :chrome
+2024-07-24 20:27:20,309 :INFO : test_Meetingsbriefprograme :start
+2024-07-24 20:27:22,490 :INFO : test_Meetingsbriefprograme :start
+2024-07-24 20:27:22,493 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:27:22,507 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:27:22,527 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:27:22,538 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:27:22,551 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:27:22,565 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:27:22,579 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:27:22,599 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:28:53,401 :INFO : test_Meetingsbriefprograme :chrome
+2024-07-24 20:28:55,121 :INFO : test_Meetingsbriefprograme :start
+2024-07-24 20:28:57,507 :INFO : test_Meetingsbriefprograme :start
+2024-07-24 20:28:57,513 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:28:57,515 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:28:57,529 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:28:57,531 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:28:57,545 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:28:57,547 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:28:57,559 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:28:57,561 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:28:57,574 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:28:57,576 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:28:57,592 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:28:57,595 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:28:57,608 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:28:57,611 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:28:57,623 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:28:57,625 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:31:53,365 :INFO : test_Meetingsbriefprograme :chrome
+2024-07-24 20:31:54,904 :INFO : test_Meetingsbriefprograme :start
+2024-07-24 20:31:57,283 :INFO : test_Meetingsbriefprograme :start
+2024-07-24 20:31:58,137 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:31:58,139 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:32:13,228 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:32:13,230 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:32:16,251 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:32:16,253 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:32:18,512 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:32:18,514 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:32:19,569 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:32:21,108 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:32:21,110 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:32:23,532 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:32:23,534 :INFO : test_Meetingsbriefprograme :end
+2024-07-24 20:32:26,967 :INFO : test_Meetingsbriefprograme : error
+2024-07-24 20:32:26,969 :INFO : test_Meetingsbriefprograme :end

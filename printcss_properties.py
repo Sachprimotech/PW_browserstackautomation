@@ -5,9 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 driver = webdriver.Chrome()
-driver.get(
-    "https://www.physiciansweekly.com/meeting-coverage/asco-2024-multiple-myeloma/"
-)
+driver.get("https://www.physiciansweekly.com/deep-dives/spotlight/")
 driver.maximize_window()
 
 try:
@@ -17,7 +15,9 @@ try:
 except Exception:
     ()
 
-elements = driver.find_elements(By.CSS_SELECTOR, "#et-boc h1.is_archive ")
+elements = driver.find_elements(
+    By.CSS_SELECTOR, "#wekly-news-container ul.meeting-coverage-list li a"
+)
 
 
 fetched_css_properties = []
@@ -25,13 +25,14 @@ fetched_css_properties = []
 for element in elements:
 
     d = [
-        "margin-bottom",
-        "line-height",
         "color",
         "font-size",
         "font-weight",
+        "padding",
         "font-family",
-        "display",
+        "line-height",
+        "text-decoration",
+        "font-style",
     ]
     for i in d:
         fetched_css_properties.append(element.value_of_css_property(i))
