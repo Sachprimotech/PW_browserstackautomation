@@ -4,12 +4,28 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import inspect
+import logging
 import requests
 
 
 class SeleniumHelper:
     def __init__(self, driver):
         self.driver = driver
+
+    def getLogger(self):
+        loggerName = inspect.stack()[1][3]
+        logger = logging.getLogger(loggerName)
+        fileHandler = logging.FileHandler("logfile.log")
+        formatter = logging.Formatter(
+            "%(asctime)s :%(levelname)s : %(name)s :%(message)s"
+        )
+        fileHandler.setFormatter(formatter)
+
+        logger.addHandler(fileHandler)  # filehandler object
+
+        logger.setLevel(logging.DEBUG)
+        return logger
 
     def fetch_and_check_css_properties(
         self, css_selector, expected_css_properties, css_properties_list
@@ -39,6 +55,7 @@ class SeleniumHelper:
 
     def verify_links(self, selectors, additional_links, expected_link_count):
         all_links = []
+        log = logging.getLogger()
 
         for selector in selectors:
             elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
@@ -53,6 +70,7 @@ class SeleniumHelper:
 
         handles = self.driver.window_handles
         opened_links = []
+        result_broken = []
 
         for window in handles:
             self.driver.switch_to.window(window)
@@ -65,9 +83,16 @@ class SeleniumHelper:
         for link in opened_links:
             response = requests.get(link)
             status_code = response.status_code
-            assert (
-                status_code != 404
-            ), f"Link {link} is broken with status code {status_code}"
+            if status_code == 404:
+
+                result_broken.append("fail")
+                log.info(f"Link {link} is broken with status code {status_code}")
+
+            elif status_code != 404:
+                result_broken.append("pass")
+
+        assert all in result_broken == "pass"
+        log.info(f"Link {link} is broken with status code {status_code}")
 
 
 def get_pseudo_element_styles(self, element, pseudo_element, property_name):

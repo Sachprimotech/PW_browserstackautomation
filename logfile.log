@@ -95,3 +95,50 @@
 2024-07-24 20:32:23,534 :INFO : test_Meetingsbriefprograme :end
 2024-07-24 20:32:26,967 :INFO : test_Meetingsbriefprograme : error
 2024-07-24 20:32:26,969 :INFO : test_Meetingsbriefprograme :end
+2024-07-25 16:17:40,423 :INFO : test_Meetingsbriefprogramelinks :chrome
+2024-07-25 16:17:44,684 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:17:44,685 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:18:03,897 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:18:03,899 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:18:28,859 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:18:28,861 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:19:21,126 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:19:21,128 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:20:00,154 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:20:00,156 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:20:58,370 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:20:58,371 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:22:25,521 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:22:25,522 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:40:16,463 :INFO : test_Meetingsbriefprogramelinks :chrome
+2024-07-25 16:40:20,458 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:40:20,459 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:40:38,708 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:40:38,710 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:41:07,807 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:41:07,808 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:42:01,899 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:42:01,901 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:42:43,868 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:42:43,870 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:43:43,497 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:43:43,500 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:45:07,916 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:45:07,918 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:59:01,334 :INFO : test_Meetingsbriefprogramelinks :chrome
+2024-07-25 16:59:04,183 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:59:04,185 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 16:59:20,678 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 16:59:20,680 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 17:01:12,749 :INFO : test_Meetingsbriefprogramelinks :chrome
+2024-07-25 17:01:15,528 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 17:01:15,530 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 17:17:58,999 :INFO : test_Meetingsbriefprogramelinks :chrome
+2024-07-25 17:18:02,367 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 17:18:02,369 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 17:20:35,175 :INFO : test_Meetingsbriefprogramelinks :chrome
+2024-07-25 17:20:38,229 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 17:20:38,231 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-25 17:41:06,863 :INFO : test_Meetingsbriefprogramelinks :chrome
+2024-07-25 17:41:10,974 :INFO : test_Meetingsbriefprogramelinks :start
+2024-07-25 17:41:10,976 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
