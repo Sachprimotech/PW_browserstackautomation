@@ -30,115 +30,16 @@
 
 
 
-2024-07-24 16:29:44,455 :INFO : test_spotlightlandingpage :chrome
-2024-07-24 16:29:46,622 :INFO : test_spotlightlandingpage :start
-2024-07-24 17:58:28,297 :INFO : test_spotlightlandingpage :chrome
-2024-07-24 17:58:29,995 :INFO : test_spotlightlandingpage :start
-2024-07-24 17:59:43,404 :INFO : test_spotlightlandingpage :chrome
-2024-07-24 17:59:45,031 :INFO : test_spotlightlandingpage :start
-2024-07-24 18:15:21,122 :INFO : test_spotlightlandingpage :chrome
-2024-07-24 18:15:23,786 :INFO : test_spotlightlandingpage :start
-2024-07-24 18:18:17,005 :INFO : test_spotlightlandingpage :chrome
-2024-07-24 18:18:18,686 :INFO : test_spotlightlandingpage :start
-2024-07-24 18:38:15,653 :INFO : test_spotlightlandingpage :chrome
-2024-07-24 18:38:17,255 :INFO : test_spotlightlandingpage :start
-2024-07-24 18:38:49,323 :INFO : test_spotlightlandingpage :Verifying links for multiple selectors
-2024-07-24 20:22:22,745 :INFO : test_Meetingsbriefprograme :chrome
-2024-07-24 20:22:26,374 :INFO : test_Meetingsbriefprograme :start
-2024-07-24 20:25:35,549 :INFO : test_Meetingsbriefprograme :chrome
-2024-07-24 20:25:39,360 :INFO : test_Meetingsbriefprograme :start
-2024-07-24 20:27:18,036 :INFO : test_Meetingsbriefprograme :chrome
-2024-07-24 20:27:20,309 :INFO : test_Meetingsbriefprograme :start
-2024-07-24 20:27:22,490 :INFO : test_Meetingsbriefprograme :start
-2024-07-24 20:27:22,493 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:27:22,507 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:27:22,527 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:27:22,538 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:27:22,551 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:27:22,565 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:27:22,579 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:27:22,599 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:28:53,401 :INFO : test_Meetingsbriefprograme :chrome
-2024-07-24 20:28:55,121 :INFO : test_Meetingsbriefprograme :start
-2024-07-24 20:28:57,507 :INFO : test_Meetingsbriefprograme :start
-2024-07-24 20:28:57,513 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:28:57,515 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:28:57,529 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:28:57,531 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:28:57,545 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:28:57,547 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:28:57,559 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:28:57,561 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:28:57,574 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:28:57,576 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:28:57,592 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:28:57,595 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:28:57,608 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:28:57,611 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:28:57,623 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:28:57,625 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:31:53,365 :INFO : test_Meetingsbriefprograme :chrome
-2024-07-24 20:31:54,904 :INFO : test_Meetingsbriefprograme :start
-2024-07-24 20:31:57,283 :INFO : test_Meetingsbriefprograme :start
-2024-07-24 20:31:58,137 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:31:58,139 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:32:13,228 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:32:13,230 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:32:16,251 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:32:16,253 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:32:18,512 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:32:18,514 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:32:19,569 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:32:21,108 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:32:21,110 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:32:23,532 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:32:23,534 :INFO : test_Meetingsbriefprograme :end
-2024-07-24 20:32:26,967 :INFO : test_Meetingsbriefprograme : error
-2024-07-24 20:32:26,969 :INFO : test_Meetingsbriefprograme :end
-2024-07-25 16:17:40,423 :INFO : test_Meetingsbriefprogramelinks :chrome
-2024-07-25 16:17:44,684 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:17:44,685 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:18:03,897 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:18:03,899 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:18:28,859 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:18:28,861 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:19:21,126 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:19:21,128 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:20:00,154 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:20:00,156 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:20:58,370 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:20:58,371 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:22:25,521 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:22:25,522 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:40:16,463 :INFO : test_Meetingsbriefprogramelinks :chrome
-2024-07-25 16:40:20,458 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:40:20,459 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:40:38,708 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:40:38,710 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:41:07,807 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:41:07,808 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:42:01,899 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:42:01,901 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:42:43,868 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:42:43,870 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:43:43,497 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:43:43,500 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:45:07,916 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:45:07,918 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:59:01,334 :INFO : test_Meetingsbriefprogramelinks :chrome
-2024-07-25 16:59:04,183 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:59:04,185 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 16:59:20,678 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 16:59:20,680 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 17:01:12,749 :INFO : test_Meetingsbriefprogramelinks :chrome
-2024-07-25 17:01:15,528 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 17:01:15,530 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 17:17:58,999 :INFO : test_Meetingsbriefprogramelinks :chrome
-2024-07-25 17:18:02,367 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 17:18:02,369 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 17:20:35,175 :INFO : test_Meetingsbriefprogramelinks :chrome
-2024-07-25 17:20:38,229 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 17:20:38,231 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
-2024-07-25 17:41:06,863 :INFO : test_Meetingsbriefprogramelinks :chrome
-2024-07-25 17:41:10,974 :INFO : test_Meetingsbriefprogramelinks :start
-2024-07-25 17:41:10,976 :INFO : test_Meetingsbriefprogramelinks :Verifying links for multiple selectors
+2024-07-26 19:56:28,184 :INFO : test_Meetingsbriefprograme :chrome
+2024-07-26 19:56:32,208 :INFO : test_Meetingsbriefprograme :start
+2024-07-26 19:56:34,067 :INFO : test_Meetingsbriefprograme :start
+2024-07-26 19:56:35,065 :INFO : test_Meetingsbriefprograme : error
+2024-07-26 19:56:35,066 :INFO : test_Meetingsbriefprograme :end
+2024-07-26 19:56:44,225 :INFO : test_Meetingsbriefprograme : error
+2024-07-26 19:56:44,225 :INFO : test_Meetingsbriefprograme :end
+2024-07-26 19:56:46,355 :INFO : test_Meetingsbriefprograme : error
+2024-07-26 19:56:46,355 :INFO : test_Meetingsbriefprograme :end
+2024-07-26 19:56:47,975 :INFO : test_Meetingsbriefprograme : error
+2024-07-26 19:56:47,975 :INFO : test_Meetingsbriefprograme :end
+2024-07-26 19:56:49,681 :INFO : test_Meetingsbriefprograme : error
+2024-07-26 19:56:49,681 :INFO : test_Meetingsbriefprograme :end

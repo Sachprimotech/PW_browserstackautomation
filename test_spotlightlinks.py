@@ -16,10 +16,10 @@ import platform
 
 
 class Testone(BaseClass):
-    def test_Meetingsbriefprogramelinks(self):
+    def test_Spotlightprogramelinks(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
-
+        result_broken = []
         log = self.getLogger()
         log.info(name)
         helper = SeleniumHelper(self.driver)
@@ -29,6 +29,43 @@ class Testone(BaseClass):
         ]
         main_window = self.driver.current_window_handle
         window_size = self.driver.get_window_size()
+
+        def verify_listlinks(selectors, additional_links, expected_link_count):
+            all_links = []
+
+            for selector in selectors:
+                elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
+                links = [element.get_attribute("href") for element in elements]
+                all_links.extend(links)
+
+            if additional_links:
+                all_links.extend(additional_links)
+
+            for link in all_links:
+                self.driver.execute_script("window.open(arguments[0])", link)
+
+            handles = self.driver.window_handles
+            opened_links = []
+
+            for window in handles:
+                self.driver.switch_to.window(window)
+                opened_links.append(self.driver.current_url)
+
+            assert set(all_links) == set(opened_links) or (
+                expected_link_count and len(all_links) == expected_link_count
+            )
+
+            for link in opened_links:
+                response = requests.get(link)
+                status_code = response.status_code
+                if status_code == 404:
+
+                    result_broken.append("fail")
+                    log.info(f"Link {link} is broken with status code {status_code}")
+
+                elif status_code != 404:
+                    result_broken.append("pass")
+
         if window_size["width"] > 980:
             try:
                 popup = self.driver.find_element(
@@ -57,9 +94,7 @@ class Testone(BaseClass):
                     expected_link_count = 10
 
                     log.info("Verifying links for multiple selectors")
-                    helper.verify_links(
-                        selectors, additional_links, expected_link_count
-                    )
+                    verify_listlinks(selectors, additional_links, expected_link_count)
                     log.info("All links verified successfully")
                 except NoSuchElementException and TimeoutException:
                     self.driver.close()
@@ -70,7 +105,7 @@ class Testone(BaseClass):
 
                 # Switch back to the main window
                 self.driver.switch_to.window(main_window)
-
+            assert all in result_broken == "pass"
             # work is pending for programme pages
 
         elif window_size["width"] > 767 and window_size["width"] < 981:
@@ -80,60 +115,14 @@ class Testone(BaseClass):
             for url in opened_links:
                 self.driver.get(url)
                 try:
-                    popup = self.driver.find_element(
-                        By.CSS_SELECTOR,
-                        "#onesignal-slidedown-dialog .primary.slidedown-button",
-                    )
-                    popup.click()
-                except Exception:
-                    ()
-                log.info("start")
-                try:
                     selectors = [
                         "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
                     ]
                     additional_links = ["url"]
-                    expected_link_count = 21
+                    expected_link_count = 10
 
                     log.info("Verifying links for multiple selectors")
-                    helper.verify_links(
-                        selectors, additional_links, expected_link_count
-                    )
-                    log.info("All links verified successfully")
-                except Exception:
-                    self.driver.close()
-                for handle in self.driver.window_handles:
-                    if handle != main_window:
-                        self.driver.switch_to.window(handle)
-                        self.driver.close()
-
-                # Switch back to the main window
-                self.driver.switch_to.window(main_window)
-
-        elif window_size["width"] <= 767:
-
-            for url in opened_links:
-                self.driver.get(url)
-                try:
-                    popup = self.driver.find_element(
-                        By.CSS_SELECTOR,
-                        "#onesignal-slidedown-dialog .primary.slidedown-button",
-                    )
-                    popup.click()
-                except Exception:
-                    ()
-                log.info("start")
-                try:
-                    selectors = [
-                        "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
-                    ]
-                    additional_links = ["url"]
-                    expected_link_count = 21
-
-                    log.info("Verifying links for multiple selectors")
-                    helper.verify_links(
-                        selectors, additional_links, expected_link_count
-                    )
+                    verify_listlinks(selectors, additional_links, expected_link_count)
                     log.info("All links verified successfully")
                 except NoSuchElementException and TimeoutException:
                     self.driver.close()
@@ -144,3 +133,29 @@ class Testone(BaseClass):
 
                 # Switch back to the main window
                 self.driver.switch_to.window(main_window)
+            assert all in result_broken == "pass"
+
+        elif window_size["width"] <= 767:
+
+            for url in opened_links:
+                self.driver.get(url)
+                try:
+                    selectors = [
+                        "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
+                    ]
+                    additional_links = ["url"]
+                    expected_link_count = 10
+
+                    log.info("Verifying links for multiple selectors")
+                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    log.info("All links verified successfully")
+                except NoSuchElementException and TimeoutException:
+                    self.driver.close()
+                for handle in self.driver.window_handles:
+                    if handle != main_window:
+                        self.driver.switch_to.window(handle)
+                        self.driver.close()
+
+                # Switch back to the main window
+                self.driver.switch_to.window(main_window)
+            assert all in result_broken == "pass"
