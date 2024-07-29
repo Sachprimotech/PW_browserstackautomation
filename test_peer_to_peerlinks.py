@@ -16,7 +16,7 @@ import platform
 
 
 class Testone(BaseClass):
-    def test_Spotlightprogramelinks(self):
+    def test_peer_peerprogramelinks(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
         result_broken = []
@@ -24,8 +24,10 @@ class Testone(BaseClass):
         log.info(name)
         helper = SeleniumHelper(self.driver)
         opened_links = [
-            "https://www.physiciansweekly.com/deep-dives/spotlight/endometrial-cancer/",
-            "https://www.physiciansweekly.com/deep-dives/spotlight/iron-deficiency-heart-failure/",
+            "https://www.physiciansweekly.com/deep-dives/peer-to-peer/crohns-disease/",
+            "https://www.physiciansweekly.com/deep-dives/peer-to-peer/peer-to-peer-advanced-hcc/"
+            "https://www.physiciansweekly.com/deep-dives/peer-to-peer/copd-and-asthma/",
+            "https://www.physiciansweekly.com/deep-dives/peer-to-peer/peer-to-peer-ibs-c/",
         ]
         main_window = self.driver.current_window_handle
         window_size = self.driver.get_window_size()

@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 driver = webdriver.Chrome()
-driver.get("https://www.physiciansweekly.com/deep-dives/peer-to-peer/")
+driver.get("https://www.physiciansweekly.com/deep-dives/case-consult/")
 driver.maximize_window()
 
 try:
@@ -15,9 +15,7 @@ try:
 except Exception:
     ()
 
-elements = driver.find_elements(
-    By.CSS_SELECTOR, "#neurosurgery-sec article .post-media img"
-)
+elements = driver.find_elements(By.CSS_SELECTOR, ".spotlights-post-media img")
 
 
 fetched_css_properties = []
