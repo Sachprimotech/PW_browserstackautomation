@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_Caseconsult(self):
+    def test_Business_of_Medicine(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
@@ -32,7 +32,9 @@ class Testone(BaseClass):
                 popup.click()
             except Exception:
                 ()
-            self.driver.get("https://www.physiciansweekly.com/deep-dives/case-consult/")
+            self.driver.get(
+                "https://www.physiciansweekly.com/category/business-of-medicine/"
+            )
             try:
                 popup = self.driver.find_element(
                     By.CSS_SELECTOR,
@@ -182,6 +184,43 @@ class Testone(BaseClass):
                         "border",
                     ],
                 ),
+                (
+                    ".cvf-pagination-nav.page-first-pagination ul",
+                    {"838.391px", "10px", "flex"},
+                    [
+                        "display",
+                        "margin-left",
+                    ],
+                ),
+                (
+                    ".post-media",
+                    {
+                        "440px",
+                        "63px",
+                        "100%",
+                        "none",
+                        "0px none rgba(0, 0, 0, 0.5)",
+                        "262.406px",
+                        "0px solid rgb(191, 191, 191)",
+                        "1px solid rgb(191, 191, 191)",
+                        "838px",
+                        "200px",
+                        "100px",
+                        "392.531px",
+                        "402.422px",
+                        "0px",
+                        "230px",
+                        "fill",
+                    },
+                    [
+                        "width",
+                        "max-height",
+                        "min-height",
+                        "height",
+                        "object-fit",
+                        "border",
+                    ],
+                ),
             ]
 
             for (
@@ -195,18 +234,6 @@ class Testone(BaseClass):
             assert (
                 result
             ), f"CSS properties do not match the expected values for selector {css_selector}"
-
-            selectors = [
-                "div#et-boc .cat-meeting-coverage-section.wekly-news-container  a"
-            ]
-            additional_links = [
-                "https://www.physiciansweekly.com/deep-dives/case-consult/"
-            ]
-            expected_link_count = 21
-
-            log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
-            log.info("All links verified successfully")
 
         elif window_size["width"] > 767 and window_size["width"] < 981:
 
@@ -232,19 +259,6 @@ class Testone(BaseClass):
             for tagclick in tagsclicks:
                 Ac.move_to_element(tagclick).click().perform()
 
-            self.driver.get("https://www.physiciansweekly.com/deep-dives/case-consult/")
-            try:
-                popup = self.driver.find_element(
-                    By.CSS_SELECTOR,
-                    "#onesignal-slidedown-dialog .primary.slidedown-button",
-                )
-                popup.click()
-            except Exception:
-                ()
-            log.info("start")
-
-            Ac = ActionChains(self.driver)
-
             selectors_and_properties = [
                 (
                     "#et-boc .breadcrumb #crumbs",  # present
@@ -380,6 +394,14 @@ class Testone(BaseClass):
                         "height",
                         "object-fit",
                         "border",
+                    ],
+                ),
+                (
+                    ".category .et_pb_gutters3 .et_pb_column_2_3",
+                    {"0px", "65.5%", "876.891px", "838.391px", "44.7969px", "3.5%"},
+                    [
+                        "width",
+                        "margin-right",
                     ],
                 ),
             ]
@@ -431,19 +453,6 @@ class Testone(BaseClass):
             for tagclick in tagsclicks:
                 Ac.move_to_element(tagclick).click().perform()
 
-            self.driver.get("https://www.physiciansweekly.com/deep-dives/case-consult/")
-            try:
-                popup = self.driver.find_element(
-                    By.CSS_SELECTOR,
-                    "#onesignal-slidedown-dialog .primary.slidedown-button",
-                )
-                popup.click()
-            except Exception:
-                ()
-            log.info("start")
-
-            Ac = ActionChains(self.driver)
-
             selectors_and_properties = [
                 (
                     "#et-boc .breadcrumb #crumbs",  # present
@@ -544,41 +553,90 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".cat-meeting-coverage-section .post-data p",
+                    "span.published",
                     {
-                        "0px",
-                        "32px",
-                        "block",
-                        "elza, sans-serif",
                         "28px",
-                        "rgba(55, 55, 55, 1)",
-                        "20px",
-                        "0px 0px 32px",
-                        "400",
-                        "20px 0px 0px",
+                        "uppercase",
+                        "rgba(1, 121, 217, 1)",
+                        "none",
+                        "0px",
+                        "elza",
+                        "elza, sans-serif",
+                        "500",
+                        "14px",
+                        "0.35px",
+                        "700",
+                        "normal",
                     },
                     [
+                        "text-transform",
+                        "letter-spacing",
                         "line-height",
-                        "color",
-                        "font-size",
-                        "font-weight",
+                        "font-style",
                         "font-family",
-                        "padding-bottom",
-                        "display",
-                        "margin-bottom",
+                        "font-weight",
+                        "font-size",
+                        "color",
                         "margin",
                     ],
                 ),
                 (
-                    ".spotlights-post-media img",
-                    {"1px solid rgb(191, 191, 191)", "600px", "cover", "340px"},
+                    "p",
+                    {
+                        "0px",
+                        "18px 0px 15px",
+                        "14px",
+                        "25px",
+                        "500",
+                        "rgba(21, 44, 108, 1)",
+                        "28px",
+                        "0px none rgb(1, 121, 217)",
+                        "14px 0px 8px",
+                        "15px",
+                        "700",
+                        "0px 20px 10px 0px",
+                        "22.4px",
+                        "0px none rgb(255, 255, 255)",
+                        "21px",
+                        "rgba(1, 121, 217, 1)",
+                        "0px none rgb(21, 44, 108)",
+                        "10px",
+                        "0px 20px 0px 0px",
+                        "rgba(255, 255, 255, 1)",
+                        "600",
+                        "0px none rgb(55, 55, 55)",
+                        "1px solid rgb(21, 44, 108)",
+                        "23.8px",
+                        "3px solid rgb(1, 121, 217)",
+                        "normal",
+                        "20px",
+                        "35px",
+                        "0px none rgba(0, 0, 0, 0.5)",
+                        "24px",
+                        "400",
+                        "rgba(0, 0, 0, 0.5)",
+                        "1px solid rgb(1, 121, 217)",
+                        "Elza",
+                        "elza",
+                        "rgba(55, 55, 55, 1)",
+                        "0px 20px",
+                        "18px",
+                        "17px",
+                        "32px",
+                    },
                     [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
+                        "color",
+                        "line-height",
+                        "font-size",
+                        "font-style",
+                        "font-weight",
+                        "line-height",
+                        "margin-top",
+                        "margin-bottom",
+                        "font-family",
+                        "border-bottom",
+                        "padding",
+                        "border-top",
                     ],
                 ),
             ]

@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 driver = webdriver.Chrome()
-driver.get("https://www.physiciansweekly.com/deep-dives/case-consult/")
+driver.get("https://www.physiciansweekly.com/category/business-of-medicine/")
 driver.maximize_window()
 
 try:
@@ -15,7 +15,9 @@ try:
 except Exception:
     ()
 
-elements = driver.find_elements(By.CSS_SELECTOR, ".spotlights-post-media img")
+elements = driver.find_elements(
+    By.CSS_SELECTOR, ".category .et_pb_gutters3 .et_pb_column_2_3"
+)
 
 
 fetched_css_properties = []
@@ -24,11 +26,7 @@ for element in elements:
 
     d = [
         "width",
-        "max-height",
-        "min-height",
-        "height",
-        "object-fit",
-        "border",
+        "margin-right",
     ]
     for i in d:
         fetched_css_properties.append(element.value_of_css_property(i))
