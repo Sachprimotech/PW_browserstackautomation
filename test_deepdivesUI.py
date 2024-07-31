@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_Business_of_Medicine(self):
+    def test_Deep_Dives_UI(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
@@ -32,9 +32,7 @@ class Testone(BaseClass):
                 popup.click()
             except Exception:
                 ()
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
+            self.driver.get("https://www.physiciansweekly.com/deep-dives/")
             try:
                 popup = self.driver.find_element(
                     By.CSS_SELECTOR,
@@ -195,22 +193,24 @@ class Testone(BaseClass):
                 (
                     ".post-media",
                     {
-                        "440px",
-                        "63px",
-                        "100%",
                         "none",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "262.406px",
-                        "0px solid rgb(191, 191, 191)",
-                        "1px solid rgb(191, 191, 191)",
-                        "838px",
-                        "200px",
-                        "100px",
-                        "392.531px",
-                        "402.422px",
                         "0px",
+                        "63px",
                         "230px",
+                        "0px solid rgb(191, 191, 191)",
+                        "100%",
+                        "217px",
+                        "0px none rgba(0, 0, 0, 0.5)",
+                        "396.797px",
+                        "100px",
+                        "829.859px",
+                        "440px",
+                        "163px",
+                        "398.328px",
+                        "1px solid rgb(191, 191, 191)",
                         "fill",
+                        "auto",
+                        "239.359px",
                     },
                     [
                         "width",
@@ -402,22 +402,24 @@ class Testone(BaseClass):
                 (
                     ".post-media",
                     {
-                        "440px",
-                        "63px",
-                        "100%",
                         "none",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "262.406px",
-                        "0px solid rgb(191, 191, 191)",
-                        "1px solid rgb(191, 191, 191)",
-                        "838px",
-                        "200px",
-                        "100px",
-                        "392.531px",
-                        "402.422px",
                         "0px",
+                        "63px",
                         "230px",
+                        "0px solid rgb(191, 191, 191)",
+                        "100%",
+                        "217px",
+                        "0px none rgba(0, 0, 0, 0.5)",
+                        "396.797px",
+                        "100px",
+                        "829.859px",
+                        "440px",
+                        "163px",
+                        "398.328px",
+                        "1px solid rgb(191, 191, 191)",
                         "fill",
+                        "auto",
+                        "239.359px",
                     },
                     [
                         "width",

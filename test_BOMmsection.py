@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_Bompodcastcoloumn(self):
+    def test_meetingsection(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
@@ -50,11 +50,11 @@ class Testone(BaseClass):
 
             log.info("start")
 
-            selectors = ["#filter-podcast-cstm a"]
+            selectors = ["#busines-right.et_pb_code_inner.meet-brief-business a"]
             additional_links = [
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             ]
-            expected_link_count = 14
+            expected_link_count = 9
 
             log.info("Verifying links for multiple selectors")
             helper.verify_links(selectors, additional_links, expected_link_count)
@@ -67,34 +67,25 @@ class Testone(BaseClass):
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
-
-            log.info("start")
-
-            selectors = ["#recent-colnm-one a"]
-            additional_links = [
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            ]
-            expected_link_count = 40
-
-            log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
-            log.info("All links verified successfully")
-
-        elif window_size["width"] <= 767:
-
-            log.info("start")
-
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
 
             log.info("start")
 
-            selectors = ["#recent-colnm-one a"]
+            selectors = ["#busines-right.et_pb_code_inner.meet-brief-business a"]
             additional_links = [
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             ]
-            expected_link_count = 40
+            expected_link_count = 9
 
             log.info("Verifying links for multiple selectors")
             helper.verify_links(selectors, additional_links, expected_link_count)

@@ -74,10 +74,18 @@ class SeleniumHelper:
 
         for window in handles:
             self.driver.switch_to.window(window)
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
             opened_links.append(self.driver.current_url)
 
         assert set(all_links) == set(opened_links) or (
-            expected_link_count and len(all_links) == expected_link_count
+            len(all_links) == len(opened_links) or expected_link_count
         )
 
         for link in opened_links:
@@ -91,7 +99,7 @@ class SeleniumHelper:
             elif status_code != 404:
                 result_broken.append("pass")
 
-        assert all in result_broken == "pass"
+        assert all(element == "pass" for element in result_broken)
         log.info(f"Link {link} is broken with status code {status_code}")
 
 

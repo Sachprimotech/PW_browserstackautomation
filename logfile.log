@@ -31,32 +31,77 @@
 
 
 
-2024-07-30 20:49:32,842 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 20:49:37,097 :INFO : test_Bomrecentcoloumn :start
-2024-07-30 20:49:37,097 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
-2024-07-30 20:50:52,204 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 20:50:56,479 :INFO : test_Bomrecentcoloumn :start
-2024-07-30 20:50:56,479 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
-2024-07-30 20:52:14,144 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 20:52:36,974 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 20:53:29,267 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 20:53:36,442 :INFO : test_Bomrecentcoloumn :start
-2024-07-30 20:53:36,442 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
-2024-07-30 20:59:20,572 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 20:59:25,355 :INFO : test_Bomrecentcoloumn :start
-2024-07-30 20:59:25,355 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
-2024-07-30 21:00:26,051 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 21:00:30,881 :INFO : test_Bomrecentcoloumn :start
-2024-07-30 21:00:30,881 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
-2024-07-30 21:01:37,010 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 21:01:41,740 :INFO : test_Bomrecentcoloumn :start
-2024-07-30 21:01:41,740 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
-2024-07-30 21:03:21,111 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 21:03:26,850 :INFO : test_Bomrecentcoloumn :start
-2024-07-30 21:03:26,851 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
-2024-07-30 21:04:25,861 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 21:04:31,889 :INFO : test_Bomrecentcoloumn :start
-2024-07-30 21:04:31,889 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
-2024-07-30 22:16:39,602 :INFO : test_Bomrecentcoloumn :chrome
-2024-07-30 22:16:53,049 :INFO : test_Bomrecentcoloumn :start
-2024-07-30 22:16:53,050 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
+2024-07-31 16:32:41,605 :INFO : test_Bomrecentcoloumn :chrome
+2024-07-31 16:32:47,384 :INFO : test_Bomrecentcoloumn :start
+2024-07-31 16:32:47,384 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
+2024-07-31 16:34:00,038 :INFO : test_Bomrecentcoloumn :chrome
+2024-07-31 16:34:05,071 :INFO : test_Bomrecentcoloumn :start
+2024-07-31 16:34:05,071 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
+2024-07-31 16:36:31,631 :INFO : test_Bomrecentcoloumn :chrome
+2024-07-31 16:36:37,407 :INFO : test_Bomrecentcoloumn :start
+2024-07-31 16:36:37,407 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
+2024-07-31 16:58:36,298 :INFO : test_Bomrecentcoloumn :chrome
+2024-07-31 16:58:41,431 :INFO : test_Bomrecentcoloumn :start
+2024-07-31 16:58:41,431 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
+2024-07-31 17:03:53,464 :INFO : test_Bomdoctorvoice :chrome
+2024-07-31 17:04:00,985 :INFO : test_Bomdoctorvoice :start
+2024-07-31 17:04:00,985 :INFO : test_Bomdoctorvoice :Verifying links for multiple selectors
+2024-07-31 17:10:10,968 :INFO : test_Bomdoctorvoice :chrome
+2024-07-31 17:10:19,611 :INFO : test_Bomdoctorvoice :start
+2024-07-31 17:10:19,611 :INFO : test_Bomdoctorvoice :Verifying links for multiple selectors
+2024-07-31 17:15:15,629 :INFO : test_Bomdoctorvoice :chrome
+2024-07-31 17:15:20,678 :INFO : test_Bomdoctorvoice :start
+2024-07-31 17:15:20,678 :INFO : test_Bomdoctorvoice :Verifying links for multiple selectors
+2024-07-31 17:15:44,797 :INFO : test_Bomdoctorvoice :All links verified successfully
+2024-07-31 17:17:10,972 :INFO : test_Bomdoctorvoice :chrome
+2024-07-31 17:17:17,888 :INFO : test_Bomdoctorvoice :start
+2024-07-31 17:17:17,890 :INFO : test_Bomdoctorvoice :Verifying links for multiple selectors
+2024-07-31 17:17:47,433 :INFO : test_Bomdoctorvoice :All links verified successfully
+2024-07-31 17:20:17,733 :INFO : test_Bomdoctorvoice :chrome
+2024-07-31 17:20:24,692 :INFO : test_Bomdoctorvoice :start
+2024-07-31 17:20:24,694 :INFO : test_Bomdoctorvoice :Verifying links for multiple selectors
+2024-07-31 17:25:12,370 :INFO : test_Bomdoctorvoice :chrome
+2024-07-31 17:25:18,397 :INFO : test_Bomdoctorvoice :start
+2024-07-31 17:25:18,397 :INFO : test_Bomdoctorvoice :Verifying links for multiple selectors
+2024-07-31 17:26:05,077 :INFO : test_Bomdoctorvoice :All links verified successfully
+2024-07-31 17:48:46,317 :INFO : test_Bomdoctorvoice :chrome
+2024-07-31 17:48:57,291 :INFO : test_Bomdoctorvoice :start
+2024-07-31 17:48:57,292 :INFO : test_Bomdoctorvoice :Verifying links for multiple selectors
+2024-07-31 17:49:31,431 :INFO : test_Bomdoctorvoice :All links verified successfully
+2024-07-31 18:26:44,544 :INFO : test_Business_of_Medicine :chrome
+2024-07-31 18:26:50,254 :INFO : test_Business_of_Medicine :start
+2024-07-31 18:30:47,758 :INFO : test_Business_of_Medicine :chrome
+2024-07-31 18:30:54,382 :INFO : test_Business_of_Medicine :start
+2024-07-31 18:34:24,781 :INFO : test_Business_of_Medicine :chrome
+2024-07-31 18:34:33,608 :INFO : test_Business_of_Medicine :start
+2024-07-31 19:15:23,072 :INFO : test_Business_of_Medicine :chrome
+2024-07-31 19:15:27,966 :INFO : test_Business_of_Medicine :start
+2024-07-31 19:34:02,981 :INFO : test_deepdiveecentcoloumn :chrome
+2024-07-31 19:34:11,150 :INFO : test_deepdiveecentcoloumn :start
+2024-07-31 19:34:11,151 :INFO : test_deepdiveecentcoloumn :Verifying links for multiple selectors
+2024-07-31 19:34:55,046 :INFO : test_deepdiveecentcoloumn :All links verified successfully
+2024-07-31 19:42:19,853 :INFO : test_Bomrecentcoloumn :chrome
+2024-07-31 19:42:24,622 :INFO : test_Bomrecentcoloumn :start
+2024-07-31 19:42:24,622 :INFO : test_Bomrecentcoloumn :Verifying links for multiple selectors
+2024-07-31 19:43:03,457 :INFO : test_Bomrecentcoloumn :All links verified successfully
+2024-07-31 19:54:02,060 :INFO : test_deepdivepodcastcoloumn :chrome
+2024-07-31 19:54:06,906 :INFO : test_deepdivepodcastcoloumn :start
+2024-07-31 19:54:06,907 :INFO : test_deepdivepodcastcoloumn :Verifying links for multiple selectors
+2024-07-31 19:54:42,095 :INFO : test_deepdivepodcastcoloumn :All links verified successfully
+2024-07-31 20:01:11,926 :INFO : test_deepdivesbodylinks :chrome
+2024-07-31 20:02:19,458 :INFO : test_deepdivesbodylinks :chrome
+2024-07-31 20:02:24,385 :INFO : test_deepdivesbodylinks :start
+2024-07-31 20:02:24,386 :INFO : test_deepdivesbodylinks :Verifying links for multiple selectors
+2024-07-31 20:03:43,449 :INFO : test_deepdivesbodylinks :All links verified successfully
+2024-07-31 20:14:14,193 :INFO : test_meetingsection :chrome
+2024-07-31 20:14:19,265 :INFO : test_meetingsection :start
+2024-07-31 20:14:19,265 :INFO : test_meetingsection :Verifying links for multiple selectors
+2024-07-31 20:14:23,383 :INFO : test_meetingsection :All links verified successfully
+2024-07-31 20:15:01,205 :INFO : test_meetingsection :chrome
+2024-07-31 20:15:06,025 :INFO : test_meetingsection :start
+2024-07-31 20:15:06,025 :INFO : test_meetingsection :Verifying links for multiple selectors
+2024-07-31 20:15:09,460 :INFO : test_meetingsection :All links verified successfully
+2024-07-31 20:20:36,461 :INFO : test_meetingsection :chrome
+2024-07-31 20:20:41,776 :INFO : test_meetingsection :start
+2024-07-31 20:20:41,776 :INFO : test_meetingsection :Verifying links for multiple selectors
+2024-07-31 20:21:14,046 :INFO : test_meetingsection :All links verified successfully

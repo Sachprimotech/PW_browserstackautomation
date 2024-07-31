@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_Bompodcastcoloumn(self):
+    def test_deepdivepodcastcoloumn(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
@@ -33,27 +33,12 @@ class Testone(BaseClass):
                 popup.click()
             except Exception:
                 ()
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
-            try:
-                popup = self.driver.find_element(
-                    By.CSS_SELECTOR,
-                    "#onesignal-slidedown-dialog .primary.slidedown-button",
-                )
-                popup.click()
-            except Exception:
-                ()
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
+            self.driver.get("https://www.physiciansweekly.com/deep-dives/")
 
             log.info("start")
 
             selectors = ["#filter-podcast-cstm a"]
-            additional_links = [
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            ]
+            additional_links = ["https://www.physiciansweekly.com/deep-dives/"]
             expected_link_count = 14
 
             log.info("Verifying links for multiple selectors")
@@ -64,16 +49,12 @@ class Testone(BaseClass):
 
             log.info("start")
 
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
+            self.driver.get("https://www.physiciansweekly.com/deep-dives/")
 
             log.info("start")
 
             selectors = ["#recent-colnm-one a"]
-            additional_links = [
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            ]
+            additional_links = ["https://www.physiciansweekly.com/deep-dives/"]
             expected_link_count = 40
 
             log.info("Verifying links for multiple selectors")
@@ -84,16 +65,12 @@ class Testone(BaseClass):
 
             log.info("start")
 
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
+            self.driver.get("https://www.physiciansweekly.com/deep-dives/")
 
             log.info("start")
 
             selectors = ["#recent-colnm-one a"]
-            additional_links = [
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            ]
+            additional_links = ["https://www.physiciansweekly.com/deep-dives/"]
             expected_link_count = 40
 
             log.info("Verifying links for multiple selectors")
