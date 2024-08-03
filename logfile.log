@@ -150,3 +150,23 @@
 2024-08-03 17:50:55,518 :INFO : testcolmlinks :Verifying links for multiple selectors
 2024-08-03 17:52:19,238 :INFO : testcolmlinks :start
 2024-08-03 17:52:19,239 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 19:47:45,003 :INFO : test_Cartoonpage :chrome
+2024-08-03 19:47:53,291 :INFO : test_Cartoonpage :start
+2024-08-03 19:55:37,342 :INFO : test_Cartoonpage :chrome
+2024-08-03 19:55:44,636 :INFO : test_Cartoonpage :start
+2024-08-03 20:42:26,460 :INFO : test_Cartoonpage :chrome
+2024-08-03 20:42:37,361 :INFO : test_Cartoonpage :start
+2024-08-03 21:02:29,986 :INFO : test_Cartoonpage :chrome
+2024-08-03 21:02:37,215 :INFO : test_Cartoonpage :start
+2024-08-03 21:02:39,870 :INFO : test_Cartoonpage :Verifying links for multiple selectors
+2024-08-03 21:02:46,287 :INFO : test_Cartoonpage :All links verified successfully
+2024-08-03 21:06:26,356 :INFO : test_Cartoonpage :chrome
+2024-08-03 21:06:33,655 :INFO : test_Cartoonpage :start
+2024-08-03 21:06:36,262 :INFO : test_Cartoonpage :Verifying links for multiple selectors
+2024-08-03 21:06:41,490 :INFO : test_Cartoonpage :All links verified successfully
+2024-08-03 21:06:59,051 :INFO : test_Cartoonpage :chrome
+2024-08-03 21:07:06,228 :INFO : test_Cartoonpage :start
+2024-08-03 21:07:08,902 :INFO : test_Cartoonpage :Verifying links for multiple selectors
+2024-08-03 21:07:15,329 :INFO : test_Cartoonpage :All links verified successfully
+2024-08-03 21:17:21,772 :INFO : test_Cartoonpage :chrome
+2024-08-03 21:17:30,479 :INFO : test_Cartoonpage :start

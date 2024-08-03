@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 driver = webdriver.Chrome()
-driver.get("https://www.physiciansweekly.com/category/doctors-voice/")
+driver.get("https://www.physiciansweekly.com/category/cartoons/")
 driver.maximize_window()
 
 try:
@@ -17,7 +17,7 @@ except Exception:
 
 elements = driver.find_elements(
     By.CSS_SELECTOR,
-    ".view-all-btn-box .view-all-half a",
+    ".post-media-container",
 )
 
 
@@ -26,14 +26,8 @@ fetched_css_properties = []
 for element in elements:
 
     d = [
-        "padding",
-        "background",
-        "color",
-        "line-height",
-        "font-size",
-        "font-weight",
-        "font-style",
-        "font-family",
+        "height",
+        "border",
     ]
     for i in d:
         fetched_css_properties.append(element.value_of_css_property(i))
