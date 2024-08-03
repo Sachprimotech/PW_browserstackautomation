@@ -105,3 +105,48 @@
 2024-07-31 20:20:41,776 :INFO : test_meetingsection :start
 2024-07-31 20:20:41,776 :INFO : test_meetingsection :Verifying links for multiple selectors
 2024-07-31 20:21:14,046 :INFO : test_meetingsection :All links verified successfully
+2024-08-03 15:39:29,598 :INFO : test_doctorvoicecolm :chrome
+2024-08-03 15:40:42,625 :INFO : test_doctorvoicecolm :chrome
+2024-08-03 15:43:42,582 :INFO : test_doctorvoicecolm :chrome
+2024-08-03 15:53:32,276 :INFO : test_doctorvoicecolm :chrome
+2024-08-03 15:53:43,072 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:54:15,878 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:54:23,223 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:54:28,751 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:54:34,672 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:54:40,693 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:54:46,897 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:54:56,365 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:55:06,237 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:55:15,288 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:55:24,020 :INFO : test_doctorvoicecolm :start
+2024-08-03 15:55:32,710 :INFO : test_doctorvoicecolm :start
+2024-08-03 17:31:51,177 :INFO : test_colomfnx :chrome
+2024-08-03 17:31:56,896 :INFO : test_colomfnx :start
+2024-08-03 17:31:56,898 :INFO : test_colomfnx :Verifying links for multiple selectors
+2024-08-03 17:37:31,698 :INFO : test_colomfnx :chrome
+2024-08-03 17:37:35,151 :INFO : test_colomfnx :start
+2024-08-03 17:37:35,153 :INFO : test_colomfnx :Verifying links for multiple selectors
+2024-08-03 17:40:21,025 :INFO : testcolmlinks :chrome
+2024-08-03 17:40:32,036 :INFO : testcolmlinks :start
+2024-08-03 17:40:32,036 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:41:54,121 :INFO : testcolmlinks :start
+2024-08-03 17:41:54,122 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:43:09,355 :INFO : testcolmlinks :start
+2024-08-03 17:43:09,356 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:44:31,621 :INFO : testcolmlinks :start
+2024-08-03 17:44:31,621 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:45:54,593 :INFO : testcolmlinks :start
+2024-08-03 17:45:54,593 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:47:19,535 :INFO : testcolmlinks :start
+2024-08-03 17:47:19,536 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:48:19,615 :INFO : testcolmlinks :start
+2024-08-03 17:48:19,615 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:49:10,365 :INFO : testcolmlinks :start
+2024-08-03 17:49:10,366 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:50:02,909 :INFO : testcolmlinks :start
+2024-08-03 17:50:02,910 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:50:55,518 :INFO : testcolmlinks :start
+2024-08-03 17:50:55,518 :INFO : testcolmlinks :Verifying links for multiple selectors
+2024-08-03 17:52:19,238 :INFO : testcolmlinks :start
+2024-08-03 17:52:19,239 :INFO : testcolmlinks :Verifying links for multiple selectors
