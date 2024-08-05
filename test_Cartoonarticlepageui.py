@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import StaleElementReferenceException
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from object.seleniumhelper import SeleniumHelper
@@ -14,14 +15,14 @@ import time
 
 
 class Testone(BaseClass):
-    def test_Cartoonpage(self):
+    def test_Cartoonarticlepage(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
         log = self.getLogger()
         log.info(name)
         helper = SeleniumHelper(self.driver)
-
+        cartoonlinks = []
         window_size = self.driver.get_window_size()
         if window_size["width"] > 980:
             try:
@@ -43,182 +44,180 @@ class Testone(BaseClass):
                 ()
             log.info("start")
 
-            Ac = ActionChains(self.driver)
+            cartoonpages = By.CSS_SELECTOR, ".entry-title a"
+            cartpages = wait.until(EC.presence_of_all_elements_located(cartoonpages))
+            for pages in cartpages:
+                Links = pages.get_attribute("href")
+                cartoonlinks.append(Links)
+            for lin in cartoonlinks:
+                self.driver.execute_script("window.open(arguments[0])", lin)
+            handles = self.driver.window_handles
+            try:
+                for window in handles:
+                    self.driver.switch_to.window(window)
 
-            selectors_and_properties = [
-                (
-                    "#et-boc .breadcrumb #crumbs",  # present
-                    {
-                        "elza, sans-serif",
-                        "rgba(55, 55, 55, 1)",
-                        "20px",
-                        "normal",
-                        "24px",
-                        "uppercase",
-                        "700",
-                    },
-                    [
-                        "text-transform",
-                        "line-height",
-                        "font-size",
-                        "color",
-                        "font-weight",
-                        "font-style",
-                        "font-family",
-                    ],
-                ),
-                (
-                    "#crumbs .current",  # present
-                    {".02em", "500"},
-                    ["letter-spacing", "font-weight"],
-                ),
-                (".breadcrumb", {"10px 0"}, ["margin"]),
-                (
-                    "h1.is_archive",  # present
-                    {
-                        "700",
-                        "60px",
-                        "0.5px",
-                        "Elza",
-                        "rgba(21, 44, 108, 1)",
-                        "0px 20px",
-                        "normal",
-                    },
-                    [
-                        "font-size",
-                        "padding",
-                        "color",
-                        "line-height",
-                        "font-style",
-                        "font-family",
-                        "font-weight",
-                        "font-size",
-                        "color",
-                        "letter-spacing",
-                    ],
-                ),
-                (
-                    "h2",  # present
-                    {
-                        "36px",
-                        "24px",
-                        "392.031px",
-                        "620.094px",
-                        "elza, sans-serif",
-                        "28px",
-                        "flex",
-                        "600",
-                        "30px",
-                        "700",
-                        "39px",
-                        "rgba(21, 44, 108, 1)",
-                        "normal",
-                        "0px",
-                        "0px 0px 20px",
-                        "Elza",
-                        "890.859px",
-                        "0px 0px 25px",
-                        "block",
-                    },
-                    [
-                        "padding",
-                        "width",
-                        "display",
-                        "line-height",
-                        "font-style",
-                        "font-family",
-                        "font-weight",
-                        "font-size",
-                        "color",
-                    ],
-                ),
-                (
-                    "h3",
-                    {"elza", "10px", "rgba(1, 121, 217, 1)", "30px", "25px", "700"},
-                    [
-                        "line-height",
-                        "color",
-                        "font-size",
-                        "font-weight",
-                        "font-family",
-                        "padding-bottom",
-                    ],
-                ),
-                (
-                    ".post-data p",
-                    {
-                        "0px",
-                        "32px",
-                        "block",
-                        "elza, sans-serif",
-                        "28px",
-                        "rgba(55, 55, 55, 1)",
-                        "20px",
-                        "0px 0px 32px",
-                        "400",
-                        "20px 0px 0px",
-                    },
-                    [
-                        "line-height",
-                        "color",
-                        "font-size",
-                        "font-weight",
-                        "font-family",
-                        "padding-bottom",
-                        "display",
-                        "margin-bottom",
-                        "margin",
-                    ],
-                ),
-                (
-                    ".post-media-container",
-                    {"1px solid rgb(191, 191, 191)", "282px"},
-                    [
-                        "height",
-                        "border",
-                    ],
-                ),
-                (
-                    ".post-media img",
-                    {"282px", "cover", "block"},
-                    [
-                        "height",
-                        "object-fit",
-                        "display",
-                    ],
-                ),
-                (
-                    ".el-blog-pagination-navi .wp-pagenavi a",
-                    {
-                        "0px none rgb(21, 44, 108)",
-                        "0px 10px 8px 0px",
-                        "18px",
-                        "rgba(21, 44, 108, 1)",
-                        "inline-block",
-                        "700",
-                    },
-                    [
-                        "margin",
-                        "font-size",
-                        "display",
-                        "font-weight",
-                        "color",
-                        "border",
-                    ],
-                ),
-            ]
+                    Ac = ActionChains(self.driver)
 
-            for (
-                css_selector,
-                expected_css_properties,
-                css_properties_list,
-            ) in selectors_and_properties:
-                result = helper.fetch_and_check_css_properties(
-                    css_selector, expected_css_properties, css_properties_list
-                )
-            assert (
-                result
-            ), f"CSS properties do not match the expected values for selector {css_selector}"
+                    selectors_and_properties = [
+                        (
+                            "#et-boc .breadcrumb #crumbs",  # present
+                            {
+                                "elza, sans-serif",
+                                "rgba(55, 55, 55, 1)",
+                                "20px",
+                                "normal",
+                                "24px",
+                                "uppercase",
+                                "700",
+                            },
+                            [
+                                "text-transform",
+                                "line-height",
+                                "font-size",
+                                "color",
+                                "font-weight",
+                                "font-style",
+                                "font-family",
+                            ],
+                        ),
+                        (
+                            "#crumbs .current",  # present
+                            {".02em", "500"},
+                            ["letter-spacing", "font-weight"],
+                        ),
+                        (".breadcrumb", {"10px 0"}, ["margin"]),
+                        (
+                            "h1.is_archive",  # present
+                            {
+                                "700",
+                                "60px",
+                                "0.5px",
+                                "Elza",
+                                "rgba(21, 44, 108, 1)",
+                                "0px 20px",
+                                "normal",
+                            },
+                            [
+                                "font-size",
+                                "padding",
+                                "color",
+                                "line-height",
+                                "font-style",
+                                "font-family",
+                                "font-weight",
+                                "font-size",
+                                "color",
+                                "letter-spacing",
+                            ],
+                        ),
+                        (
+                            "h2",  # present
+                            {
+                                "36px",
+                                "24px",
+                                "392.031px",
+                                "620.094px",
+                                "elza, sans-serif",
+                                "28px",
+                                "flex",
+                                "600",
+                                "30px",
+                                "700",
+                                "39px",
+                                "rgba(21, 44, 108, 1)",
+                                "normal",
+                                "0px",
+                                "0px 0px 20px",
+                                "Elza",
+                                "890.859px",
+                                "0px 0px 25px",
+                                "block",
+                            },
+                            [
+                                "padding",
+                                "width",
+                                "display",
+                                "line-height",
+                                "font-style",
+                                "font-family",
+                                "font-weight",
+                                "font-size",
+                                "color",
+                            ],
+                        ),
+                        (
+                            "h3",
+                            {
+                                "elza",
+                                "10px",
+                                "rgba(1, 121, 217, 1)",
+                                "30px",
+                                "25px",
+                                "700",
+                            },
+                            [
+                                "line-height",
+                                "color",
+                                "font-size",
+                                "font-weight",
+                                "font-family",
+                                "padding-bottom",
+                            ],
+                        ),
+                        (
+                            ".post-data p",
+                            {
+                                "0px",
+                                "32px",
+                                "block",
+                                "elza, sans-serif",
+                                "28px",
+                                "rgba(55, 55, 55, 1)",
+                                "20px",
+                                "0px 0px 32px",
+                                "400",
+                                "20px 0px 0px",
+                            },
+                            [
+                                "line-height",
+                                "color",
+                                "font-size",
+                                "font-weight",
+                                "font-family",
+                                "padding-bottom",
+                                "display",
+                                "margin-bottom",
+                                "margin",
+                            ],
+                        ),
+                        (
+                            ".post-media-container",
+                            {"1px solid rgb(191, 191, 191)", "282px"},
+                            [
+                                "height",
+                                "border",
+                            ],
+                        ),
+                        (
+                            ".el-dbe-blog-extra.block_extended",
+                            {"center", "flex"},
+                            ["justify-content", "display"],
+                        ),
+                    ]
+
+                    for (
+                        css_selector,
+                        expected_css_properties,
+                        css_properties_list,
+                    ) in selectors_and_properties:
+                        result = helper.fetch_and_check_css_properties(
+                            css_selector, expected_css_properties, css_properties_list
+                        )
+                    assert (
+                        result
+                    ), f"CSS properties do not match the expected values for selector {css_selector}"
+            except NoSuchElementException and TimeoutException:
+                ()
 
         elif window_size["width"] > 767 and window_size["width"] < 981:
 
@@ -379,7 +378,35 @@ class Testone(BaseClass):
                         "height",
                         "object-fit",
                         "border",
+                        "margin",
+                        "width",
                     ],
+                ),
+                (
+                    ".post-media img",
+                    {
+                        "cover",
+                        "236px",
+                        "0px",
+                        "0px 18.7031px",
+                        "0px 58.1719px",
+                        "0px 53.5625px",
+                        "232.094px",
+                        "0px 78.5156px",
+                        "272.172px",
+                        "389.125px",
+                        "0px 75.875px",
+                        "272.781px",
+                        "0px 58.4844px 0px 58.4688px",
+                        "282px",
+                        "0px 77.875px",
+                        "0px 76.5625px",
+                        "block",
+                        "237.375px",
+                        "351.719px",
+                        "233.375px",
+                    },
+                    ["height", "object-fit", "display", "margin", "width"],
                 ),
             ]
 

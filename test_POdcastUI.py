@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_Cartoonpage(self):
+    def test_Podcastui(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
@@ -32,7 +32,7 @@ class Testone(BaseClass):
                 popup.click()
             except Exception:
                 ()
-            self.driver.get("https://www.physiciansweekly.com/category/cartoons/")
+            self.driver.get("https://www.physiciansweekly.com/podcast/")
             try:
                 popup = self.driver.find_element(
                     By.CSS_SELECTOR,
@@ -43,11 +43,9 @@ class Testone(BaseClass):
                 ()
             log.info("start")
 
-            Ac = ActionChains(self.driver)
-
             selectors_and_properties = [
                 (
-                    "#et-boc .breadcrumb #crumbs",  # present
+                    "#et-boc .breadcrumb #crumbs",
                     {
                         "elza, sans-serif",
                         "rgba(55, 55, 55, 1)",
@@ -68,37 +66,41 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "#crumbs .current",  # present
+                    "#crumbs .current",
                     {".02em", "500"},
                     ["letter-spacing", "font-weight"],
                 ),
                 (".breadcrumb", {"10px 0"}, ["margin"]),
                 (
-                    "h1.is_archive",  # present
+                    "span.published",
                     {
+                        "28px",
+                        "uppercase",
+                        "rgba(1, 121, 217, 1)",
+                        "none",
+                        "0px",
+                        "elza",
+                        "elza, sans-serif",
+                        "500",
+                        "14px",
+                        "0.35px",
                         "700",
-                        "60px",
-                        "0.5px",
-                        "Elza",
-                        "rgba(21, 44, 108, 1)",
-                        "0px 20px",
                         "normal",
                     },
                     [
-                        "font-size",
-                        "padding",
-                        "color",
+                        "text-transform",
+                        "letter-spacing",
                         "line-height",
                         "font-style",
                         "font-family",
                         "font-weight",
                         "font-size",
                         "color",
-                        "letter-spacing",
+                        "margin",
                     ],
                 ),
                 (
-                    "h2",  # present
+                    "h2",
                     {
                         "36px",
                         "24px",
@@ -133,30 +135,25 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "h3",
-                    {"elza", "10px", "rgba(1, 121, 217, 1)", "30px", "25px", "700"},
-                    [
-                        "line-height",
-                        "color",
-                        "font-size",
-                        "font-weight",
-                        "font-family",
-                        "padding-bottom",
-                    ],
-                ),
-                (
                     ".post-data p",
                     {
-                        "0px",
-                        "32px",
-                        "block",
-                        "elza, sans-serif",
-                        "28px",
-                        "rgba(55, 55, 55, 1)",
-                        "20px",
-                        "0px 0px 32px",
+                        "17px",
+                        "10px 0px 0px",
+                        "0px 0px 10px",
+                        "700",
+                        "rgba(255, 255, 255, 1)",
+                        "10px",
+                        "23.4px",
+                        "Elza",
+                        "18px",
+                        "10px 0px",
+                        "none",
                         "400",
-                        "20px 0px 0px",
+                        "rgba(21, 44, 108, 1)",
+                        "22px",
+                        "14px",
+                        "0px",
+                        "block",
                     },
                     [
                         "line-height",
@@ -171,39 +168,33 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".post-media-container",
-                    {"1px solid rgb(191, 191, 191)", "282px"},
-                    [
-                        "height",
-                        "border",
-                    ],
-                ),
-                (
-                    ".post-media img",
-                    {"282px", "cover", "block"},
-                    [
-                        "height",
-                        "object-fit",
-                        "display",
-                    ],
-                ),
-                (
-                    ".el-blog-pagination-navi .wp-pagenavi a",
+                    ".et_pb_section div[class*=et_pb_row_]",
                     {
-                        "0px none rgb(21, 44, 108)",
-                        "0px 10px 8px 0px",
-                        "18px",
-                        "rgba(21, 44, 108, 1)",
-                        "inline-block",
-                        "700",
+                        "40px 71.5px 0px",
+                        "57px 0px 0px",
+                        "7px 20px 43px",
+                        "40px 51.5px 0px",
+                        "0px 10px",
+                        "0px 71.5px",
+                        "55px 0px",
+                        "65px 71.5px 40px",
+                        "30px 20px 40px",
+                        "1230px",
+                        "30px 0px 0px",
+                        "1280px",
+                        "0px 51.5px",
+                        "400",
+                        "65px auto 40px",
+                        "100%",
+                        "20px 71.5px 0px",
+                        "0px",
                     },
                     [
+                        "width",
+                        "padding",
                         "margin",
-                        "font-size",
-                        "display",
                         "font-weight",
-                        "color",
-                        "border",
+                        "max-width",
                     ],
                 ),
             ]
@@ -235,18 +226,9 @@ class Testone(BaseClass):
                 ()
             log.info("start")
 
-            Ac = ActionChains(self.driver)
-            tagslinks = (
-                By.CSS_SELECTOR,
-                "#wekly-news-container ul.meeting-coverage-list li a",
-            )
-            tagsclicks = wait.until(EC.presence_of_all_elements_located(tagslinks))
-            for tagclick in tagsclicks:
-                Ac.move_to_element(tagclick).click().perform()
-
             selectors_and_properties = [
                 (
-                    "#et-boc .breadcrumb #crumbs",  # present
+                    "#et-boc .breadcrumb #crumbs",
                     {
                         "elza, sans-serif",
                         "rgba(55, 55, 55, 1)",
@@ -267,13 +249,41 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "#crumbs .current",  # present
+                    "#crumbs .current",
                     {".02em", "500"},
                     ["letter-spacing", "font-weight"],
                 ),
                 (".breadcrumb", {"10px 0"}, ["margin"]),
                 (
-                    "h1.is_archive",  # present
+                    "span.published",
+                    {
+                        "28px",
+                        "uppercase",
+                        "rgba(1, 121, 217, 1)",
+                        "none",
+                        "0px",
+                        "elza",
+                        "elza, sans-serif",
+                        "500",
+                        "14px",
+                        "0.35px",
+                        "700",
+                        "normal",
+                    },
+                    [
+                        "text-transform",
+                        "letter-spacing",
+                        "line-height",
+                        "font-style",
+                        "font-family",
+                        "font-weight",
+                        "font-size",
+                        "color",
+                        "margin",
+                    ],
+                ),
+                (
+                    "h1.is_archive",
                     {
                         "700",
                         "60px",
@@ -297,7 +307,7 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "h2",  # present
+                    "h2",
                     {
                         "36px",
                         "24px",
@@ -344,18 +354,51 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".cat-meeting-coverage-section .post-data p",
+                    "h4",
                     {
-                        "0px",
-                        "32px",
-                        "block",
-                        "elza, sans-serif",
-                        "28px",
+                        "rgba(255, 255, 255, 1)",
+                        "600",
+                        "23.4px",
                         "rgba(55, 55, 55, 1)",
-                        "20px",
-                        "0px 0px 32px",
+                        "24px",
+                        "0px",
+                        "18px",
+                        "30px",
+                        "10px",
+                        "rgba(0, 0, 0, 0.75)",
+                        "700",
+                        '"Open Sans"',
+                        "Elza",
+                    },
+                    [
+                        "line-height",
+                        "color",
+                        "font-size",
+                        "font-weight",
+                        "font-family",
+                        "padding-bottom",
+                    ],
+                ),
+                (
+                    ".post-data p",
+                    {
+                        "17px",
+                        "10px 0px 0px",
+                        "0px 0px 10px",
+                        "700",
+                        "rgba(255, 255, 255, 1)",
+                        "10px",
+                        "23.4px",
+                        "Elza",
+                        "18px",
+                        "10px 0px",
+                        "none",
                         "400",
-                        "20px 0px 0px",
+                        "rgba(21, 44, 108, 1)",
+                        "22px",
+                        "14px",
+                        "0px",
+                        "block",
                     },
                     [
                         "line-height",
@@ -370,16 +413,74 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "#neurosurgery-sec article .post-media img",
-                    {"0px solid rgb(51, 51, 51)", "573px", "cover", "335px", "none"},
+                    ".post-categories",
+                    {
+                        "Elza",
+                        "17px",
+                        "700",
+                        "600",
+                        "14px",
+                        "none",
+                        "inline",
+                        "21px",
+                        "rgba(255, 255, 255, 1)",
+                        "0px",
+                        "rgba(1, 121, 217, 1)",
+                        "0px 5px 0px 0px",
+                        "23.8px",
+                        "400",
+                        "block",
+                        "uppercase",
+                        "rgba(0, 0, 0, 0.5)",
+                    },
                     [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
+                        "line-height",
+                        "color",
+                        "font-size",
+                        "font-weight",
+                        "font-family",
+                        "padding-bottom",
+                        "display",
+                        "margin-bottom",
+                        "margin",
+                        "text-transform",
                     ],
+                ),
+                (
+                    ".category .et_pb_gutters3 .et_pb_column_2_3",
+                    {"876.891px", "44.7969px", "65.5%", "838.391px", "3.5%", "0px"},
+                    ["margin-right", "width"],
+                ),
+                (
+                    "#in-this-section #cat-in-this .et-menu li a",
+                    {
+                        "normal",
+                        "7px 10px 5px",
+                        "rgba(21, 44, 108, 1)",
+                        "rgba(1, 121, 217, 0.25) none repeat scroll 0% 0% / auto padding-box border-box",
+                        "14px",
+                        "uppercase",
+                        "17px",
+                        "600",
+                        "rgb(223, 223, 223) none repeat scroll 0% 0% / auto padding-box border-box",
+                        "Elza",
+                    },
+                    [
+                        "padding",
+                        "background",
+                        "color",
+                        "text-transform",
+                        "line-height",
+                        "font-size",
+                        "font-weight",
+                        "font-style",
+                        "font-family",
+                    ],
+                ),
+                (
+                    ".author-sec-new .et_pb_blurb_description",
+                    {"400", "rgba(1, 121, 217, 1)", "600", "16px"},
+                    ["color", "font-size", "font-weight"],
                 ),
             ]
 
@@ -394,18 +495,6 @@ class Testone(BaseClass):
             assert (
                 result
             ), f"CSS properties do not match the expected values for selector {css_selector}"
-
-            selectors = [
-                "div#et-boc .cat-meeting-coverage-section.wekly-news-container  a"
-            ]
-            additional_links = [
-                "https://www.physiciansweekly.com/deep-dives/peer-to-peer/"
-            ]
-            expected_link_count = 21
-
-            log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
-            log.info("All links verified successfully")
 
         elif window_size["width"] <= 767:
 
@@ -420,19 +509,9 @@ class Testone(BaseClass):
                 ()
             log.info("start")
 
-            Ac = ActionChains(self.driver)
-
-            tagslinks = (
-                By.CSS_SELECTOR,
-                "#wekly-news-container ul.meeting-coverage-list li a",
-            )
-            tagsclicks = wait.until(EC.presence_of_all_elements_located(tagslinks))
-            for tagclick in tagsclicks:
-                Ac.move_to_element(tagclick).click().perform()
-
             selectors_and_properties = [
                 (
-                    "#et-boc .breadcrumb #crumbs",  # present
+                    "#et-boc .breadcrumb #crumbs",
                     {
                         "elza, sans-serif",
                         "rgba(55, 55, 55, 1)",
@@ -453,13 +532,41 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "#crumbs .current",  # present
+                    "#crumbs .current",
                     {".02em", "500"},
                     ["letter-spacing", "font-weight"],
                 ),
                 (".breadcrumb", {"10px 0"}, ["margin"]),
                 (
-                    "h1.is_archive",  # present
+                    "span.published",
+                    {
+                        "28px",
+                        "uppercase",
+                        "rgba(1, 121, 217, 1)",
+                        "none",
+                        "0px",
+                        "elza",
+                        "elza, sans-serif",
+                        "500",
+                        "14px",
+                        "0.35px",
+                        "700",
+                        "normal",
+                    },
+                    [
+                        "text-transform",
+                        "letter-spacing",
+                        "line-height",
+                        "font-style",
+                        "font-family",
+                        "font-weight",
+                        "font-size",
+                        "color",
+                        "margin",
+                    ],
+                ),
+                (
+                    "h1.is_archive",
                     {
                         "700",
                         "60px",
@@ -483,7 +590,7 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "h2",  # present
+                    "h2",
                     {
                         "36px",
                         "24px",
@@ -530,18 +637,51 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".cat-meeting-coverage-section .post-data p",
+                    "h4",
                     {
-                        "0px",
-                        "32px",
-                        "block",
-                        "elza, sans-serif",
-                        "28px",
+                        "rgba(255, 255, 255, 1)",
+                        "600",
+                        "23.4px",
                         "rgba(55, 55, 55, 1)",
-                        "20px",
-                        "0px 0px 32px",
+                        "24px",
+                        "0px",
+                        "18px",
+                        "30px",
+                        "10px",
+                        "rgba(0, 0, 0, 0.75)",
+                        "700",
+                        '"Open Sans"',
+                        "Elza",
+                    },
+                    [
+                        "line-height",
+                        "color",
+                        "font-size",
+                        "font-weight",
+                        "font-family",
+                        "padding-bottom",
+                    ],
+                ),
+                (
+                    ".post-data p",
+                    {
+                        "17px",
+                        "10px 0px 0px",
+                        "0px 0px 10px",
+                        "700",
+                        "rgba(255, 255, 255, 1)",
+                        "10px",
+                        "23.4px",
+                        "Elza",
+                        "18px",
+                        "10px 0px",
+                        "none",
                         "400",
-                        "20px 0px 0px",
+                        "rgba(21, 44, 108, 1)",
+                        "22px",
+                        "14px",
+                        "0px",
+                        "block",
                     },
                     [
                         "line-height",
@@ -556,16 +696,74 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "#neurosurgery-sec article .post-media img",
-                    {"0px solid rgb(51, 51, 51)", "573px", "cover", "335px", "none"},
+                    ".post-categories",
+                    {
+                        "Elza",
+                        "17px",
+                        "700",
+                        "600",
+                        "14px",
+                        "none",
+                        "inline",
+                        "21px",
+                        "rgba(255, 255, 255, 1)",
+                        "0px",
+                        "rgba(1, 121, 217, 1)",
+                        "0px 5px 0px 0px",
+                        "23.8px",
+                        "400",
+                        "block",
+                        "uppercase",
+                        "rgba(0, 0, 0, 0.5)",
+                    },
                     [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
+                        "line-height",
+                        "color",
+                        "font-size",
+                        "font-weight",
+                        "font-family",
+                        "padding-bottom",
+                        "display",
+                        "margin-bottom",
+                        "margin",
+                        "text-transform",
                     ],
+                ),
+                (
+                    ".category .et_pb_gutters3 .et_pb_column_2_3",
+                    {"876.891px", "44.7969px", "65.5%", "838.391px", "3.5%", "0px"},
+                    ["margin-right", "width"],
+                ),
+                (
+                    "#in-this-section #cat-in-this .et-menu li a",
+                    {
+                        "normal",
+                        "7px 10px 5px",
+                        "rgba(21, 44, 108, 1)",
+                        "rgba(1, 121, 217, 0.25) none repeat scroll 0% 0% / auto padding-box border-box",
+                        "14px",
+                        "uppercase",
+                        "17px",
+                        "600",
+                        "rgb(223, 223, 223) none repeat scroll 0% 0% / auto padding-box border-box",
+                        "Elza",
+                    },
+                    [
+                        "padding",
+                        "background",
+                        "color",
+                        "text-transform",
+                        "line-height",
+                        "font-size",
+                        "font-weight",
+                        "font-style",
+                        "font-family",
+                    ],
+                ),
+                (
+                    ".author-sec-new .et_pb_blurb_description",
+                    {"400", "rgba(1, 121, 217, 1)", "600", "16px"},
+                    ["color", "font-size", "font-weight"],
                 ),
             ]
 
@@ -580,15 +778,3 @@ class Testone(BaseClass):
             assert (
                 result
             ), f"CSS properties do not match the expected values for selector {css_selector}"
-
-            selectors = [
-                "div#et-boc .cat-meeting-coverage-section.wekly-news-container  a"
-            ]
-            additional_links = [
-                "https://www.physiciansweekly.com/deep-dives/peer-to-peer/"
-            ]
-            expected_link_count = 21
-
-            log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
-            log.info("All links verified successfully")

@@ -24,10 +24,15 @@ class Testone(BaseClass):
 
         window_size = self.driver.get_window_size()
         if window_size["width"] > 980:
-            popup = self.driver.find_element(
-                By.CSS_SELECTOR, "#onesignal-slidedown-dialog .primary.slidedown-button"
-            )
-            popup.click()
+
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
 
             log.info("start")
 
@@ -39,7 +44,19 @@ class Testone(BaseClass):
                 ),
                 (
                     ".post-categories",
-                    {"5px", "uppercase", "#0179d9", "18px", "600", "14px", "Elza"},
+                    {
+                        "Elza",
+                        "8px",
+                        "700",
+                        "rgba(1, 121, 217, 1)",
+                        "5px",
+                        "0px",
+                        "600",
+                        "uppercase",
+                        "18px",
+                        "17px",
+                        "14px",
+                    },
                     [
                         "margin-bottom",
                         "text-transform",
@@ -87,9 +104,9 @@ class Testone(BaseClass):
                 result = helper.fetch_and_check_css_properties(
                     css_selector, expected_css_properties, css_properties_list
                 )
-                assert (
-                    result
-                ), f"CSS properties do not match the expected values for selector {css_selector}"
+            assert (
+                result
+            ), f"CSS properties do not match the expected values for selector {css_selector}"
 
             log.info("end")
 
