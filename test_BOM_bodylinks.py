@@ -24,13 +24,18 @@ class Testone(BaseClass):
 
         window_size = self.driver.get_window_size()
         if window_size["width"] > 980:
-            popup = self.driver.find_element(
-                By.CSS_SELECTOR, "#onesignal-slidedown-dialog .primary.slidedown-button"
-            )
-            popup.click()
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
+            self.driver.execute_script("window.scrollBy(0, 500)")
 
             log.info("start")
 
@@ -51,7 +56,7 @@ class Testone(BaseClass):
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
-
+            self.driver.execute_script("window.scrollBy(0, 500)")
             log.info("start")
 
             selectors = ["#recent-colnm-one a"]
@@ -71,7 +76,7 @@ class Testone(BaseClass):
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
-
+            self.driver.execute_script("window.scrollBy(0, 500)")
             log.info("start")
 
             selectors = ["#recent-colnm-one a"]

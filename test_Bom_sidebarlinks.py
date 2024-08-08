@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_Bomrecentcoloumn(self):
+    def test_Bomrsidebar(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
@@ -87,7 +87,7 @@ class Testone(BaseClass):
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
-
+            self.driver.execute_script("window.scrollBy(0, 500)")
             log.info("start")
 
             selectors = ["#recent-colnm-one a"]

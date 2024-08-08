@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 driver = webdriver.Chrome()
-driver.get("https://www.physiciansweekly.com/podcast/")
+driver.get("https://oncweekly.com/")
 driver.maximize_window()
 window_size = driver.get_window_size()
 
@@ -18,7 +18,7 @@ except Exception:
 
 elements = driver.find_elements(
     By.CSS_SELECTOR,
-    ".et_pb_section div[class*=et_pb_row_]",
+    "div#New-homepage-sec img",
 )
 
 
@@ -26,13 +26,7 @@ fetched_css_properties = []
 
 for element in elements:
 
-    d = [
-        "width",
-        "padding",
-        "margin",
-        "font-weight",
-        "max-width",
-    ]
+    d = ["width", "height", "min-height", "object-fit"]
     for i in d:
         fetched_css_properties.append(element.value_of_css_property(i))
 

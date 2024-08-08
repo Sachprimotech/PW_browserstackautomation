@@ -37,6 +37,7 @@ class Testone(BaseClass):
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
+            self.driver.execute_script("window.scrollBy(0, 500)")
             try:
                 popup = self.driver.find_element(
                     By.CSS_SELECTOR,
@@ -45,9 +46,6 @@ class Testone(BaseClass):
                 popup.click()
             except Exception:
                 ()
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
 
             log.info("start")
 
@@ -76,10 +74,36 @@ class Testone(BaseClass):
                 popup.click()
             except Exception:
                 ()
+
+            self.driver.execute_script("window.scrollBy(0, 500)")
+            log.info("start")
+
+            selectors = ["#busines-right.et_pb_code_inner.busines-doctor a"]
+            additional_links = [
+                "https://www.physiciansweekly.com/category/business-of-medicine/"
+            ]
+            expected_link_count = 9
+
+            log.info("Verifying links for multiple selectors")
+            helper.verify_links(selectors, additional_links, expected_link_count)
+            log.info("All links verified successfully")
+
+        elif window_size["width"] <= 767:
+
+            log.info("start")
+
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
-
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
+            self.driver.execute_script("window.scrollBy(0, 500)")
             log.info("start")
 
             selectors = ["#busines-right.et_pb_code_inner.busines-doctor a"]

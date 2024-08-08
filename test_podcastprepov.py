@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_Business_of_Medicine(self):
+    def test_prePodcastui(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
@@ -32,9 +32,7 @@ class Testone(BaseClass):
                 popup.click()
             except Exception:
                 ()
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
+            self.driver.get("https://www.physiciansweekly.com/podcast/")
             try:
                 popup = self.driver.find_element(
                     By.CSS_SELECTOR,
@@ -45,11 +43,9 @@ class Testone(BaseClass):
                 ()
             log.info("start")
 
-            Ac = ActionChains(self.driver)
-
             selectors_and_properties = [
                 (
-                    "#et-boc .breadcrumb #crumbs",  # present
+                    "#et-boc .breadcrumb #crumbs",
                     {
                         "elza, sans-serif",
                         "rgba(55, 55, 55, 1)",
@@ -70,37 +66,41 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "#crumbs .current",  # present
+                    "#crumbs .current",
                     {".02em", "500"},
                     ["letter-spacing", "font-weight"],
                 ),
                 (".breadcrumb", {"10px 0"}, ["margin"]),
                 (
-                    "h1.is_archive",  # present
+                    "span.published",
                     {
+                        "28px",
+                        "uppercase",
+                        "rgba(1, 121, 217, 1)",
+                        "none",
+                        "0px",
+                        "elza",
+                        "elza, sans-serif",
+                        "500",
+                        "14px",
+                        "0.35px",
                         "700",
-                        "60px",
-                        "0.5px",
-                        "Elza",
-                        "rgba(21, 44, 108, 1)",
-                        "0px 20px",
                         "normal",
                     },
                     [
-                        "font-size",
-                        "padding",
-                        "color",
+                        "text-transform",
+                        "letter-spacing",
                         "line-height",
                         "font-style",
                         "font-family",
                         "font-weight",
                         "font-size",
                         "color",
-                        "letter-spacing",
+                        "margin",
                     ],
                 ),
                 (
-                    "h2",  # present
+                    "h2",
                     {
                         "36px",
                         "24px",
@@ -135,30 +135,25 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "h3",
-                    {"elza", "10px", "rgba(1, 121, 217, 1)", "30px", "25px", "700"},
-                    [
-                        "line-height",
-                        "color",
-                        "font-size",
-                        "font-weight",
-                        "font-family",
-                        "padding-bottom",
-                    ],
-                ),
-                (
-                    ".cat-meeting-coverage-section .post-data p",
+                    ".post-data p",
                     {
-                        "0px",
-                        "32px",
-                        "block",
-                        "elza, sans-serif",
-                        "28px",
-                        "rgba(55, 55, 55, 1)",
-                        "20px",
-                        "0px 0px 32px",
+                        "17px",
+                        "10px 0px 0px",
+                        "0px 0px 10px",
+                        "700",
+                        "rgba(255, 255, 255, 1)",
+                        "10px",
+                        "23.4px",
+                        "Elza",
+                        "18px",
+                        "10px 0px",
+                        "none",
                         "400",
-                        "20px 0px 0px",
+                        "rgba(21, 44, 108, 1)",
+                        "22px",
+                        "14px",
+                        "0px",
+                        "block",
                     },
                     [
                         "line-height",
@@ -173,48 +168,33 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".spotlights-post-media img",
-                    {"1px solid rgb(191, 191, 191)", "600px", "cover", "340px"},
-                    [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
-                    ],
-                ),
-                (
-                    ".cvf-pagination-nav.page-first-pagination ul",
-                    {"838.391px", "10px", "flex"},
-                    [
-                        "display",
-                        "margin-left",
-                    ],
-                ),
-                (
-                    ".post-media",
+                    ".et_pb_section div[class*=et_pb_row_]",
                     {
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "63px",
-                        "0px",
+                        "40px 71.5px 0px",
+                        "57px 0px 0px",
+                        "7px 20px 43px",
+                        "40px 51.5px 0px",
+                        "0px 10px",
+                        "0px 71.5px",
+                        "55px 0px",
+                        "65px 71.5px 40px",
+                        "30px 20px 40px",
+                        "1230px",
+                        "30px 0px 0px",
+                        "1280px",
+                        "0px 51.5px",
+                        "400",
+                        "65px auto 40px",
                         "100%",
-                        "230px",
-                        "0px solid rgb(191, 191, 191)",
-                        "fill",
-                        "none",
-                        "200px",
-                        "auto",
-                        "100px",
-                        "1px solid rgb(191, 191, 191)",
+                        "20px 71.5px 0px",
+                        "0px",
                     },
                     [
                         "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
+                        "padding",
+                        "margin",
+                        "font-weight",
+                        "max-width",
                     ],
                 ),
             ]
@@ -235,9 +215,7 @@ class Testone(BaseClass):
 
             log.info("start")
 
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
+            self.driver.get("https://www.physiciansweekly.com/meeting-coverage/")
             try:
                 popup = self.driver.find_element(
                     By.CSS_SELECTOR,
@@ -248,11 +226,9 @@ class Testone(BaseClass):
                 ()
             log.info("start")
 
-            Ac = ActionChains(self.driver)
-
             selectors_and_properties = [
                 (
-                    "#et-boc .breadcrumb #crumbs",  # present
+                    "#et-boc .breadcrumb #crumbs",
                     {
                         "elza, sans-serif",
                         "rgba(55, 55, 55, 1)",
@@ -273,13 +249,41 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "#crumbs .current",  # present
+                    "#crumbs .current",
                     {".02em", "500"},
                     ["letter-spacing", "font-weight"],
                 ),
                 (".breadcrumb", {"10px 0"}, ["margin"]),
                 (
-                    "h1.is_archive",  # present
+                    "span.published",
+                    {
+                        "28px",
+                        "uppercase",
+                        "rgba(1, 121, 217, 1)",
+                        "none",
+                        "0px",
+                        "elza",
+                        "elza, sans-serif",
+                        "500",
+                        "14px",
+                        "0.35px",
+                        "700",
+                        "normal",
+                    },
+                    [
+                        "text-transform",
+                        "letter-spacing",
+                        "line-height",
+                        "font-style",
+                        "font-family",
+                        "font-weight",
+                        "font-size",
+                        "color",
+                        "margin",
+                    ],
+                ),
+                (
+                    "h1.is_archive",
                     {
                         "700",
                         "60px",
@@ -303,7 +307,7 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "h2",  # present
+                    "h2",
                     {
                         "36px",
                         "24px",
@@ -350,18 +354,51 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".cat-meeting-coverage-section .post-data p",
+                    "h4",
                     {
-                        "0px",
-                        "32px",
-                        "block",
-                        "elza, sans-serif",
-                        "28px",
+                        "rgba(255, 255, 255, 1)",
+                        "600",
+                        "23.4px",
                         "rgba(55, 55, 55, 1)",
-                        "20px",
-                        "0px 0px 32px",
+                        "24px",
+                        "0px",
+                        "18px",
+                        "30px",
+                        "10px",
+                        "rgba(0, 0, 0, 0.75)",
+                        "700",
+                        '"Open Sans"',
+                        "Elza",
+                    },
+                    [
+                        "line-height",
+                        "color",
+                        "font-size",
+                        "font-weight",
+                        "font-family",
+                        "padding-bottom",
+                    ],
+                ),
+                (
+                    ".post-data p",
+                    {
+                        "17px",
+                        "10px 0px 0px",
+                        "0px 0px 10px",
+                        "700",
+                        "rgba(255, 255, 255, 1)",
+                        "10px",
+                        "23.4px",
+                        "Elza",
+                        "18px",
+                        "10px 0px",
+                        "none",
                         "400",
-                        "20px 0px 0px",
+                        "rgba(21, 44, 108, 1)",
+                        "22px",
+                        "14px",
+                        "0px",
+                        "block",
                     },
                     [
                         "line-height",
@@ -376,48 +413,74 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".spotlights-post-media img",
-                    {"1px solid rgb(191, 191, 191)", "600px", "cover", "340px"},
-                    [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
-                    ],
-                ),
-                (
-                    ".cvf-pagination-nav.page-first-pagination ul",
-                    {"838.391px", "10px", "flex"},
-                    [
-                        "display",
-                        "margin-left",
-                    ],
-                ),
-                (
-                    ".post-media",
+                    ".post-categories",
                     {
+                        "Elza",
+                        "17px",
+                        "700",
+                        "600",
+                        "14px",
                         "none",
-                        "100%",
-                        "1px solid rgb(191, 191, 191)",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "230px",
-                        "200px",
-                        "283px",
-                        "auto",
-                        "fill",
-                        "0px solid rgb(191, 191, 191)",
+                        "inline",
+                        "21px",
+                        "rgba(255, 255, 255, 1)",
                         "0px",
+                        "rgba(1, 121, 217, 1)",
+                        "0px 5px 0px 0px",
+                        "23.8px",
+                        "400",
+                        "block",
+                        "uppercase",
+                        "rgba(0, 0, 0, 0.5)",
                     },
                     [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
+                        "line-height",
+                        "color",
+                        "font-size",
+                        "font-weight",
+                        "font-family",
+                        "padding-bottom",
+                        "display",
+                        "margin-bottom",
+                        "margin",
+                        "text-transform",
                     ],
+                ),
+                (
+                    ".category .et_pb_gutters3 .et_pb_column_2_3",
+                    {"876.891px", "44.7969px", "65.5%", "838.391px", "3.5%", "0px"},
+                    ["margin-right", "width"],
+                ),
+                (
+                    "#in-this-section #cat-in-this .et-menu li a",
+                    {
+                        "normal",
+                        "7px 10px 5px",
+                        "rgba(21, 44, 108, 1)",
+                        "rgba(1, 121, 217, 0.25) none repeat scroll 0% 0% / auto padding-box border-box",
+                        "14px",
+                        "uppercase",
+                        "17px",
+                        "600",
+                        "rgb(223, 223, 223) none repeat scroll 0% 0% / auto padding-box border-box",
+                        "Elza",
+                    },
+                    [
+                        "padding",
+                        "background",
+                        "color",
+                        "text-transform",
+                        "line-height",
+                        "font-size",
+                        "font-weight",
+                        "font-style",
+                        "font-family",
+                    ],
+                ),
+                (
+                    ".author-sec-new .et_pb_blurb_description",
+                    {"400", "rgba(1, 121, 217, 1)", "600", "16px"},
+                    ["color", "font-size", "font-weight"],
                 ),
             ]
 
@@ -446,11 +509,9 @@ class Testone(BaseClass):
                 ()
             log.info("start")
 
-            Ac = ActionChains(self.driver)
-
             selectors_and_properties = [
                 (
-                    "#et-boc .breadcrumb #crumbs",  # present
+                    "#et-boc .breadcrumb #crumbs",
                     {
                         "elza, sans-serif",
                         "rgba(55, 55, 55, 1)",
@@ -471,13 +532,41 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "#crumbs .current",  # present
+                    "#crumbs .current",
                     {".02em", "500"},
                     ["letter-spacing", "font-weight"],
                 ),
                 (".breadcrumb", {"10px 0"}, ["margin"]),
                 (
-                    "h1.is_archive",  # present
+                    "span.published",
+                    {
+                        "28px",
+                        "uppercase",
+                        "rgba(1, 121, 217, 1)",
+                        "none",
+                        "0px",
+                        "elza",
+                        "elza, sans-serif",
+                        "500",
+                        "14px",
+                        "0.35px",
+                        "700",
+                        "normal",
+                    },
+                    [
+                        "text-transform",
+                        "letter-spacing",
+                        "line-height",
+                        "font-style",
+                        "font-family",
+                        "font-weight",
+                        "font-size",
+                        "color",
+                        "margin",
+                    ],
+                ),
+                (
+                    "h1.is_archive",
                     {
                         "700",
                         "60px",
@@ -501,7 +590,7 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    "h2",  # present
+                    "h2",
                     {
                         "36px",
                         "24px",
@@ -548,18 +637,51 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".cat-meeting-coverage-section .post-data p",
+                    "h4",
                     {
-                        "0px",
-                        "32px",
-                        "block",
-                        "elza, sans-serif",
-                        "28px",
+                        "rgba(255, 255, 255, 1)",
+                        "600",
+                        "23.4px",
                         "rgba(55, 55, 55, 1)",
-                        "20px",
-                        "0px 0px 32px",
+                        "24px",
+                        "0px",
+                        "18px",
+                        "30px",
+                        "10px",
+                        "rgba(0, 0, 0, 0.75)",
+                        "700",
+                        '"Open Sans"',
+                        "Elza",
+                    },
+                    [
+                        "line-height",
+                        "color",
+                        "font-size",
+                        "font-weight",
+                        "font-family",
+                        "padding-bottom",
+                    ],
+                ),
+                (
+                    ".post-data p",
+                    {
+                        "17px",
+                        "10px 0px 0px",
+                        "0px 0px 10px",
+                        "700",
+                        "rgba(255, 255, 255, 1)",
+                        "10px",
+                        "23.4px",
+                        "Elza",
+                        "18px",
+                        "10px 0px",
+                        "none",
                         "400",
-                        "20px 0px 0px",
+                        "rgba(21, 44, 108, 1)",
+                        "22px",
+                        "14px",
+                        "0px",
+                        "block",
                     },
                     [
                         "line-height",
@@ -574,49 +696,74 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".spotlights-post-media img",
-                    {"1px solid rgb(191, 191, 191)", "600px", "cover", "340px"},
-                    [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
-                    ],
-                ),
-                (
-                    ".cvf-pagination-nav.page-first-pagination ul",
-                    {"838.391px", "10px", "flex"},
-                    [
-                        "display",
-                        "margin-left",
-                    ],
-                ),
-                (
-                    ".post-media",
+                    ".post-categories",
                     {
-                        "0px solid rgb(191, 191, 191)",
-                        "100px",
+                        "Elza",
+                        "17px",
+                        "700",
+                        "600",
+                        "14px",
                         "none",
-                        "auto",
-                        "200px",
-                        "63px",
-                        "0px none rgba(0, 0, 0, 0.5)",
+                        "inline",
+                        "21px",
+                        "rgba(255, 255, 255, 1)",
                         "0px",
-                        "230px",
-                        "0.711111px solid rgb(191, 191, 191)",
-                        "fill",
-                        "100%",
+                        "rgba(1, 121, 217, 1)",
+                        "0px 5px 0px 0px",
+                        "23.8px",
+                        "400",
+                        "block",
+                        "uppercase",
+                        "rgba(0, 0, 0, 0.5)",
                     },
                     [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
+                        "line-height",
+                        "color",
+                        "font-size",
+                        "font-weight",
+                        "font-family",
+                        "padding-bottom",
+                        "display",
+                        "margin-bottom",
+                        "margin",
+                        "text-transform",
                     ],
+                ),
+                (
+                    ".category .et_pb_gutters3 .et_pb_column_2_3",
+                    {"876.891px", "44.7969px", "65.5%", "838.391px", "3.5%", "0px"},
+                    ["margin-right", "width"],
+                ),
+                (
+                    "#in-this-section #cat-in-this .et-menu li a",
+                    {
+                        "normal",
+                        "7px 10px 5px",
+                        "rgba(21, 44, 108, 1)",
+                        "rgba(1, 121, 217, 0.25) none repeat scroll 0% 0% / auto padding-box border-box",
+                        "14px",
+                        "uppercase",
+                        "17px",
+                        "600",
+                        "rgb(223, 223, 223) none repeat scroll 0% 0% / auto padding-box border-box",
+                        "Elza",
+                    },
+                    [
+                        "padding",
+                        "background",
+                        "color",
+                        "text-transform",
+                        "line-height",
+                        "font-size",
+                        "font-weight",
+                        "font-style",
+                        "font-family",
+                    ],
+                ),
+                (
+                    ".author-sec-new .et_pb_blurb_description",
+                    {"400", "rgba(1, 121, 217, 1)", "600", "16px"},
+                    ["color", "font-size", "font-weight"],
                 ),
             ]
 

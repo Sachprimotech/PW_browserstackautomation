@@ -44,9 +44,7 @@ class Testone(BaseClass):
                 popup.click()
             except Exception:
                 ()
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
+            self.driver.execute_script("window.scrollBy(0, 500)")
 
             log.info("start")
 
@@ -67,7 +65,7 @@ class Testone(BaseClass):
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
-
+            self.driver.execute_script("window.scrollBy(0, 500)")
             log.info("start")
 
             selectors = ["#recent-colnm-one a"]
@@ -87,7 +85,7 @@ class Testone(BaseClass):
             self.driver.get(
                 "https://www.physiciansweekly.com/category/business-of-medicine/"
             )
-
+            self.driver.execute_script("window.scrollBy(0, 500)")
             log.info("start")
 
             selectors = ["#recent-colnm-one a"]

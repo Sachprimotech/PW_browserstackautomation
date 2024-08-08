@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import inspect
 import logging
 import requests
@@ -100,7 +101,6 @@ class SeleniumHelper:
                 result_broken.append("pass")
 
         assert all(element == "pass" for element in result_broken)
-        log.info(f"Link {link} is broken with status code {status_code}")
 
 
 def get_pseudo_element_styles(self, element, pseudo_element, property_name):
