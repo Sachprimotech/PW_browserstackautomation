@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_HomePageEditor(self):
+    def test_HomePageEditor(self):  # these are to be verified on the browser-stack
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 

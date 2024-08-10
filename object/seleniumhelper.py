@@ -39,7 +39,10 @@ class SeleniumHelper:
         :param css_properties_list: List of CSS properties to fetch
         :return: True if the fetched properties match the expected properties, False otherwise
         """
-        elements = self.driver.find_elements(By.CSS_SELECTOR, css_selector)
+        wait = WebDriverWait(self.driver, 20)
+        element = By.CSS_SELECTOR, css_selector
+        elements = wait.until(EC.presence_of_all_elements_located(element))
+
         fetched_css_properties = []
 
         for element in elements:

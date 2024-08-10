@@ -18,7 +18,7 @@ except Exception:
 
 elements = driver.find_elements(
     By.CSS_SELECTOR,
-    "div#New-homepage-sec img",
+    ".wp-pagenavi a",
 )
 
 
@@ -26,7 +26,14 @@ fetched_css_properties = []
 
 for element in elements:
 
-    d = ["width", "height", "min-height", "object-fit"]
+    d = [
+        "margin",
+        "font-size",
+        "display",
+        "font-weight",
+        "color",
+        "border",
+    ]
     for i in d:
         fetched_css_properties.append(element.value_of_css_property(i))
 

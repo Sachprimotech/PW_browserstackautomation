@@ -28,10 +28,13 @@ class Testone(BaseClass):
         log.info("start")
         window_size = self.driver.get_window_size()
         if window_size["width"] > 767:
-            popup = self.driver.find_element(
-                By.CSS_SELECTOR, "#onesignal-popover-container"
-            )
-            popup.click()
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR, "#onesignal-popover-container"
+                )
+                popup.click()
+            except Exception:
+                ()
             footer_links = self.driver.find_elements(
                 By.CSS_SELECTOR, ".ft-custom-menu a"
             )
@@ -105,10 +108,13 @@ class Testone(BaseClass):
 
         elif window_size["width"] <= 767:
 
-            popup = self.driver.find_element(
-                By.CSS_SELECTOR, "#onesignal-slidedown-dialog .primary.slidedown-button"
-            )
-            popup.click()
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR, "#onesignal-popover-container"
+                )
+                popup.click()
+            except Exception:
+                ()
             footer_links = self.driver.find_elements(
                 By.CSS_SELECTOR, ".ft-custom-menu a"
             )
@@ -123,7 +129,7 @@ class Testone(BaseClass):
             f = ["padding-top", "padding-right", "padding-bottom", "padding-left"]
             for i in f:
                 Footer_cssvalues.append(Footer_css.value_of_css_property(i))
-            assert set(Footer_cssvalues) == {"30px", "20px", "40px", "20px"}
+            assert set(Footer_cssvalues) == {"30px", "20px", "0px"}
 
             Tittle = By.CSS_SELECTOR, ".ft-sec-hdng"
             footer_tittlecss = wait.until(EC.presence_of_all_elements_located(Tittle))

@@ -14,11 +14,9 @@ import time
 
 
 class Testone(BaseClass):
-    def test_Business_of_Medicine(self):
+    def test_cssslector(self):
         log = self.getLogger()
-        self.driver.get(
-            "https://www.physiciansweekly.com/category/business-of-medicine/"
-        )
+        self.driver.get("https://www.physiciansweekly.com/")
         self.driver.maximize_window()
         window_size = self.driver.get_window_size()
 
@@ -33,21 +31,14 @@ class Testone(BaseClass):
 
         elements = self.driver.find_elements(
             By.CSS_SELECTOR,
-            ".post-media",
+            "#doctorVoicesection div#doctorVoiceFeatureblog",
         )
 
         fetched_css_properties = []
 
         for element in elements:
 
-            d = [
-                "width",
-                "max-height",
-                "min-height",
-                "height",
-                "object-fit",
-                "border",
-            ]
+            d = ["margin-right", "width", "border-right", "padding-right"]
             for i in d:
                 fetched_css_properties.append(element.value_of_css_property(i))
 

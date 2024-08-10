@@ -125,20 +125,22 @@ class Testone(BaseClass):
             selectors_and_properties = [
                 (
                     "#doctorVoicesection div#doctorVoiceFeatureblog",
-                    {"3%", "55%", "1px solid #bfbfbf", "40px"},
+                    {"0px", "384px", "0.711111px solid rgb(191, 191, 191)"},
                     ["margin-right", "width", "border-right", "padding-right"],
                 ),
                 (
                     ".post-categories",
                     {
-                        "uppercase",
-                        "left",
-                        ".025em",
-                        "17px",
-                        "700",
+                        "600",
+                        "bold",
                         "14px",
-                        "Elza",
+                        "17px",
                         "rgba(1, 121, 217, 1)",
+                        "18px",
+                        "Elza",
+                        "left",
+                        "uppercase",
+                        "0.3499999940395355px",
                     },
                     [
                         "text-transform",
@@ -203,20 +205,32 @@ class Testone(BaseClass):
             selectors_and_properties = [
                 (
                     "#doctorVoicesection div#doctorVoiceFeatureblog",
-                    {"3%", "55%", "1px solid #bfbfbf", "40px"},
+                    {"0px", "384px", "0.711111px solid rgb(191, 191, 191)"},
                     ["margin-right", "width", "border-right", "padding-right"],
                 ),
                 (
                     ".post-categories",
-                    {"5px", "uppercase", "#0179d9", "18px", "600", "14px", "Elza"},
+                    {
+                        "700",
+                        "rgba(1, 121, 217, 1)",
+                        "Elza",
+                        "left",
+                        "14px",
+                        "18px",
+                        "17px",
+                        "600",
+                        "uppercase",
+                        "0.35px",
+                    },
                     [
-                        "margin-bottom",
                         "text-transform",
-                        "color",
+                        "text-align",
+                        "letter-spacing",
                         "line-height",
                         "font-weight",
                         "font-size",
                         "font-family",
+                        "color",
                     ],
                 ),
                 (

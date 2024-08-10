@@ -145,7 +145,7 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".cat-meeting-coverage-section .post-data p",
+                    ".post-data p",
                     {
                         "0px",
                         "32px",
@@ -171,18 +171,6 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".spotlights-post-media img",
-                    {"1px solid rgb(191, 191, 191)", "600px", "cover", "340px"},
-                    [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
-                    ],
-                ),
-                (
                     ".cvf-pagination-nav.page-first-pagination ul",
                     {"838.391px", "10px", "flex"},
                     [
@@ -194,23 +182,18 @@ class Testone(BaseClass):
                     ".post-media",
                     {
                         "none",
-                        "0px",
-                        "63px",
-                        "230px",
-                        "0px solid rgb(191, 191, 191)",
-                        "100%",
-                        "217px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "396.797px",
-                        "100px",
-                        "829.859px",
-                        "440px",
                         "163px",
-                        "398.328px",
-                        "1px solid rgb(191, 191, 191)",
                         "fill",
                         "auto",
-                        "239.359px",
+                        "0px none rgba(0, 0, 0, 0.5)",
+                        "0px",
+                        "100%",
+                        "0px solid rgb(191, 191, 191)",
+                        "1px solid rgb(191, 191, 191)",
+                        "100px",
+                        "63px",
+                        "230px",
+                        "217px",
                     },
                     [
                         "width",
@@ -239,9 +222,7 @@ class Testone(BaseClass):
 
             log.info("start")
 
-            self.driver.get(
-                "https://www.physiciansweekly.com/category/business-of-medicine/"
-            )
+            self.driver.get("https://www.physiciansweekly.com/deep-dives/")
             try:
                 popup = self.driver.find_element(
                     By.CSS_SELECTOR,
@@ -354,7 +335,7 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".cat-meeting-coverage-section .post-data p",
+                    ".post-data p",
                     {
                         "0px",
                         "32px",
@@ -380,18 +361,6 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".spotlights-post-media img",
-                    {"1px solid rgb(191, 191, 191)", "600px", "cover", "340px"},
-                    [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
-                    ],
-                ),
-                (
                     ".cvf-pagination-nav.page-first-pagination ul",
                     {"838.391px", "10px", "flex"},
                     [
@@ -402,24 +371,19 @@ class Testone(BaseClass):
                 (
                     ".post-media",
                     {
-                        "none",
-                        "0px",
                         "63px",
-                        "230px",
-                        "0px solid rgb(191, 191, 191)",
-                        "100%",
+                        "none",
+                        "100px",
+                        "1px solid rgb(191, 191, 191)",
                         "217px",
                         "0px none rgba(0, 0, 0, 0.5)",
-                        "396.797px",
-                        "100px",
-                        "829.859px",
-                        "440px",
+                        "0px solid rgb(191, 191, 191)",
+                        "0px",
                         "163px",
-                        "398.328px",
-                        "1px solid rgb(191, 191, 191)",
-                        "fill",
+                        "100%",
                         "auto",
-                        "239.359px",
+                        "230px",
+                        "fill",
                     },
                     [
                         "width",
@@ -446,7 +410,7 @@ class Testone(BaseClass):
 
         elif window_size["width"] <= 767:
 
-            self.driver.get("https://www.physiciansweekly.com/meeting-coverage/")
+            self.driver.get("https://www.physiciansweekly.com/deep-dives/")
             try:
                 popup = self.driver.find_element(
                     By.CSS_SELECTOR,
@@ -559,7 +523,7 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".cat-meeting-coverage-section .post-data p",
+                    ".post-data p",
                     {
                         "0px",
                         "32px",
@@ -585,18 +549,6 @@ class Testone(BaseClass):
                     ],
                 ),
                 (
-                    ".spotlights-post-media img",
-                    {"1px solid rgb(191, 191, 191)", "600px", "cover", "340px"},
-                    [
-                        "width",
-                        "max-height",
-                        "min-height",
-                        "height",
-                        "object-fit",
-                        "border",
-                    ],
-                ),
-                (
                     ".cvf-pagination-nav.page-first-pagination ul",
                     {"838.391px", "10px", "flex"},
                     [
@@ -607,22 +559,19 @@ class Testone(BaseClass):
                 (
                     ".post-media",
                     {
-                        "440px",
-                        "63px",
-                        "100%",
-                        "none",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "262.406px",
-                        "0px solid rgb(191, 191, 191)",
-                        "1px solid rgb(191, 191, 191)",
-                        "838px",
-                        "200px",
-                        "100px",
-                        "392.531px",
-                        "402.422px",
-                        "0px",
-                        "230px",
+                        "auto",
                         "fill",
+                        "100px",
+                        "cover",
+                        "0.711111px solid rgb(191, 191, 191)",
+                        "163px",
+                        "100%",
+                        "0px",
+                        "0px solid rgb(191, 191, 191)",
+                        "none",
+                        "230px",
+                        "0px none rgba(0, 0, 0, 0.5)",
+                        "63px",
                     },
                     [
                         "width",

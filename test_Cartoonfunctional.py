@@ -60,3 +60,19 @@ class Testone(BaseClass):
             log.info("Verifying links for multiple selectors")
             helper.verify_links(selectors, additional_links, expected_link_count)
             log.info("All links verified successfully")
+
+        elif window_size["width"] <= 767:
+
+            log.info("start")
+
+            self.driver.get("https://www.physiciansweekly.com/category/cartoons/")
+
+            log.info("start")
+
+            selectors = [".entry-title a"]
+            additional_links = ["https://www.physiciansweekly.com/category/cartoons/"]
+            expected_link_count = 9
+
+            log.info("Verifying links for multiple selectors")
+            helper.verify_links(selectors, additional_links, expected_link_count)
+            log.info("All links verified successfully")

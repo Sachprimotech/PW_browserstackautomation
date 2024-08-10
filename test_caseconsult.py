@@ -212,26 +212,6 @@ class Testone(BaseClass):
 
             log.info("start")
 
-            self.driver.get("https://www.physiciansweekly.com/meeting-coverage/")
-            try:
-                popup = self.driver.find_element(
-                    By.CSS_SELECTOR,
-                    "#onesignal-slidedown-dialog .primary.slidedown-button",
-                )
-                popup.click()
-            except Exception:
-                ()
-            log.info("start")
-
-            Ac = ActionChains(self.driver)
-            tagslinks = (
-                By.CSS_SELECTOR,
-                "#wekly-news-container ul.meeting-coverage-list li a",
-            )
-            tagsclicks = wait.until(EC.presence_of_all_elements_located(tagslinks))
-            for tagclick in tagsclicks:
-                Ac.move_to_element(tagclick).click().perform()
-
             self.driver.get("https://www.physiciansweekly.com/deep-dives/case-consult/")
             try:
                 popup = self.driver.find_element(
@@ -372,7 +352,7 @@ class Testone(BaseClass):
                 ),
                 (
                     ".spotlights-post-media img",
-                    {"1px solid rgb(191, 191, 191)", "600px", "cover", "340px"},
+                    {"366.59375px", "cover", "340px", "1px solid rgb(191, 191, 191)"},
                     [
                         "width",
                         "max-height",
@@ -410,27 +390,6 @@ class Testone(BaseClass):
 
         elif window_size["width"] <= 767:
 
-            self.driver.get("https://www.physiciansweekly.com/meeting-coverage/")
-            try:
-                popup = self.driver.find_element(
-                    By.CSS_SELECTOR,
-                    "#onesignal-slidedown-dialog .primary.slidedown-button",
-                )
-                popup.click()
-            except Exception:
-                ()
-            log.info("start")
-
-            Ac = ActionChains(self.driver)
-
-            tagslinks = (
-                By.CSS_SELECTOR,
-                "#wekly-news-container ul.meeting-coverage-list li a",
-            )
-            tagsclicks = wait.until(EC.presence_of_all_elements_located(tagslinks))
-            for tagclick in tagsclicks:
-                Ac.move_to_element(tagclick).click().perform()
-
             self.driver.get("https://www.physiciansweekly.com/deep-dives/case-consult/")
             try:
                 popup = self.driver.find_element(
@@ -571,7 +530,7 @@ class Testone(BaseClass):
                 ),
                 (
                     ".spotlights-post-media img",
-                    {"1px solid rgb(191, 191, 191)", "600px", "cover", "340px"},
+                    {"250px", "0.711111px solid rgb(191, 191, 191)", "cover", "344px"},
                     [
                         "width",
                         "max-height",

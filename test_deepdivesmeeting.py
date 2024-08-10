@@ -14,7 +14,7 @@ import time
 
 
 class Testone(BaseClass):
-    def test_meetingsection(self):
+    def test_deepmeetingsection(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
 
@@ -46,6 +46,31 @@ class Testone(BaseClass):
             log.info("All links verified successfully")
 
         elif window_size["width"] > 767 and window_size["width"] < 981:
+
+            log.info("start")
+
+            self.driver.get("https://www.physiciansweekly.com/deep-dives/")
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
+            self.driver.get("https://www.physiciansweekly.com/deep-dives/")
+
+            log.info("start")
+
+            selectors = ["div#busines-right.et_pb_code_inner.meet-business-rigt a"]
+            additional_links = ["https://www.physiciansweekly.com/deep-dives/"]
+            expected_link_count = 9
+
+            log.info("Verifying links for multiple selectors")
+            helper.verify_links(selectors, additional_links, expected_link_count)
+            log.info("All links verified successfully")
+
+        elif window_size["width"] <= 767:
 
             log.info("start")
 

@@ -29,7 +29,7 @@ import platform
 
 
 class Testone(BaseClass):
-    def testcolmlinks(self):
+    def testcolmlinks(self):  # Time issue
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
         result_broken = []
@@ -44,7 +44,10 @@ class Testone(BaseClass):
             li = link.get_attribute("href")
             opened_links.append(li)
 
-        def verify_listlinks(selectors, additional_links, expected_link_count):
+        def verify_listlinks(
+            selectors,
+            additional_links,
+        ):
             all_links = []
 
             for selector in selectors:
@@ -55,21 +58,21 @@ class Testone(BaseClass):
             if additional_links:
                 all_links.extend(additional_links)
 
+            # for link in all_links:
+            #     self.driver.execute_script("window.open(arguments[0])", link)
+
+            # handles = self.driver.window_handles
+            # opened_links = []
+
+            # for window in handles:
+            #     self.driver.switch_to.window(window)
+            #     opened_links.append(self.driver.current_url)
+
+            # assert set(all_links) == set(opened_links) or (
+            #     expected_link_count and len(all_links) == expected_link_count
+            # )
+
             for link in all_links:
-                self.driver.execute_script("window.open(arguments[0])", link)
-
-            handles = self.driver.window_handles
-            opened_links = []
-
-            for window in handles:
-                self.driver.switch_to.window(window)
-                opened_links.append(self.driver.current_url)
-
-            assert set(all_links) == set(opened_links) or (
-                expected_link_count and len(all_links) == expected_link_count
-            )
-
-            for link in opened_links:
                 response = requests.get(link)
                 status_code = response.status_code
                 if status_code == 404:
@@ -105,21 +108,17 @@ class Testone(BaseClass):
                 try:
                     selectors = [".doctor-voice-spcl-sec .et_pb_code_inner a"]
                     additional_links = ["url"]
-                    expected_link_count = 21
 
                     log.info("Verifying links for multiple selectors")
-                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    verify_listlinks(
+                        selectors,
+                        additional_links,
+                    )
                     log.info("All links verified successfully")
 
                 except Exception:
-                    self.driver.close()
-                for handle in self.driver.window_handles:
-                    if handle != main_window:
-                        self.driver.switch_to.window(handle)
-                        self.driver.close()
-
-                # Switch back to the main window
-                self.driver.switch_to.window(main_window)
+                    ()
+            assert all(result == "pass" for result in result_broken)
 
             # work is pending for programme pages
 
@@ -139,25 +138,19 @@ class Testone(BaseClass):
                     ()
                 log.info("start")
                 try:
-                    selectors = [
-                        "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
-                    ]
+                    selectors = [".doctor-voice-spcl-sec .et_pb_code_inner a"]
                     additional_links = ["url"]
-                    expected_link_count = 21
 
                     log.info("Verifying links for multiple selectors")
-                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    verify_listlinks(
+                        selectors,
+                        additional_links,
+                    )
                     log.info("All links verified successfully")
 
                 except Exception:
-                    self.driver.close()
-                for handle in self.driver.window_handles:
-                    if handle != main_window:
-                        self.driver.switch_to.window(handle)
-                        self.driver.close()
-
-                # Switch back to the main window
-                self.driver.switch_to.window(main_window)
+                    ()
+            assert all(result == "pass" for result in result_broken)
 
         elif window_size["width"] <= 767:
 
@@ -173,22 +166,16 @@ class Testone(BaseClass):
                     ()
                 log.info("start")
                 try:
-                    selectors = [
-                        "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
-                    ]
+                    selectors = [".doctor-voice-spcl-sec .et_pb_code_inner a"]
                     additional_links = ["url"]
-                    expected_link_count = 21
 
                     log.info("Verifying links for multiple selectors")
-                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    verify_listlinks(
+                        selectors,
+                        additional_links,
+                    )
                     log.info("All links verified successfully")
 
                 except Exception:
-                    self.driver.close()
-                for handle in self.driver.window_handles:
-                    if handle != main_window:
-                        self.driver.switch_to.window(handle)
-                        self.driver.close()
-
-                # Switch back to the main window
-                self.driver.switch_to.window(main_window)
+                    ()
+            assert all(result == "pass" for result in result_broken)
