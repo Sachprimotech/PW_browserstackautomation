@@ -24,10 +24,14 @@ class Testone(BaseClass):
 
         window_size = self.driver.get_window_size()
         if window_size["width"] > 980:
-            popup = self.driver.find_element(
-                By.CSS_SELECTOR, "#onesignal-slidedown-dialog .primary.slidedown-button"
-            )
-            popup.click()
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
 
             log.info("start")
 
@@ -209,7 +213,11 @@ class Testone(BaseClass):
 
                 log.info("end")
 
-            selectors = ["div#editor-pick-section a"]
+            selectors = [
+                "#Editorpickssec .editorBlog h2.entry-title a",
+                ".et_pb_post_extra .post-categories",
+                "#Editorpickssec .editorBlog .post-media a",
+            ]
             additional_links = ["https://www.physiciansweekly.com/"]
             expected_link_count = 13
 
