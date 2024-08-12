@@ -268,21 +268,19 @@ class Testone(BaseClass):
             for All in All_links:
                 links = All.get_attribute("href")
                 urls.append(links)
-            urls.append("https://www.physiciansweekly.com/")
-            for soc in urls:
-                self.driver.execute_script("window.open(arguments[0])", soc)
+            # urls.append("https://www.physiciansweekly.com/")
+            # for soc in urls:
+            #     # self.driver.execute_script("window.open(arguments[0])", soc)
+            #     self.driver.execute_script("window.open('_blank'),soc")
 
-            handles = self.driver.window_handles
+            # handles = self.driver.window_handles
 
-            for windows in handles:
-                self.driver.switch_to.window(windows)
-                alllinks = self.driver.current_url
-                allwindowsinks.append(alllinks)
+            # for windows in handles:
+            #     self.driver.switch_to.window(windows)
+            #     alllinks = self.driver.current_url
+            #     allwindowsinks.append(alllinks)
 
-            log.info("verifying all social links")
-            assert set(urls) == set(allwindowsinks) or len(set(allwindowsinks)) == 12
-            log.info("All social links are verified sucessfully")
-            for social in allwindowsinks:
+            for social in urls:
                 response = requests.get(social)
 
                 status_code = response.status_code

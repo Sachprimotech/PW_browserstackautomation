@@ -31,14 +31,14 @@ class Testone(BaseClass):
 
         elements = self.driver.find_elements(
             By.CSS_SELECTOR,
-            "#doctorVoicesection div#doctorVoiceFeatureblog",
+            "#newsSection .et_pb_with_border",
         )
 
         fetched_css_properties = []
 
         for element in elements:
 
-            d = ["margin-right", "width", "border-right", "padding-right"]
+            d = ["margin-right", "padding-right", "border"]
             for i in d:
                 fetched_css_properties.append(element.value_of_css_property(i))
 

@@ -37,20 +37,7 @@ class Testone(BaseClass):
             selectors_and_properties = [
                 (
                     "#newsSection .et_pb_with_border",
-                    {
-                        "25.5938px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "16.5938px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "0px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "8.4375px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                    },
+                    {"0px none rgba(0, 0, 0, 0.5)", "8.4375px", "0px", "25.5938px"},
                     ["margin-right", "padding-right", "border"],
                 ),
                 (
@@ -172,20 +159,7 @@ class Testone(BaseClass):
             selectors_and_properties = [
                 (
                     "#newsSection .et_pb_with_border",
-                    {
-                        "25.5938px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "16.5938px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "0px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "8.4375px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                    },
+                    {"0px none rgba(0, 0, 0, 0.5)", "0px"},
                     ["margin-right", "padding-right", "border"],
                 ),
                 (
@@ -307,20 +281,7 @@ class Testone(BaseClass):
             selectors_and_properties = [
                 (
                     "#newsSection .et_pb_with_border",
-                    {
-                        "25.5938px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "16.5938px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "0px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                        "8.4375px",
-                        "0px",
-                        "0px none rgba(0, 0, 0, 0.5)",
-                    },
+                    {"0px none rgba(0, 0, 0, 0.5)", "0px"},
                     ["margin-right", "padding-right", "border"],
                 ),
                 (

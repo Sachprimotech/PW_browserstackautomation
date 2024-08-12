@@ -27,1199 +27,326 @@
 2024-07-02 18:09:44,597 :INFO : test_HomePage :start
 
 
-
-
-
-
-2024-08-09 18:49:42,284 :INFO : test_doctorvoicecolm :chrome
-2024-08-09 18:49:45,655 :INFO : test_doctorvoicecolm :start
-2024-08-09 18:51:47,634 :INFO : test_doctorvoicecolm :chrome
-2024-08-09 18:52:00,369 :INFO : test_doctorvoicecolm :start
-2024-08-09 18:55:24,823 :INFO : test_doctorvoicecolm :MicrosoftEdge
-2024-08-09 18:55:56,550 :INFO : test_doctorvoicecolm :start
-2024-08-09 18:58:59,833 :INFO : test_doctorvoicecolm :start
-2024-08-09 18:59:47,778 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:00:35,402 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:01:35,324 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:02:48,784 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:03:31,561 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:04:43,817 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:05:54,273 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:07:06,968 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:08:17,844 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:08:46,133 :INFO : test_doctorvoicecolm :start
-2024-08-09 19:19:18,535 :INFO : testcolmlinks :MicrosoftEdge
-2024-08-09 19:19:33,129 :INFO : testcolmlinks :start
-2024-08-09 19:19:33,130 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:21:43,134 :INFO : testcolmlinks :start
-2024-08-09 19:21:43,136 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:23:44,792 :INFO : testcolmlinks :start
-2024-08-09 19:23:44,794 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:25:51,212 :INFO : testcolmlinks :start
-2024-08-09 19:25:51,213 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:28:12,435 :INFO : testcolmlinks :start
-2024-08-09 19:28:12,437 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:30:11,097 :INFO : testcolmlinks :start
-2024-08-09 19:30:11,098 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:31:40,385 :INFO : testcolmlinks :start
-2024-08-09 19:31:40,387 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:32:53,870 :INFO : testcolmlinks :start
-2024-08-09 19:32:53,872 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:34:06,711 :INFO : testcolmlinks :start
-2024-08-09 19:34:06,713 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:36:02,058 :INFO : testcolmlinks :MicrosoftEdge
-2024-08-09 19:36:15,635 :INFO : testcolmlinks :start
-2024-08-09 19:36:15,637 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:37:04,595 :INFO : testcolmlinks :chrome
-2024-08-09 19:37:12,946 :INFO : testcolmlinks :start
-2024-08-09 19:37:12,949 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:38:11,167 :INFO : testcolmlinks :safari
-2024-08-09 19:38:15,332 :INFO : testcolmlinks :start
-2024-08-09 19:38:18,435 :INFO : testcolmlinks :start
-2024-08-09 19:38:18,437 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:38:26,499 :INFO : testcolmlinks :start
-2024-08-09 19:38:26,501 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:38:34,166 :INFO : testcolmlinks :start
-2024-08-09 19:38:34,168 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:38:43,272 :INFO : testcolmlinks :start
-2024-08-09 19:38:43,274 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:38:51,579 :INFO : testcolmlinks :start
-2024-08-09 19:38:51,581 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:38:59,082 :INFO : testcolmlinks :start
-2024-08-09 19:38:59,084 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:39:07,717 :INFO : testcolmlinks :start
-2024-08-09 19:39:07,718 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:39:15,780 :INFO : testcolmlinks :start
-2024-08-09 19:39:15,782 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:39:23,523 :INFO : testcolmlinks :start
-2024-08-09 19:39:23,524 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:39:31,087 :INFO : testcolmlinks :start
-2024-08-09 19:39:31,089 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:39:39,693 :INFO : testcolmlinks :start
-2024-08-09 19:39:39,695 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:40:08,998 :INFO : testcolmlinks :chrome
-2024-08-09 19:40:29,367 :INFO : testcolmlinks :start
-2024-08-09 19:40:29,368 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:41:48,001 :INFO : testcolmlinks :safari
-2024-08-09 19:41:53,503 :INFO : testcolmlinks :start
-2024-08-09 19:41:57,175 :INFO : testcolmlinks :start
-2024-08-09 19:41:57,177 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:42:04,197 :INFO : testcolmlinks :start
-2024-08-09 19:42:04,198 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:42:13,044 :INFO : testcolmlinks :start
-2024-08-09 19:42:13,046 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:42:20,103 :INFO : testcolmlinks :start
-2024-08-09 19:42:20,104 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:42:29,440 :INFO : testcolmlinks :start
-2024-08-09 19:42:29,442 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:42:36,910 :INFO : testcolmlinks :start
-2024-08-09 19:42:36,912 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:42:44,351 :INFO : testcolmlinks :start
-2024-08-09 19:42:44,353 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:42:51,823 :INFO : testcolmlinks :start
-2024-08-09 19:42:51,825 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:42:58,834 :INFO : testcolmlinks :start
-2024-08-09 19:42:58,836 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:43:06,963 :INFO : testcolmlinks :start
-2024-08-09 19:43:06,964 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:43:15,183 :INFO : testcolmlinks :start
-2024-08-09 19:43:15,185 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:43:38,642 :INFO : testcolmlinks :chrome
-2024-08-09 19:43:48,147 :INFO : testcolmlinks :start
-2024-08-09 19:43:48,149 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:44:31,005 :INFO : testcolmlinks :start
-2024-08-09 19:44:31,007 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:45:08,579 :INFO : testcolmlinks :start
-2024-08-09 19:45:08,581 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:45:48,776 :INFO : testcolmlinks :start
-2024-08-09 19:45:48,778 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:46:30,015 :INFO : testcolmlinks :start
-2024-08-09 19:46:30,018 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:47:09,423 :INFO : testcolmlinks :start
-2024-08-09 19:47:09,425 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:47:36,172 :INFO : testcolmlinks :start
-2024-08-09 19:47:36,174 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:48:02,606 :INFO : testcolmlinks :start
-2024-08-09 19:48:02,608 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:48:28,651 :INFO : testcolmlinks :start
-2024-08-09 19:48:28,653 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:48:53,092 :INFO : testcolmlinks :start
-2024-08-09 19:48:53,094 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:49:39,359 :INFO : testcolmlinks :start
-2024-08-09 19:49:39,360 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:50:31,114 :INFO : testcolmlinks :chrome
-2024-08-09 19:50:42,793 :INFO : testcolmlinks :start
-2024-08-09 19:50:42,795 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:50:58,081 :INFO : testcolmlinks :MicrosoftEdge
-2024-08-09 19:51:09,238 :INFO : testcolmlinks :start
-2024-08-09 19:51:09,240 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:51:49,392 :INFO : testcolmlinks :start
-2024-08-09 19:51:49,394 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:52:31,867 :INFO : testcolmlinks :start
-2024-08-09 19:52:31,869 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:53:06,460 :INFO : testcolmlinks :chrome
-2024-08-09 19:53:13,557 :INFO : testcolmlinks :start
-2024-08-09 19:53:13,560 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:53:19,578 :INFO : testcolmlinks :start
-2024-08-09 19:53:19,578 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:53:58,175 :INFO : testcolmlinks :start
-2024-08-09 19:53:58,177 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:54:01,252 :INFO : testcolmlinks :start
-2024-08-09 19:54:01,252 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:54:44,728 :INFO : testcolmlinks :start
-2024-08-09 19:54:44,731 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:54:46,917 :INFO : testcolmlinks :start
-2024-08-09 19:54:46,917 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:55:13,938 :INFO : testcolmlinks :start
-2024-08-09 19:55:13,940 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:55:26,583 :INFO : testcolmlinks :start
-2024-08-09 19:55:26,583 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:55:46,198 :INFO : testcolmlinks :start
-2024-08-09 19:55:46,201 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:56:06,909 :INFO : testcolmlinks :start
-2024-08-09 19:56:06,909 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:56:16,509 :INFO : testcolmlinks :start
-2024-08-09 19:56:16,510 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:56:42,177 :INFO : testcolmlinks :start
-2024-08-09 19:56:42,179 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:56:47,263 :INFO : testcolmlinks :start
-2024-08-09 19:56:47,263 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:57:12,940 :INFO : testcolmlinks :start
-2024-08-09 19:57:12,940 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:57:25,076 :INFO : testcolmlinks :start
-2024-08-09 19:57:25,078 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:57:40,589 :INFO : testcolmlinks :start
-2024-08-09 19:57:40,589 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:58:06,282 :INFO : testcolmlinks :start
-2024-08-09 19:58:06,282 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:58:29,349 :INFO : testcolmlinks :start
-2024-08-09 19:58:29,349 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 19:59:04,455 :INFO : testcolmlinks :start
-2024-08-09 19:59:04,455 :INFO : testcolmlinks :Verifying links for multiple selectors
-2024-08-09 20:03:05,660 :INFO : test_doctorvoiceui :MicrosoftEdge
-2024-08-09 20:03:13,835 :INFO : test_doctorvoiceui :start
-2024-08-09 20:07:13,250 :INFO : test_doctorvoiceui :safari
-2024-08-09 20:07:13,311 :INFO : test_doctorvoiceui :start
-2024-08-09 20:07:17,431 :INFO : test_doctorvoiceui :start
-2024-08-09 20:12:19,063 :INFO : test_doctorvoiceui :chrome
-2024-08-09 20:12:25,603 :INFO : test_doctorvoiceui :start
-2024-08-10 12:27:59,261 :INFO : test_cssslector :{'68px', '338.359375px', '50px', '260.765625px', 'none', '287.84375px', '316.15625px', '66px', 'auto', '254.84375px', '390px', '294.046875px', '55px', '0px none rgb(21, 44, 108)', 'fill', '323.0625px', '382px', '42px', '334.390625px', '315.15625px'}
-2024-08-10 12:27:59,263 :INFO : test_cssslector :{'width': 820, 'height': 1180}
-2024-08-10 12:28:34,734 :INFO : test_cssslector :{'338.359px', '54px', 'none', '260.766px', '55px', '419.188px', '42px', '68.7969px', '323.062px', 'auto', '287.844px', '382px', 'fill', '0px none rgb(21, 44, 108)', '315.156px', '50px', '49.7188px', '273.922px', '316.156px', '334.391px', '294.047px'}
-2024-08-10 12:28:34,736 :INFO : test_cssslector :{'width': 1936, 'height': 1056}
-2024-08-10 12:29:04,855 :INFO : test_cssslector :{'68.7969px', '315.156px', '294.047px', 'fill', '50px', '55px', 'none', '287.844px', '338.359px', '382px', '316.156px', 'auto', '260.766px', '273.922px', '54px', '49.7188px', '0px none rgb(21, 44, 108)', '334.391px', '42px', '323.062px', '419.188px'}
-2024-08-10 12:29:04,857 :INFO : test_cssslector :{'width': 1920, 'height': 1055}
-2024-08-10 12:29:35,750 :INFO : test_cssslector :{'54px', '344px', '281.478px', '282.356px', '262.706px', '42px', 'auto', '298.561px', '302.1px', 'fill', '257.189px', '340.883px', '233.122px', '288.5px', 'none', '0px none rgb(21, 44, 108)', '60px'}
-2024-08-10 12:29:35,752 :INFO : test_cssslector :{'width': 384, 'height': 693}
-2024-08-10 12:32:39,156 :INFO : test_doctorvoiceui :safari
-2024-08-10 12:32:39,214 :INFO : test_doctorvoiceui :start
-2024-08-10 12:32:43,211 :INFO : test_doctorvoiceui :start
-2024-08-10 12:37:33,376 :INFO : test_doctorvoiceui :chrome
-2024-08-10 12:37:37,274 :INFO : test_doctorvoiceui :start
-2024-08-10 12:41:09,674 :INFO : test_doctorvoiceui :chrome
-2024-08-10 12:41:25,010 :INFO : test_doctorvoiceui :start
-2024-08-10 12:58:43,899 :INFO : test_cssslector :{'rgba(21, 44, 108, 1)', 'normal', '18px', '27px', '500', '30px', '42px', 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box', 'Elza', '0px'}
-2024-08-10 12:58:43,901 :INFO : test_cssslector :{'width': 1920, 'height': 1055}
-2024-08-10 12:59:18,360 :INFO : test_cssslector :{'27px', '16px', '0px', 'rgba(21, 44, 108, 1)', 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box', '42px', '30px', 'Elza', 'normal', '500'}
-2024-08-10 12:59:18,362 :INFO : test_cssslector :{'width': 384, 'height': 693}
-2024-08-10 12:59:53,438 :INFO : test_cssslector :{'42px', '500', '27px', 'Elza', 'normal', '30px', '18px', '0px', 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box', 'rgba(21, 44, 108, 1)'}
-2024-08-10 12:59:53,440 :INFO : test_cssslector :{'width': 1936, 'height': 1056}
-2024-08-10 13:00:25,789 :INFO : test_cssslector :{'normal', '42px', '0px', 'Elza', '22px', '30px', 'rgba(21, 44, 108, 1)', '18px', '500', 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box'}
-2024-08-10 13:00:25,791 :INFO : test_cssslector :{'width': 820, 'height': 1180}
-2024-08-10 13:04:01,446 :INFO : test_doctorvoiceui :chrome
-2024-08-10 13:04:08,995 :INFO : test_doctorvoiceui :start
-2024-08-10 13:07:53,331 :INFO : test_doctorvoiceui :chrome
-2024-08-10 13:07:58,646 :INFO : test_doctorvoiceui :start
-2024-08-10 13:15:27,849 :INFO : test_doctorvoiceui :MicrosoftEdge
-2024-08-10 13:15:46,953 :INFO : test_doctorvoiceui :start
-2024-08-10 13:29:52,977 :INFO : test_footer :chrome
-2024-08-10 13:29:52,979 :INFO : test_footer :start
-2024-08-10 13:30:11,936 :INFO : test_footer :MicrosoftEdge
-2024-08-10 13:30:11,938 :INFO : test_footer :start
-2024-08-10 13:30:34,188 :INFO : test_footer :safari
-2024-08-10 13:30:34,190 :INFO : test_footer :start
-2024-08-10 13:30:47,846 :INFO : test_footer :chrome
-2024-08-10 13:30:47,848 :INFO : test_footer :start
-2024-08-10 13:32:26,646 :INFO : test_footer :chrome
-2024-08-10 13:32:26,647 :INFO : test_footer :start
-2024-08-10 13:32:30,056 :INFO : test_footer :None
-2024-08-10 13:32:30,059 :INFO : test_footer :end
-2024-08-10 13:33:23,174 :INFO : test_footer :verifying all social links
-2024-08-10 13:33:23,176 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 13:33:25,225 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:25,228 :INFO : test_footer :No broken links
-2024-08-10 13:33:29,540 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:29,542 :INFO : test_footer :No broken links
-2024-08-10 13:33:31,087 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:31,089 :INFO : test_footer :No broken links
-2024-08-10 13:33:31,559 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:31,561 :INFO : test_footer :No broken links
-2024-08-10 13:33:33,208 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:33,210 :INFO : test_footer :No broken links
-2024-08-10 13:33:34,021 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:34,023 :INFO : test_footer :No broken links
-2024-08-10 13:33:34,828 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:34,829 :INFO : test_footer :No broken links
-2024-08-10 13:33:35,695 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:35,697 :INFO : test_footer :No broken links
-2024-08-10 13:33:36,510 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:36,512 :INFO : test_footer :No broken links
-2024-08-10 13:33:37,224 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:37,226 :INFO : test_footer :No broken links
-2024-08-10 13:33:38,020 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:38,022 :INFO : test_footer :No broken links
-2024-08-10 13:33:38,880 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:38,881 :INFO : test_footer :No broken links
-2024-08-10 13:33:39,704 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:39,706 :INFO : test_footer :No broken links
-2024-08-10 13:33:40,548 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:40,550 :INFO : test_footer :No broken links
-2024-08-10 13:33:41,404 :INFO : test_footer :verfying any broken links
-2024-08-10 13:33:41,406 :INFO : test_footer :No broken links
-2024-08-10 13:33:59,620 :INFO : test_footer :MicrosoftEdge
-2024-08-10 13:33:59,622 :INFO : test_footer :start
-2024-08-10 13:34:04,536 :INFO : test_footer :None
-2024-08-10 13:34:04,538 :INFO : test_footer :end
-2024-08-10 13:34:45,579 :INFO : test_footer :verifying all social links
-2024-08-10 13:34:45,581 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 13:34:46,405 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:46,407 :INFO : test_footer :No broken links
-2024-08-10 13:34:51,335 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:51,337 :INFO : test_footer :No broken links
-2024-08-10 13:34:52,840 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:52,842 :INFO : test_footer :No broken links
-2024-08-10 13:34:53,615 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:53,617 :INFO : test_footer :No broken links
-2024-08-10 13:34:54,431 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:54,433 :INFO : test_footer :No broken links
-2024-08-10 13:34:55,516 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:55,518 :INFO : test_footer :No broken links
-2024-08-10 13:34:56,210 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:56,212 :INFO : test_footer :No broken links
-2024-08-10 13:34:56,999 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:57,001 :INFO : test_footer :No broken links
-2024-08-10 13:34:57,808 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:57,810 :INFO : test_footer :No broken links
-2024-08-10 13:34:58,598 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:58,600 :INFO : test_footer :No broken links
-2024-08-10 13:34:59,058 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:59,060 :INFO : test_footer :No broken links
-2024-08-10 13:34:59,877 :INFO : test_footer :verfying any broken links
-2024-08-10 13:34:59,879 :INFO : test_footer :No broken links
-2024-08-10 13:35:00,696 :INFO : test_footer :verfying any broken links
-2024-08-10 13:35:00,698 :INFO : test_footer :No broken links
-2024-08-10 13:35:01,498 :INFO : test_footer :verfying any broken links
-2024-08-10 13:35:01,500 :INFO : test_footer :No broken links
-2024-08-10 13:35:02,301 :INFO : test_footer :verfying any broken links
-2024-08-10 13:35:02,303 :INFO : test_footer :No broken links
-2024-08-10 13:35:23,020 :INFO : test_footer :safari
-2024-08-10 13:35:23,022 :INFO : test_footer :start
-2024-08-10 13:35:26,931 :INFO : test_footer :None
-2024-08-10 13:35:26,933 :INFO : test_footer :end
-2024-08-10 13:35:34,217 :INFO : test_footer :verifying all social links
-2024-08-10 13:35:34,219 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 13:35:37,903 :INFO : test_footer :verfying any broken links
-2024-08-10 13:35:37,905 :INFO : test_footer :No broken links
-2024-08-10 13:35:54,804 :INFO : test_footer :chrome
-2024-08-10 13:35:54,811 :INFO : test_footer :start
-2024-08-10 13:43:55,514 :INFO : test_footer :chrome
-2024-08-10 13:43:55,516 :INFO : test_footer :start
-2024-08-10 13:44:02,256 :INFO : test_footer :None
-2024-08-10 13:44:02,258 :INFO : test_footer :end
-2024-08-10 13:44:34,656 :INFO : test_footer :verifying all social links
-2024-08-10 13:44:34,658 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 13:44:35,541 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:35,543 :INFO : test_footer :No broken links
-2024-08-10 13:44:36,383 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:36,386 :INFO : test_footer :No broken links
-2024-08-10 13:44:40,592 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:40,594 :INFO : test_footer :No broken links
-2024-08-10 13:44:42,185 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:42,187 :INFO : test_footer :No broken links
-2024-08-10 13:44:42,968 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:42,970 :INFO : test_footer :No broken links
-2024-08-10 13:44:43,821 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:43,823 :INFO : test_footer :No broken links
-2024-08-10 13:44:44,289 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:44,290 :INFO : test_footer :No broken links
-2024-08-10 13:44:45,989 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:45,991 :INFO : test_footer :No broken links
-2024-08-10 13:44:46,824 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:46,826 :INFO : test_footer :No broken links
-2024-08-10 13:44:47,581 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:47,583 :INFO : test_footer :No broken links
-2024-08-10 13:44:48,644 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:48,646 :INFO : test_footer :No broken links
-2024-08-10 13:44:49,494 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:49,496 :INFO : test_footer :No broken links
-2024-08-10 13:44:50,310 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:50,313 :INFO : test_footer :No broken links
-2024-08-10 13:44:51,146 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:51,148 :INFO : test_footer :No broken links
-2024-08-10 13:44:52,008 :INFO : test_footer :verfying any broken links
-2024-08-10 13:44:52,010 :INFO : test_footer :No broken links
-2024-08-10 13:45:13,034 :INFO : test_footer :safari
-2024-08-10 13:45:13,038 :INFO : test_footer :start
-2024-08-10 13:45:16,835 :INFO : test_footer :None
-2024-08-10 13:45:16,837 :INFO : test_footer :end
-2024-08-10 13:45:23,888 :INFO : test_footer :verifying all social links
-2024-08-10 13:45:23,891 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 13:45:24,771 :INFO : test_footer :verfying any broken links
-2024-08-10 13:45:24,773 :INFO : test_footer :No broken links
-2024-08-10 13:45:44,399 :INFO : test_footer :MicrosoftEdge
-2024-08-10 13:45:44,400 :INFO : test_footer :start
-2024-08-10 13:45:49,682 :INFO : test_footer :None
-2024-08-10 13:45:49,684 :INFO : test_footer :end
-2024-08-10 13:46:37,243 :INFO : test_footer :verifying all social links
-2024-08-10 13:46:37,245 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 13:46:38,101 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:38,103 :INFO : test_footer :No broken links
-2024-08-10 13:46:38,957 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:38,959 :INFO : test_footer :No broken links
-2024-08-10 13:46:43,491 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:43,493 :INFO : test_footer :No broken links
-2024-08-10 13:46:45,007 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:45,009 :INFO : test_footer :No broken links
-2024-08-10 13:46:46,724 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:46,726 :INFO : test_footer :No broken links
-2024-08-10 13:46:47,542 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:47,544 :INFO : test_footer :No broken links
-2024-08-10 13:46:48,415 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:48,417 :INFO : test_footer :No broken links
-2024-08-10 13:46:49,209 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:49,211 :INFO : test_footer :No broken links
-2024-08-10 13:46:50,041 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:50,043 :INFO : test_footer :No broken links
-2024-08-10 13:46:50,512 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:50,514 :INFO : test_footer :No broken links
-2024-08-10 13:46:51,338 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:51,340 :INFO : test_footer :No broken links
-2024-08-10 13:46:52,136 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:52,138 :INFO : test_footer :No broken links
-2024-08-10 13:46:52,941 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:52,943 :INFO : test_footer :No broken links
-2024-08-10 13:46:53,657 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:53,659 :INFO : test_footer :No broken links
-2024-08-10 13:46:54,477 :INFO : test_footer :verfying any broken links
-2024-08-10 13:46:54,479 :INFO : test_footer :No broken links
-2024-08-10 13:47:07,483 :INFO : test_footer :chrome
-2024-08-10 13:47:07,485 :INFO : test_footer :start
-2024-08-10 13:47:10,295 :INFO : test_footer :None
-2024-08-10 13:47:10,297 :INFO : test_footer :end
-2024-08-10 13:47:55,317 :INFO : test_footer :verifying all social links
-2024-08-10 13:47:55,319 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 13:47:56,824 :INFO : test_footer :verfying any broken links
-2024-08-10 13:47:56,826 :INFO : test_footer :No broken links
-2024-08-10 13:47:57,662 :INFO : test_footer :verfying any broken links
-2024-08-10 13:47:57,664 :INFO : test_footer :No broken links
-2024-08-10 13:48:03,163 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:03,165 :INFO : test_footer :No broken links
-2024-08-10 13:48:03,961 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:03,963 :INFO : test_footer :No broken links
-2024-08-10 13:48:04,768 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:04,770 :INFO : test_footer :No broken links
-2024-08-10 13:48:06,280 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:06,282 :INFO : test_footer :No broken links
-2024-08-10 13:48:07,105 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:07,107 :INFO : test_footer :No broken links
-2024-08-10 13:48:07,567 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:07,569 :INFO : test_footer :No broken links
-2024-08-10 13:48:08,407 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:08,409 :INFO : test_footer :No broken links
-2024-08-10 13:48:09,086 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:09,088 :INFO : test_footer :No broken links
-2024-08-10 13:48:09,897 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:09,899 :INFO : test_footer :No broken links
-2024-08-10 13:48:11,606 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:11,607 :INFO : test_footer :No broken links
-2024-08-10 13:48:12,411 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:12,413 :INFO : test_footer :No broken links
-2024-08-10 13:48:13,209 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:13,211 :INFO : test_footer :No broken links
-2024-08-10 13:48:13,997 :INFO : test_footer :verfying any broken links
-2024-08-10 13:48:13,999 :INFO : test_footer :No broken links
-2024-08-10 14:11:46,922 :INFO : test_footer :MicrosoftEdge
-2024-08-10 14:11:46,924 :INFO : test_footer :start
-2024-08-10 14:11:50,764 :INFO : test_footer :None
-2024-08-10 14:11:50,766 :INFO : test_footer :end
-2024-08-10 14:12:20,719 :INFO : test_footer :verifying all social links
-2024-08-10 14:12:20,721 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 14:12:21,645 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:21,647 :INFO : test_footer :No broken links
-2024-08-10 14:12:22,479 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:22,481 :INFO : test_footer :No broken links
-2024-08-10 14:12:23,392 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:23,394 :INFO : test_footer :No broken links
-2024-08-10 14:12:24,955 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:24,957 :INFO : test_footer :No broken links
-2024-08-10 14:12:25,440 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:25,442 :INFO : test_footer :No broken links
-2024-08-10 14:12:26,270 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:26,272 :INFO : test_footer :No broken links
-2024-08-10 14:12:27,164 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:27,165 :INFO : test_footer :No broken links
-2024-08-10 14:12:28,016 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:28,018 :INFO : test_footer :No broken links
-2024-08-10 14:12:28,837 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:28,839 :INFO : test_footer :No broken links
-2024-08-10 14:12:29,679 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:29,681 :INFO : test_footer :No broken links
-2024-08-10 14:12:30,608 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:30,610 :INFO : test_footer :No broken links
-2024-08-10 14:12:31,454 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:31,456 :INFO : test_footer :No broken links
-2024-08-10 14:12:32,317 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:32,319 :INFO : test_footer :No broken links
-2024-08-10 14:12:33,063 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:33,065 :INFO : test_footer :No broken links
-2024-08-10 14:12:33,865 :INFO : test_footer :verfying any broken links
-2024-08-10 14:12:33,866 :INFO : test_footer :No broken links
-2024-08-10 14:12:46,706 :INFO : test_footer :chrome
-2024-08-10 14:12:46,710 :INFO : test_footer :start
-2024-08-10 14:12:49,644 :INFO : test_footer :None
-2024-08-10 14:12:49,646 :INFO : test_footer :end
-2024-08-10 14:13:38,121 :INFO : test_footer :verifying all social links
-2024-08-10 14:13:38,122 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 14:13:39,068 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:39,069 :INFO : test_footer :No broken links
-2024-08-10 14:13:39,982 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:39,984 :INFO : test_footer :No broken links
-2024-08-10 14:13:41,768 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:41,770 :INFO : test_footer :No broken links
-2024-08-10 14:13:43,316 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:43,318 :INFO : test_footer :No broken links
-2024-08-10 14:13:43,774 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:43,776 :INFO : test_footer :No broken links
-2024-08-10 14:13:44,570 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:44,572 :INFO : test_footer :No broken links
-2024-08-10 14:13:45,374 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:45,376 :INFO : test_footer :No broken links
-2024-08-10 14:13:46,172 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:46,174 :INFO : test_footer :No broken links
-2024-08-10 14:13:46,979 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:46,981 :INFO : test_footer :No broken links
-2024-08-10 14:13:47,762 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:47,764 :INFO : test_footer :No broken links
-2024-08-10 14:13:48,579 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:48,581 :INFO : test_footer :No broken links
-2024-08-10 14:13:49,415 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:49,417 :INFO : test_footer :No broken links
-2024-08-10 14:13:50,109 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:50,111 :INFO : test_footer :No broken links
-2024-08-10 14:13:50,948 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:50,950 :INFO : test_footer :No broken links
-2024-08-10 14:13:51,740 :INFO : test_footer :verfying any broken links
-2024-08-10 14:13:51,742 :INFO : test_footer :No broken links
-2024-08-10 14:14:11,817 :INFO : test_footer :chrome
-2024-08-10 14:14:11,819 :INFO : test_footer :start
-2024-08-10 14:14:18,099 :INFO : test_footer :None
-2024-08-10 14:14:18,100 :INFO : test_footer :end
-2024-08-10 14:14:51,113 :INFO : test_footer :verifying all social links
-2024-08-10 14:14:51,115 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 14:14:51,965 :INFO : test_footer :verfying any broken links
-2024-08-10 14:14:51,967 :INFO : test_footer :No broken links
-2024-08-10 14:14:53,106 :INFO : test_footer :verfying any broken links
-2024-08-10 14:14:53,108 :INFO : test_footer :No broken links
-2024-08-10 14:14:53,570 :INFO : test_footer :verfying any broken links
-2024-08-10 14:14:53,572 :INFO : test_footer :No broken links
-2024-08-10 14:14:54,392 :INFO : test_footer :verfying any broken links
-2024-08-10 14:14:54,394 :INFO : test_footer :No broken links
-2024-08-10 14:14:56,441 :INFO : test_footer :verfying any broken links
-2024-08-10 14:14:56,443 :INFO : test_footer :No broken links
-2024-08-10 14:14:57,857 :INFO : test_footer :verfying any broken links
-2024-08-10 14:14:57,859 :INFO : test_footer :No broken links
-2024-08-10 14:14:58,964 :INFO : test_footer :verfying any broken links
-2024-08-10 14:14:58,966 :INFO : test_footer :No broken links
-2024-08-10 14:15:00,304 :INFO : test_footer :verfying any broken links
-2024-08-10 14:15:00,306 :INFO : test_footer :No broken links
-2024-08-10 14:15:01,058 :INFO : test_footer :verfying any broken links
-2024-08-10 14:15:01,060 :INFO : test_footer :No broken links
-2024-08-10 14:15:01,841 :INFO : test_footer :verfying any broken links
-2024-08-10 14:15:01,843 :INFO : test_footer :No broken links
-2024-08-10 14:15:02,834 :INFO : test_footer :verfying any broken links
-2024-08-10 14:15:02,835 :INFO : test_footer :No broken links
-2024-08-10 14:15:03,673 :INFO : test_footer :verfying any broken links
-2024-08-10 14:15:03,675 :INFO : test_footer :No broken links
-2024-08-10 14:15:05,497 :INFO : test_footer :verfying any broken links
-2024-08-10 14:15:05,499 :INFO : test_footer :No broken links
-2024-08-10 14:15:06,293 :INFO : test_footer :verfying any broken links
-2024-08-10 14:15:06,295 :INFO : test_footer :No broken links
-2024-08-10 14:15:07,813 :INFO : test_footer :verfying any broken links
-2024-08-10 14:15:07,815 :INFO : test_footer :No broken links
-2024-08-10 14:15:29,244 :INFO : test_footer :safari
-2024-08-10 14:15:29,245 :INFO : test_footer :start
-2024-08-10 14:15:33,281 :INFO : test_footer :None
-2024-08-10 14:15:33,283 :INFO : test_footer :end
-2024-08-10 14:15:40,315 :INFO : test_footer :verifying all social links
-2024-08-10 14:15:40,317 :INFO : test_footer :All social links are verified sucessfully
-2024-08-10 14:15:41,148 :INFO : test_footer :verfying any broken links
-2024-08-10 14:15:41,150 :INFO : test_footer :No broken links
-2024-08-10 17:11:56,630 :INFO : test_menubar :chrome
-2024-08-10 17:11:56,632 :INFO : test_menubar :start
-2024-08-10 17:12:14,687 :INFO : test_menubar :MicrosoftEdge
-2024-08-10 17:12:14,690 :INFO : test_menubar :start
-2024-08-10 17:12:31,823 :INFO : test_menubar :chrome
-2024-08-10 17:12:31,825 :INFO : test_menubar :start
-2024-08-10 17:12:53,417 :INFO : test_menubar :safari
-2024-08-10 17:12:53,419 :INFO : test_menubar :start
-2024-08-10 17:15:13,712 :INFO : test_menubar :MicrosoftEdge
-2024-08-10 17:15:13,714 :INFO : test_menubar :start
-2024-08-10 17:15:19,394 :INFO : test_menubar :None
-2024-08-10 17:15:19,398 :INFO : test_menubar :end
-2024-08-10 17:15:33,249 :INFO : test_menubar :href
-2024-08-10 17:15:33,309 :INFO : test_menubar :href
-2024-08-10 17:15:33,368 :INFO : test_menubar :href
-2024-08-10 17:15:33,423 :INFO : test_menubar :href
-2024-08-10 17:15:33,481 :INFO : test_menubar :href
-2024-08-10 17:15:33,539 :INFO : test_menubar :href
-2024-08-10 17:15:33,594 :INFO : test_menubar :href
-2024-08-10 17:15:33,655 :INFO : test_menubar :href
-2024-08-10 17:15:33,715 :INFO : test_menubar :href
-2024-08-10 17:15:33,775 :INFO : test_menubar :href
-2024-08-10 17:15:33,834 :INFO : test_menubar :href
-2024-08-10 17:15:34,485 :INFO : test_menubar :href
-2024-08-10 17:15:34,542 :INFO : test_menubar :href
-2024-08-10 17:15:34,596 :INFO : test_menubar :href
-2024-08-10 17:15:34,664 :INFO : test_menubar :href
-2024-08-10 17:15:34,717 :INFO : test_menubar :href
-2024-08-10 17:15:34,773 :INFO : test_menubar :href
-2024-08-10 17:15:34,824 :INFO : test_menubar :href
-2024-08-10 17:15:34,888 :INFO : test_menubar :href
-2024-08-10 17:15:34,943 :INFO : test_menubar :href
-2024-08-10 17:15:34,996 :INFO : test_menubar :href
-2024-08-10 17:15:35,057 :INFO : test_menubar :href
-2024-08-10 17:15:35,109 :INFO : test_menubar :href
-2024-08-10 17:15:35,163 :INFO : test_menubar :href
-2024-08-10 17:15:35,221 :INFO : test_menubar :href
-2024-08-10 17:15:35,288 :INFO : test_menubar :href
-2024-08-10 17:15:35,343 :INFO : test_menubar :href
-2024-08-10 17:15:35,396 :INFO : test_menubar :href
-2024-08-10 17:15:35,451 :INFO : test_menubar :href
-2024-08-10 17:15:35,507 :INFO : test_menubar :href
-2024-08-10 17:15:35,557 :INFO : test_menubar :href
-2024-08-10 17:15:35,609 :INFO : test_menubar :href
-2024-08-10 17:15:35,662 :INFO : test_menubar :href
-2024-08-10 17:15:35,714 :INFO : test_menubar :href
-2024-08-10 17:15:35,771 :INFO : test_menubar :href
-2024-08-10 17:15:35,823 :INFO : test_menubar :href
-2024-08-10 17:15:35,881 :INFO : test_menubar :href
-2024-08-10 17:15:35,935 :INFO : test_menubar :href
-2024-08-10 17:15:36,004 :INFO : test_menubar :href
-2024-08-10 17:15:36,060 :INFO : test_menubar :href
-2024-08-10 17:15:36,113 :INFO : test_menubar :href
-2024-08-10 17:18:00,323 :INFO : test_menubar :verifying all social links
-2024-08-10 17:18:00,325 :INFO : test_menubar :All social links are verified sucessfully
-2024-08-10 17:18:01,291 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:01,293 :INFO : test_menubar :No broken links
-2024-08-10 17:18:02,146 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:02,148 :INFO : test_menubar :No broken links
-2024-08-10 17:18:03,723 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:03,727 :INFO : test_menubar :No broken links
-2024-08-10 17:18:04,894 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:04,896 :INFO : test_menubar :No broken links
-2024-08-10 17:18:06,755 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:06,758 :INFO : test_menubar :No broken links
-2024-08-10 17:18:07,608 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:07,611 :INFO : test_menubar :No broken links
-2024-08-10 17:18:08,589 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:08,591 :INFO : test_menubar :No broken links
-2024-08-10 17:18:09,448 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:09,450 :INFO : test_menubar :No broken links
-2024-08-10 17:18:11,412 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:11,414 :INFO : test_menubar :No broken links
-2024-08-10 17:18:13,346 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:13,348 :INFO : test_menubar :No broken links
-2024-08-10 17:18:14,292 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:14,294 :INFO : test_menubar :No broken links
-2024-08-10 17:18:15,128 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:15,133 :INFO : test_menubar :No broken links
-2024-08-10 17:18:15,992 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:15,994 :INFO : test_menubar :No broken links
-2024-08-10 17:18:17,890 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:17,893 :INFO : test_menubar :No broken links
-2024-08-10 17:18:18,760 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:18,762 :INFO : test_menubar :No broken links
-2024-08-10 17:18:19,616 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:19,618 :INFO : test_menubar :No broken links
-2024-08-10 17:18:20,480 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:20,482 :INFO : test_menubar :No broken links
-2024-08-10 17:18:22,684 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:22,686 :INFO : test_menubar :No broken links
-2024-08-10 17:18:23,561 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:23,563 :INFO : test_menubar :No broken links
-2024-08-10 17:18:24,435 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:24,438 :INFO : test_menubar :No broken links
-2024-08-10 17:18:25,395 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:25,396 :INFO : test_menubar :No broken links
-2024-08-10 17:18:26,289 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:26,291 :INFO : test_menubar :No broken links
-2024-08-10 17:18:27,153 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:27,155 :INFO : test_menubar :No broken links
-2024-08-10 17:18:28,117 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:28,119 :INFO : test_menubar :No broken links
-2024-08-10 17:18:28,962 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:28,964 :INFO : test_menubar :No broken links
-2024-08-10 17:18:29,810 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:29,812 :INFO : test_menubar :No broken links
-2024-08-10 17:18:30,945 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:30,947 :INFO : test_menubar :No broken links
-2024-08-10 17:18:31,803 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:31,807 :INFO : test_menubar :No broken links
-2024-08-10 17:18:32,665 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:32,667 :INFO : test_menubar :No broken links
-2024-08-10 17:18:34,342 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:34,344 :INFO : test_menubar :No broken links
-2024-08-10 17:18:35,286 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:35,289 :INFO : test_menubar :No broken links
-2024-08-10 17:18:36,127 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:36,129 :INFO : test_menubar :No broken links
-2024-08-10 17:18:36,991 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:36,993 :INFO : test_menubar :No broken links
-2024-08-10 17:18:37,848 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:37,850 :INFO : test_menubar :No broken links
-2024-08-10 17:18:38,689 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:38,691 :INFO : test_menubar :No broken links
-2024-08-10 17:18:39,651 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:39,653 :INFO : test_menubar :No broken links
-2024-08-10 17:18:40,531 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:40,533 :INFO : test_menubar :No broken links
-2024-08-10 17:18:41,425 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:41,427 :INFO : test_menubar :No broken links
-2024-08-10 17:18:42,286 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:42,288 :INFO : test_menubar :No broken links
-2024-08-10 17:18:43,155 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:43,157 :INFO : test_menubar :No broken links
-2024-08-10 17:18:44,021 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:44,023 :INFO : test_menubar :No broken links
-2024-08-10 17:18:44,891 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:44,893 :INFO : test_menubar :No broken links
-2024-08-10 17:18:45,842 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:18:45,844 :INFO : test_menubar :No broken links
-2024-08-10 17:19:07,745 :INFO : test_menubar :safari
-2024-08-10 17:19:07,747 :INFO : test_menubar :start
-2024-08-10 17:19:25,668 :INFO : test_menubar :chrome
-2024-08-10 17:19:25,670 :INFO : test_menubar :start
-2024-08-10 17:19:30,316 :INFO : test_menubar :None
-2024-08-10 17:19:30,318 :INFO : test_menubar :end
-2024-08-10 17:19:42,698 :INFO : test_menubar :href
-2024-08-10 17:19:42,758 :INFO : test_menubar :href
-2024-08-10 17:19:42,813 :INFO : test_menubar :href
-2024-08-10 17:19:42,863 :INFO : test_menubar :href
-2024-08-10 17:19:42,913 :INFO : test_menubar :href
-2024-08-10 17:19:42,963 :INFO : test_menubar :href
-2024-08-10 17:19:43,013 :INFO : test_menubar :href
-2024-08-10 17:19:43,065 :INFO : test_menubar :href
-2024-08-10 17:19:43,117 :INFO : test_menubar :href
-2024-08-10 17:19:43,167 :INFO : test_menubar :href
-2024-08-10 17:19:43,220 :INFO : test_menubar :href
-2024-08-10 17:19:43,857 :INFO : test_menubar :href
-2024-08-10 17:19:43,908 :INFO : test_menubar :href
-2024-08-10 17:19:43,959 :INFO : test_menubar :href
-2024-08-10 17:19:44,012 :INFO : test_menubar :href
-2024-08-10 17:19:44,072 :INFO : test_menubar :href
-2024-08-10 17:19:44,123 :INFO : test_menubar :href
-2024-08-10 17:19:44,180 :INFO : test_menubar :href
-2024-08-10 17:19:44,244 :INFO : test_menubar :href
-2024-08-10 17:19:44,304 :INFO : test_menubar :href
-2024-08-10 17:19:44,358 :INFO : test_menubar :href
-2024-08-10 17:19:44,409 :INFO : test_menubar :href
-2024-08-10 17:19:44,459 :INFO : test_menubar :href
-2024-08-10 17:19:44,510 :INFO : test_menubar :href
-2024-08-10 17:19:44,558 :INFO : test_menubar :href
-2024-08-10 17:19:44,607 :INFO : test_menubar :href
-2024-08-10 17:19:44,658 :INFO : test_menubar :href
-2024-08-10 17:19:44,710 :INFO : test_menubar :href
-2024-08-10 17:19:44,758 :INFO : test_menubar :href
-2024-08-10 17:19:44,808 :INFO : test_menubar :href
-2024-08-10 17:19:44,865 :INFO : test_menubar :href
-2024-08-10 17:19:44,914 :INFO : test_menubar :href
-2024-08-10 17:19:44,963 :INFO : test_menubar :href
-2024-08-10 17:19:45,019 :INFO : test_menubar :href
-2024-08-10 17:19:45,075 :INFO : test_menubar :href
-2024-08-10 17:19:45,124 :INFO : test_menubar :href
-2024-08-10 17:19:45,174 :INFO : test_menubar :href
-2024-08-10 17:19:45,232 :INFO : test_menubar :href
-2024-08-10 17:19:45,287 :INFO : test_menubar :href
-2024-08-10 17:19:45,338 :INFO : test_menubar :href
-2024-08-10 17:19:45,387 :INFO : test_menubar :href
-2024-08-10 17:23:09,925 :INFO : test_menubar :verifying all social links
-2024-08-10 17:23:09,929 :INFO : test_menubar :All social links are verified sucessfully
-2024-08-10 17:23:10,999 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:11,002 :INFO : test_menubar :No broken links
-2024-08-10 17:23:11,922 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:11,924 :INFO : test_menubar :No broken links
-2024-08-10 17:23:13,746 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:13,748 :INFO : test_menubar :No broken links
-2024-08-10 17:23:14,594 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:14,596 :INFO : test_menubar :No broken links
-2024-08-10 17:23:15,499 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:15,501 :INFO : test_menubar :No broken links
-2024-08-10 17:23:16,385 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:16,387 :INFO : test_menubar :No broken links
-2024-08-10 17:23:17,251 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:17,253 :INFO : test_menubar :No broken links
-2024-08-10 17:23:19,286 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:19,290 :INFO : test_menubar :No broken links
-2024-08-10 17:23:20,179 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:20,181 :INFO : test_menubar :No broken links
-2024-08-10 17:23:21,011 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:21,013 :INFO : test_menubar :No broken links
-2024-08-10 17:23:21,853 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:21,855 :INFO : test_menubar :No broken links
-2024-08-10 17:23:22,703 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:22,705 :INFO : test_menubar :No broken links
-2024-08-10 17:23:23,799 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:23,801 :INFO : test_menubar :No broken links
-2024-08-10 17:23:24,675 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:24,677 :INFO : test_menubar :No broken links
-2024-08-10 17:23:25,650 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:25,652 :INFO : test_menubar :No broken links
-2024-08-10 17:23:27,348 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:27,350 :INFO : test_menubar :No broken links
-2024-08-10 17:23:28,196 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:28,198 :INFO : test_menubar :No broken links
-2024-08-10 17:23:29,068 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:29,071 :INFO : test_menubar :No broken links
-2024-08-10 17:23:30,319 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:30,321 :INFO : test_menubar :No broken links
-2024-08-10 17:23:31,209 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:31,212 :INFO : test_menubar :No broken links
-2024-08-10 17:23:32,181 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:32,183 :INFO : test_menubar :No broken links
-2024-08-10 17:23:33,028 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:33,030 :INFO : test_menubar :No broken links
-2024-08-10 17:23:33,975 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:33,977 :INFO : test_menubar :No broken links
-2024-08-10 17:23:35,758 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:35,759 :INFO : test_menubar :No broken links
-2024-08-10 17:23:36,649 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:36,651 :INFO : test_menubar :No broken links
-2024-08-10 17:23:37,513 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:37,515 :INFO : test_menubar :No broken links
-2024-08-10 17:23:38,351 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:38,353 :INFO : test_menubar :No broken links
-2024-08-10 17:23:39,276 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:39,278 :INFO : test_menubar :No broken links
-2024-08-10 17:23:40,139 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:40,142 :INFO : test_menubar :No broken links
-2024-08-10 17:23:42,037 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:42,039 :INFO : test_menubar :No broken links
-2024-08-10 17:23:42,879 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:42,881 :INFO : test_menubar :No broken links
-2024-08-10 17:23:43,857 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:43,858 :INFO : test_menubar :No broken links
-2024-08-10 17:23:45,885 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:45,887 :INFO : test_menubar :No broken links
-2024-08-10 17:23:46,722 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:46,724 :INFO : test_menubar :No broken links
-2024-08-10 17:23:47,599 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:47,601 :INFO : test_menubar :No broken links
-2024-08-10 17:23:49,388 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:49,390 :INFO : test_menubar :No broken links
-2024-08-10 17:23:51,274 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:51,276 :INFO : test_menubar :No broken links
-2024-08-10 17:23:52,116 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:52,118 :INFO : test_menubar :No broken links
-2024-08-10 17:23:52,978 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:52,980 :INFO : test_menubar :No broken links
-2024-08-10 17:23:54,002 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:54,004 :INFO : test_menubar :No broken links
-2024-08-10 17:23:54,863 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:54,865 :INFO : test_menubar :No broken links
-2024-08-10 17:23:55,719 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:55,720 :INFO : test_menubar :No broken links
-2024-08-10 17:23:56,586 :INFO : test_menubar :verfying any broken links
-2024-08-10 17:23:56,588 :INFO : test_menubar :No broken links
-2024-08-10 17:24:14,535 :INFO : test_menubar :chrome
-2024-08-10 17:24:14,537 :INFO : test_menubar :start
-2024-08-10 18:57:53,813 :INFO : test_header :safari
-2024-08-10 19:01:22,503 :INFO : test_header :chrome
-2024-08-10 19:01:40,416 :INFO : test_header :chrome
-2024-08-10 19:02:02,684 :INFO : test_header :MicrosoftEdge
-2024-08-10 19:04:46,329 :INFO : test_header :chrome
-2024-08-10 19:04:47,085 :INFO : test_header :start
-2024-08-10 19:04:48,978 :INFO : test_header :None
-2024-08-10 19:04:48,980 :INFO : test_header :None
-2024-08-10 19:05:04,584 :INFO : test_header :verifying all social links
-2024-08-10 19:05:04,586 :INFO : test_header :All social links are verified sucessfully
-2024-08-10 19:05:05,498 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:05,500 :INFO : test_header :No broken links
-2024-08-10 19:05:06,350 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:06,352 :INFO : test_header :No broken links
-2024-08-10 19:05:07,994 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:07,995 :INFO : test_header :No broken links
-2024-08-10 19:05:09,102 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:09,104 :INFO : test_header :No broken links
-2024-08-10 19:05:10,145 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:10,147 :INFO : test_header :No broken links
-2024-08-10 19:05:30,390 :INFO : test_header :MicrosoftEdge
-2024-08-10 19:05:31,164 :INFO : test_header :start
-2024-08-10 19:05:33,640 :INFO : test_header :None
-2024-08-10 19:05:33,642 :INFO : test_header :None
-2024-08-10 19:05:50,363 :INFO : test_header :verifying all social links
-2024-08-10 19:05:50,365 :INFO : test_header :All social links are verified sucessfully
-2024-08-10 19:05:51,255 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:51,259 :INFO : test_header :No broken links
-2024-08-10 19:05:52,342 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:52,343 :INFO : test_header :No broken links
-2024-08-10 19:05:53,205 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:53,207 :INFO : test_header :No broken links
-2024-08-10 19:05:55,020 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:55,022 :INFO : test_header :No broken links
-2024-08-10 19:05:56,186 :INFO : test_header :verfying any broken links
-2024-08-10 19:05:56,189 :INFO : test_header :No broken links
-2024-08-10 19:06:13,069 :INFO : test_header :chrome
-2024-08-10 19:06:34,185 :INFO : test_header :safari
-2024-08-10 19:06:34,450 :INFO : test_header :start
-2024-08-10 19:06:36,915 :INFO : test_header :None
-2024-08-10 19:06:36,917 :INFO : test_header :None
-2024-08-10 19:06:37,350 :INFO : test_header :verifying all social links
-2024-08-10 19:06:37,352 :INFO : test_header :All social links are verified sucessfully
-2024-08-10 19:06:38,168 :INFO : test_header :verfying any broken links
-2024-08-10 19:06:38,170 :INFO : test_header :No broken links
-2024-08-10 19:09:06,056 :INFO : test_HomePageBusinessOfMedicine :safari
-2024-08-10 19:09:06,187 :INFO : test_HomePageBusinessOfMedicine :start
-2024-08-10 19:09:39,960 :INFO : test_HomePageBusinessOfMedicine :chrome
-2024-08-10 19:09:56,811 :INFO : test_HomePageBusinessOfMedicine :chrome
-2024-08-10 19:09:56,864 :INFO : test_HomePageBusinessOfMedicine :start
-2024-08-10 19:10:35,054 :INFO : test_HomePageBusinessOfMedicine :MicrosoftEdge
-2024-08-10 19:17:30,193 :INFO : test_HomePagespotlightandpeer :MicrosoftEdge
-2024-08-10 19:17:31,305 :INFO : test_HomePagespotlightandpeer :start
-2024-08-10 19:17:36,827 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:17:36,829 :INFO : test_HomePagespotlightandpeer :Verifying links for multiple selectors
-2024-08-10 19:18:57,232 :INFO : test_HomePagespotlightandpeer :chrome
-2024-08-10 19:18:57,710 :INFO : test_HomePagespotlightandpeer :start
-2024-08-10 19:19:00,294 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:19:00,296 :INFO : test_HomePagespotlightandpeer :Verifying links for multiple selectors
-2024-08-10 19:20:08,149 :INFO : test_HomePagespotlightandpeer :All links verified successfully
-2024-08-10 19:20:25,083 :INFO : test_HomePagespotlightandpeer :chrome
-2024-08-10 19:20:25,217 :INFO : test_HomePagespotlightandpeer :start
-2024-08-10 19:20:26,586 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:20:27,000 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:20:29,968 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:20:31,638 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:20:31,640 :INFO : test_HomePagespotlightandpeer :Verifying links for multiple selectors
-2024-08-10 19:21:11,667 :INFO : test_HomePagespotlightandpeer :All links verified successfully
-2024-08-10 19:21:33,965 :INFO : test_HomePagespotlightandpeer :safari
-2024-08-10 19:21:34,037 :INFO : test_HomePagespotlightandpeer :start
-2024-08-10 19:21:34,591 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:21:34,850 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:21:36,783 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:21:37,860 :INFO : test_HomePagespotlightandpeer :end
-2024-08-10 19:21:37,862 :INFO : test_HomePagespotlightandpeer :Verifying links for multiple selectors
-2024-08-10 19:21:43,439 :INFO : test_HomePagespotlightandpeer :All links verified successfully
-2024-08-10 19:26:43,642 :INFO : test_HomePageDoctorvoice :MicrosoftEdge
-2024-08-10 19:26:43,842 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 19:26:51,353 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 19:26:51,355 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 19:27:31,621 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 19:27:48,348 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 19:27:48,416 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 19:27:59,394 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 19:27:59,513 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 19:28:07,726 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 19:28:07,728 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 19:28:41,309 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 19:29:01,442 :INFO : test_HomePageDoctorvoice :safari
-2024-08-10 19:29:01,517 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 19:29:01,934 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 19:37:04,064 :INFO : test_cssslector :{'400', 'rgba(0, 0, 0, 0) none no-repeat scroll 50% 50% / cover padding-box border-box', 'Elza', '23.8px', 'normal', 'rgba(0, 0, 0, 0.5)', '14px', '0px'}
-2024-08-10 19:37:04,066 :INFO : test_cssslector :{'width': 384, 'height': 693}
-2024-08-10 19:37:23,891 :INFO : test_cssslector :{'normal', '23.8px', 'rgba(0, 0, 0, 0.5)', '400', '14px', 'Elza', 'rgba(0, 0, 0, 0) none no-repeat scroll 50% 50% / cover padding-box border-box', '0px 40px 55px 0px'}
-2024-08-10 19:37:23,894 :INFO : test_cssslector :{'width': 1936, 'height': 1056}
-2024-08-10 19:37:34,614 :INFO : test_cssslector :{'rgba(0, 0, 0, 0) none no-repeat scroll 50% 50% / cover padding-box border-box', 'rgba(0, 0, 0, 0.5)', '23.8px', '0px 40px 55px 0px', 'normal', '14px', 'Elza', '400'}
-2024-08-10 19:37:34,616 :INFO : test_cssslector :{'width': 1920, 'height': 1055}
-2024-08-10 19:37:58,086 :INFO : test_cssslector :{'rgba(0, 0, 0, 0) none no-repeat scroll 50% 50% / cover padding-box border-box', '0px 40px 55px 0px', '23.799999237060547px', '14px', 'Elza', 'rgba(0, 0, 0, 0.5)', 'normal'}
-2024-08-10 19:37:58,088 :INFO : test_cssslector :{'width': 820, 'height': 1180}
-2024-08-10 19:43:52,209 :INFO : test_cssslector :{'18px', '700', '17px', 'rgba(1, 121, 217, 1)', 'normal', '600', 'Elza', '0px', 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box', '14px'}
-2024-08-10 19:43:52,211 :INFO : test_cssslector :{'width': 1936, 'height': 1056}
-2024-08-10 19:44:14,733 :INFO : test_cssslector :{'normal', 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box', '18px', '600', 'rgba(1, 121, 217, 1)', '14px', '0px', '17px', 'Elza', '700'}
-2024-08-10 19:44:14,735 :INFO : test_cssslector :{'width': 1920, 'height': 1055}
-2024-08-10 19:44:52,531 :INFO : test_cssslector :{'rgba(1, 121, 217, 1)', '600', '17px', 'normal', 'Elza', 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box', '18px', '14px', '700', '0px'}
-2024-08-10 19:44:52,533 :INFO : test_cssslector :{'width': 384, 'height': 693}
-2024-08-10 19:45:23,493 :INFO : test_cssslector :{'18px', '17px', 'bold', 'rgba(1, 121, 217, 1)', 'Elza', '0px', '14px', '600', 'normal', 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box'}
-2024-08-10 19:45:23,495 :INFO : test_cssslector :{'width': 820, 'height': 1180}
-2024-08-10 19:51:26,622 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 19:51:26,728 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 19:51:41,261 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 19:51:42,101 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 19:51:49,252 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 19:51:49,255 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 19:52:55,873 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 19:53:12,337 :INFO : test_HomePageDoctorvoice :MicrosoftEdge
-2024-08-10 19:53:12,535 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 19:53:20,471 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 19:53:20,476 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 19:54:12,102 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 19:54:35,238 :INFO : test_HomePageDoctorvoice :safari
-2024-08-10 19:54:35,303 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 19:54:35,717 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 19:57:45,332 :INFO : test_cssslector :{'0px 40px 55px 0px', 'rgba(0, 0, 0, 0) none no-repeat scroll 50% 50% / cover padding-box border-box', '23.799999237060547px', 'Elza', 'rgba(0, 0, 0, 0.5)', '14px', 'normal'}
-2024-08-10 19:57:45,334 :INFO : test_cssslector :{'width': 820, 'height': 1180}
-2024-08-10 19:58:01,611 :INFO : test_cssslector :{'23.8px', '400', 'rgba(0, 0, 0, 0) none no-repeat scroll 50% 50% / cover padding-box border-box', 'Elza', '0px 40px 55px 0px', 'rgba(0, 0, 0, 0.5)', '14px', 'normal'}
-2024-08-10 19:58:01,613 :INFO : test_cssslector :{'width': 1920, 'height': 1055}
-2024-08-10 19:58:22,512 :INFO : test_cssslector :{'rgba(0, 0, 0, 0) none no-repeat scroll 50% 50% / cover padding-box border-box', '0px 40px 55px 0px', '400', 'Elza', 'normal', '23.8px', 'rgba(0, 0, 0, 0.5)', '14px'}
-2024-08-10 19:58:22,514 :INFO : test_cssslector :{'width': 1936, 'height': 1056}
-2024-08-10 19:58:43,379 :INFO : test_cssslector :{'23.8px', 'rgba(0, 0, 0, 0) none no-repeat scroll 50% 50% / cover padding-box border-box', '14px', '0px', 'Elza', 'normal', 'rgba(0, 0, 0, 0.5)', '400'}
-2024-08-10 19:58:43,383 :INFO : test_cssslector :{'width': 384, 'height': 693}
-2024-08-10 20:00:33,852 :INFO : test_cssslector :{'704px', '40px', '38.3906px', '1px solid rgb(191, 191, 191)'}
-2024-08-10 20:00:33,857 :INFO : test_cssslector :{'width': 1936, 'height': 1056}
-2024-08-10 20:00:57,349 :INFO : test_cssslector :{'23.390625px', '40px', '429px', '1px solid rgb(191, 191, 191)'}
-2024-08-10 20:00:57,351 :INFO : test_cssslector :{'width': 820, 'height': 1180}
-2024-08-10 20:01:19,109 :INFO : test_cssslector :{'0px', '384px', '0.711111px solid rgb(191, 191, 191)'}
-2024-08-10 20:01:19,112 :INFO : test_cssslector :{'width': 384, 'height': 693}
-2024-08-10 20:05:15,686 :INFO : test_cssslector :{'700', 'left', 'uppercase', '18px', 'rgba(1, 121, 217, 1)', '14px', '0.35px', 'Elza', '17px', '600'}
-2024-08-10 20:05:15,688 :INFO : test_cssslector :{'width': 1920, 'height': 1055}
-2024-08-10 20:05:46,914 :INFO : test_cssslector :{'600', 'bold', '14px', '17px', 'rgba(1, 121, 217, 1)', '18px', 'Elza', 'left', 'uppercase', '0.3499999940395355px'}
-2024-08-10 20:05:46,916 :INFO : test_cssslector :{'width': 820, 'height': 1180}
-2024-08-10 20:06:19,051 :INFO : test_cssslector :{'700', 'rgba(1, 121, 217, 1)', 'Elza', 'left', '14px', '18px', '17px', '600', 'uppercase', '0.35px'}
-2024-08-10 20:06:19,053 :INFO : test_cssslector :{'width': 384, 'height': 693}
-2024-08-10 20:06:48,882 :INFO : test_cssslector :{'700', '0.35px', '14px', 'left', 'Elza', 'rgba(1, 121, 217, 1)', '18px', '600', '17px', 'uppercase'}
-2024-08-10 20:06:48,884 :INFO : test_cssslector :{'width': 1936, 'height': 1056}
-2024-08-10 20:09:32,318 :INFO : test_HomePageDoctorvoice :MicrosoftEdge
-2024-08-10 20:09:32,646 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:09:40,725 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:09:40,727 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:10:38,098 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:10:50,983 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 20:10:51,210 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:10:58,925 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:10:58,927 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:11:55,729 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:12:15,030 :INFO : test_HomePageDoctorvoice :safari
-2024-08-10 20:12:15,127 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:12:15,588 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:12:23,895 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:12:24,445 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:12:25,448 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:12:25,450 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:12:30,055 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:12:47,125 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 20:12:47,199 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:24:40,001 :INFO : test_cssslector :{'1px solid rgb(191, 191, 191)', '40px', '704px', '38.3906px'}
-2024-08-10 20:24:40,005 :INFO : test_cssslector :{'width': 1920, 'height': 1055}
-2024-08-10 20:24:58,732 :INFO : test_cssslector :{'704px', '1px solid rgb(191, 191, 191)', '38.3906px', '40px'}
-2024-08-10 20:24:58,734 :INFO : test_cssslector :{'width': 1936, 'height': 1056}
-2024-08-10 20:25:19,350 :INFO : test_cssslector :{'0px', '384px', '0.711111px solid rgb(191, 191, 191)'}
-2024-08-10 20:25:19,352 :INFO : test_cssslector :{'width': 384, 'height': 693}
-2024-08-10 20:25:42,719 :INFO : test_cssslector :{'429px', '40px', '1px solid rgb(191, 191, 191)', '23.390625px'}
-2024-08-10 20:25:42,721 :INFO : test_cssslector :{'width': 820, 'height': 1180}
-2024-08-10 20:27:09,180 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 20:27:09,335 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:27:10,629 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:27:39,135 :INFO : test_HomePageDoctorvoice :MicrosoftEdge
-2024-08-10 20:27:39,489 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:27:47,375 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:27:47,377 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:28:39,529 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:29:00,552 :INFO : test_HomePageDoctorvoice :safari
-2024-08-10 20:29:00,625 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:29:01,122 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:29:09,979 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:29:10,530 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:29:11,508 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:29:11,510 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:29:15,605 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:29:27,588 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 20:29:28,481 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:29:36,070 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:29:36,071 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:30:35,877 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:32:38,596 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 20:32:38,714 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:32:46,341 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:32:46,343 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:33:20,936 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:33:38,051 :INFO : test_HomePageDoctorvoice :MicrosoftEdge
-2024-08-10 20:33:38,252 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:33:48,582 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:33:48,585 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:34:44,319 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:35:01,786 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 20:35:01,900 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:35:02,664 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:35:37,108 :INFO : test_HomePageDoctorvoice :safari
-2024-08-10 20:35:37,193 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:35:37,591 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:35:46,462 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:35:47,006 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:35:47,973 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:35:47,974 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:35:52,174 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:38:54,883 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 20:38:55,079 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:39:03,599 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:39:03,601 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:40:06,465 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:40:23,966 :INFO : test_HomePageDoctorvoice :chrome
-2024-08-10 20:40:24,045 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:40:25,586 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:40:39,686 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:40:40,211 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:40:41,012 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:40:42,015 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:40:43,920 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:40:43,922 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:41:28,901 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:41:50,841 :INFO : test_HomePageDoctorvoice :safari
-2024-08-10 20:41:50,893 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:41:51,257 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:41:59,428 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:41:59,967 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:42:00,990 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:42:00,992 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:42:05,167 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-10 20:42:19,258 :INFO : test_HomePageDoctorvoice :MicrosoftEdge
-2024-08-10 20:42:19,886 :INFO : test_HomePageDoctorvoice :start
-2024-08-10 20:42:27,521 :INFO : test_HomePageDoctorvoice :end
-2024-08-10 20:42:27,523 :INFO : test_HomePageDoctorvoice :Verifying links for multiple selectors
-2024-08-10 20:43:05,865 :INFO : test_HomePageDoctorvoice :All links verified successfully
-2024-08-11 12:56:59,044 :INFO : test_HomePageEditor :chrome
-2024-08-11 12:56:59,361 :INFO : test_HomePageEditor :start
-2024-08-11 12:57:01,858 :INFO : test_HomePageEditor :end
-2024-08-11 12:57:01,860 :INFO : test_HomePageEditor :Verifying links for multiple selectors
-2024-08-11 12:59:33,392 :INFO : test_HomePageEditor :chrome
-2024-08-11 12:59:33,532 :INFO : test_HomePageEditor :start
-2024-08-11 12:59:35,873 :INFO : test_HomePageEditor :end
-2024-08-11 12:59:39,637 :INFO : test_HomePageEditor :end
-2024-08-11 12:59:40,264 :INFO : test_HomePageEditor :end
-2024-08-11 12:59:40,265 :INFO : test_HomePageEditor :Verifying links for multiple selectors
-2024-08-11 13:00:32,860 :INFO : test_HomePageEditor :All links verified successfully
-2024-08-11 13:01:12,347 :INFO : test_HomePageEditor :MicrosoftEdge
-2024-08-11 13:01:12,519 :INFO : test_HomePageEditor :start
-2024-08-11 13:01:18,619 :INFO : test_HomePageEditor :end
-2024-08-11 13:01:18,621 :INFO : test_HomePageEditor :Verifying links for multiple selectors
-2024-08-11 13:03:49,604 :INFO : test_HomePageEditor :safari
-2024-08-11 13:03:49,664 :INFO : test_HomePageEditor :start
-2024-08-11 13:03:50,333 :INFO : test_HomePageEditor :end
-2024-08-11 13:03:52,805 :INFO : test_HomePageEditor :end
-2024-08-11 13:03:53,216 :INFO : test_HomePageEditor :end
-2024-08-11 13:03:53,217 :INFO : test_HomePageEditor :Verifying links for multiple selectors
-2024-08-11 13:03:58,171 :INFO : test_HomePageEditor :All links verified successfully
-2024-08-11 13:09:23,494 :INFO : test_HomePageFeatured :chrome
-2024-08-11 13:09:36,108 :INFO : test_HomePageFeatured :chrome
-2024-08-11 13:09:57,730 :INFO : test_HomePageFeatured :safari
-2024-08-11 13:10:14,782 :INFO : test_HomePageFeatured :MicrosoftEdge
-2024-08-11 13:14:48,397 :INFO : test_HomePageFeatured :chrome
-2024-08-11 13:15:25,952 :INFO : test_HomePageFeatured :MicrosoftEdge
-2024-08-11 13:15:46,905 :INFO : test_HomePageFeatured :safari
-2024-08-11 13:16:10,488 :INFO : test_HomePageFeatured :chrome
-2024-08-11 15:39:11,644 :INFO : test_HomePageFeatured :MicrosoftEdge
-2024-08-11 15:40:12,413 :INFO : test_HomePageFeatured :verifying all social links
-2024-08-11 15:40:12,415 :INFO : test_HomePageFeatured :All social links are verified sucessfully
-2024-08-11 15:40:13,247 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:15,141 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:15,949 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:16,754 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:17,550 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:18,348 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:19,147 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:19,936 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:20,731 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:21,682 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:22,485 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:23,281 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:24,100 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:24,891 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:25,651 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:26,523 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:27,331 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:28,254 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:29,059 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:40:29,061 :INFO : test_HomePageFeatured :No broken links
-2024-08-11 15:40:46,490 :INFO : test_HomePageFeatured :chrome
-2024-08-11 15:41:24,783 :INFO : test_HomePageFeatured :safari
-2024-08-11 15:41:48,772 :INFO : test_HomePageFeatured :chrome
-2024-08-11 15:43:24,413 :INFO : test_HomePageFeatured :verifying all social links
-2024-08-11 15:43:24,416 :INFO : test_HomePageFeatured :All social links are verified sucessfully
-2024-08-11 15:43:25,248 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:26,095 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:26,898 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:27,676 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:28,508 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:29,320 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:30,276 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:31,097 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:31,920 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:32,871 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:33,750 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:34,717 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:35,695 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:36,563 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:37,439 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:38,293 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:39,169 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:40,025 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:41,794 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:43:41,796 :INFO : test_HomePageFeatured :No broken links
-2024-08-11 15:48:41,554 :INFO : test_HomePageFeatured :chrome
-2024-08-11 15:49:39,518 :INFO : test_HomePageFeatured :verifying all social links
-2024-08-11 15:49:39,520 :INFO : test_HomePageFeatured :All social links are verified sucessfully
-2024-08-11 15:49:41,615 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:42,518 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:43,363 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:44,296 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:45,175 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:46,027 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:46,836 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:47,682 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:48,548 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:50,329 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:51,174 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:52,042 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:52,895 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:53,734 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:54,580 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:55,409 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:57,196 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:49:59,281 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:50:00,126 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:50:00,128 :INFO : test_HomePageFeatured :No broken links
-2024-08-11 15:50:22,525 :INFO : test_HomePageFeatured :safari
-2024-08-11 15:50:34,807 :INFO : test_HomePageFeatured :verifying all social links
-2024-08-11 15:50:56,180 :INFO : test_HomePageFeatured :MicrosoftEdge
-2024-08-11 15:52:28,515 :INFO : test_HomePageFeatured :verifying all social links
-2024-08-11 15:52:28,517 :INFO : test_HomePageFeatured :All social links are verified sucessfully
-2024-08-11 15:52:29,340 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:31,184 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:31,992 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:32,880 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:33,673 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:34,463 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:35,251 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:36,040 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:36,867 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:37,656 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:38,459 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:39,254 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:41,005 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:41,795 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:42,602 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:43,384 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:45,083 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:46,961 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:47,751 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:52:47,754 :INFO : test_HomePageFeatured :No broken links
-2024-08-11 15:53:00,885 :INFO : test_HomePageFeatured :chrome
-2024-08-11 15:54:25,618 :INFO : test_HomePageFeatured :verifying all social links
-2024-08-11 15:54:25,619 :INFO : test_HomePageFeatured :All social links are verified sucessfully
-2024-08-11 15:54:26,438 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:27,251 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:28,046 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:28,945 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:29,701 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:30,588 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:31,376 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:32,170 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:32,971 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:33,775 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:34,557 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:35,357 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:36,126 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:36,890 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:38,612 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:39,419 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:40,213 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:40,988 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:41,844 :INFO : test_HomePageFeatured :verfying any broken links
-2024-08-11 15:54:41,846 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:06:50,714 :INFO : test_HomePageFeatured :chrome
+2024-08-12 13:08:36,057 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:08:36,059 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:08:37,051 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:37,882 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:38,734 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:39,611 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:40,577 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:41,424 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:43,768 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:44,662 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:45,496 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:46,358 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:48,139 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:48,992 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:49,893 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:50,733 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:51,577 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:53,259 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:54,118 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:54,975 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:55,784 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:08:55,786 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:09:43,458 :INFO : test_HomePageFeatured :chrome
+2024-08-12 13:11:03,911 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:11:03,912 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:11:04,843 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:05,674 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:06,514 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:07,334 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:08,168 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:09,011 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:09,856 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:10,683 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:12,409 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:14,360 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:15,192 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:16,012 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:16,850 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:17,676 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:18,499 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:19,462 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:20,285 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:21,978 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:22,801 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:11:22,803 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:11:45,491 :INFO : test_HomePageFeatured :safari
+2024-08-12 13:11:58,838 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:12:22,443 :INFO : test_HomePageFeatured :MicrosoftEdge
+2024-08-12 13:14:08,621 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:14:08,622 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:14:09,474 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:10,277 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:11,072 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:11,904 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:12,713 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:13,585 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:14,502 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:15,444 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:16,250 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:17,054 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:17,857 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:18,679 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:19,605 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:20,546 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:21,360 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:22,154 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:22,969 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:23,897 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:24,826 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:14:24,829 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:18:40,004 :INFO : test_HomePageFeatured :chrome
+2024-08-12 13:20:12,798 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:20:12,800 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:20:37,206 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:39,329 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:41,716 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:44,543 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:47,550 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:49,976 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:50,804 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:52,887 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:54,916 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:55,740 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:20:59,099 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:21:02,794 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:21:04,935 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:21:07,428 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:21:08,239 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:21:09,162 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:21:10,079 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:21:10,977 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:21:11,833 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:21:11,835 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:21:41,841 :INFO : test_HomePageFeatured :chrome
+2024-08-12 13:22:59,042 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:22:59,044 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:23:00,983 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:03,052 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:03,919 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:04,741 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:05,558 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:06,374 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:07,198 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:08,015 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:08,835 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:09,883 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:10,887 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:11,709 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:12,535 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:13,387 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:14,206 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:15,017 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:15,835 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:16,725 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:17,536 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:23:17,538 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:23:39,017 :INFO : test_HomePageFeatured :safari
+2024-08-12 13:24:11,611 :INFO : test_HomePageFeatured :MicrosoftEdge
+2024-08-12 13:25:11,481 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:25:11,483 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:25:23,241 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:24,589 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:25,965 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:26,786 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:27,593 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:28,428 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:29,206 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:30,003 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:30,801 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:31,599 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:32,424 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:33,226 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:34,044 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:35,714 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:37,911 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:39,602 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:40,400 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:41,209 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:42,009 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:25:42,011 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:28:55,260 :INFO : test_HomePageFeatured :chrome
+2024-08-12 13:31:32,001 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:31:32,003 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:31:32,863 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:34,814 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:35,748 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:36,594 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:37,433 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:38,271 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:40,993 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:41,830 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:42,663 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:43,516 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:45,606 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:47,340 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:48,249 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:49,087 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:51,012 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:51,851 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:52,673 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:53,785 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:54,599 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:31:54,602 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:32:25,849 :INFO : test_HomePageFeatured :safari
+2024-08-12 13:32:46,495 :INFO : test_HomePageFeatured :chrome
+2024-08-12 13:33:22,255 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:33:22,257 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:33:33,311 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:34,277 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:35,130 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:35,943 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:36,903 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:37,790 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:38,695 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:39,539 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:40,500 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:41,364 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:42,254 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:43,162 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:43,995 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:44,836 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:45,660 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:46,496 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:47,396 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:48,225 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:49,066 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:33:49,068 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:34:09,578 :INFO : test_HomePageFeatured :MicrosoftEdge
+2024-08-12 13:35:22,602 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:35:22,604 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:35:23,590 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:24,423 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:25,257 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:26,117 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:26,957 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:27,813 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:30,246 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:31,159 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:31,996 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:32,832 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:33,824 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:34,658 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:35,485 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:36,324 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:37,170 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:38,015 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:38,963 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:39,789 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:40,621 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:35:40,624 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:52:09,195 :INFO : test_HomePageFeatured :chrome
+2024-08-12 13:52:55,135 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:52:55,137 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:52:56,965 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:52:57,769 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:52:58,624 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:52:59,431 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:00,240 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:01,053 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:01,864 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:02,687 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:03,510 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:04,409 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:05,205 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:06,019 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:06,827 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:07,629 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:08,435 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:09,361 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:10,162 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:11,884 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:12,676 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:12,678 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:53:34,214 :INFO : test_HomePageFeatured :safari
+2024-08-12 13:53:45,204 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:46,018 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:46,836 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:49,544 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:50,450 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:51,253 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:52,911 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:53,708 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:54,506 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:55,944 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:56,769 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:53:57,689 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:54:00,261 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:54:01,051 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:54:01,853 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:54:03,343 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:54:04,119 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:54:04,121 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:54:21,893 :INFO : test_HomePageFeatured :chrome
+2024-08-12 13:55:28,073 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:55:28,075 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:55:28,916 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:29,816 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:30,636 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:31,519 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:32,327 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:33,148 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:33,939 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:34,731 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:35,524 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:36,318 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:38,061 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:38,854 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:40,075 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:40,876 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:41,681 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:42,450 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:43,251 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:44,066 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:44,857 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:55:44,859 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 13:56:17,353 :INFO : test_HomePageFeatured :MicrosoftEdge
+2024-08-12 13:57:24,656 :INFO : test_HomePageFeatured :verifying all social links
+2024-08-12 13:57:24,657 :INFO : test_HomePageFeatured :All social links are verified sucessfully
+2024-08-12 13:57:25,468 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:26,263 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:27,068 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:27,944 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:28,738 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:29,544 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:30,353 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:31,159 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:32,067 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:32,872 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:33,674 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:34,482 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:35,295 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:36,095 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:36,956 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:37,807 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:38,616 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:39,433 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:40,255 :INFO : test_HomePageFeatured :verfying any broken links
+2024-08-12 13:57:40,257 :INFO : test_HomePageFeatured :No broken links
+2024-08-12 14:05:18,095 :INFO : test_HomePageNews :chrome
+2024-08-12 14:05:18,202 :INFO : test_HomePageNews :start
+2024-08-12 14:05:46,823 :INFO : test_HomePageNews :chrome
+2024-08-12 14:05:47,021 :INFO : test_HomePageNews :start
+2024-08-12 14:06:28,657 :INFO : test_HomePageNews :MicrosoftEdge
+2024-08-12 14:06:29,150 :INFO : test_HomePageNews :start
+2024-08-12 14:06:51,735 :INFO : test_HomePageNews :safari
+2024-08-12 14:06:51,824 :INFO : test_HomePageNews :start
+2024-08-12 14:56:37,111 :INFO : test_cssslector :{'0px none rgba(0, 0, 0, 0.5)', '0px'}
+2024-08-12 14:56:37,113 :INFO : test_cssslector :{'width': 384, 'height': 693}
+2024-08-12 14:57:11,476 :INFO : test_cssslector :{'0px none rgba(0, 0, 0, 0.5)', '0px'}
+2024-08-12 14:57:11,478 :INFO : test_cssslector :{'width': 820, 'height': 1180}
+2024-08-12 14:57:25,208 :INFO : test_cssslector :{'25.5938px', '0px', '0px none rgba(0, 0, 0, 0.5)', '8.4375px'}
+2024-08-12 14:57:25,210 :INFO : test_cssslector :{'width': 1920, 'height': 1055}
+2024-08-12 14:57:47,745 :INFO : test_cssslector :{'0px none rgba(0, 0, 0, 0.5)', '8.4375px', '0px', '25.5938px'}
+2024-08-12 14:57:47,747 :INFO : test_cssslector :{'width': 1936, 'height': 1056}
+2024-08-12 15:02:40,356 :INFO : test_HomePageNews :MicrosoftEdge
+2024-08-12 15:02:40,480 :INFO : test_HomePageNews :start
+2024-08-12 15:03:15,339 :INFO : test_HomePageNews :chrome
+2024-08-12 15:03:15,863 :INFO : test_HomePageNews :start
+2024-08-12 15:03:55,855 :INFO : test_HomePageNews :chrome
+2024-08-12 15:03:56,015 :INFO : test_HomePageNews :start
+2024-08-12 15:04:39,268 :INFO : test_HomePageNews :safari
+2024-08-12 15:04:39,345 :INFO : test_HomePageNews :start
