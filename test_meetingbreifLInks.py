@@ -13,8 +13,12 @@ import requests
 import time
 import platform
 
+import pytest
+
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=29)
+    @pytest.mark.dependency(depends=["test_Bomrecentcoloumn"])
     def test_Meetingsbriefprogramelinks(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

@@ -13,9 +13,12 @@ from object.seleniumhelper import SeleniumHelper
 import requests
 import time
 import platform
+import pytest
 
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=42)
+    @pytest.mark.dependency(depends=["test_spotlightlandingpage"])
     def test_Spotlightprogramelinks(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

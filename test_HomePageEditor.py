@@ -11,9 +11,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from object.seleniumhelper import SeleniumHelper
 import requests
 import time
+import pytest
 
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=5)
+    @pytest.mark.dependency(depends=["test_HomePageFeatured"])
     def test_HomePageEditor(self):  # these are to be verified on the browser-stack
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

@@ -26,9 +26,12 @@ from object.seleniumhelper import SeleniumHelper
 import requests
 import time
 import platform
+import pytest
 
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=12)
+    @pytest.mark.dependency(depends=["test_doctorvoiceui"])
     def testcolmlinks(self):  # Time issue
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

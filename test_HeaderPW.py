@@ -10,9 +10,12 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
 import time
+import pytest
 
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=8)
+    @pytest.mark.dependency(depends=["test_HomePageBusinessOfMedicine"])
     def test_header(self):
         social_link = []
         iconCss = []

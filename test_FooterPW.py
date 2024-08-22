@@ -10,9 +10,12 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
 import time
+import pytest
 
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=10)
+    @pytest.mark.dependency(depends=["test_menubar"])
     def test_footer(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

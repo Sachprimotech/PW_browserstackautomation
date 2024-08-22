@@ -12,10 +12,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from object.seleniumhelper import SeleniumHelper
 import requests
 import time
+import pytest
 
 
 # this file is pending for changes as speciality UI
 class Testone(BaseClass):
+    @pytest.mark.run(order=39)
+    @pytest.mark.dependency(depends=["test_Specialities"])
     def test_specialitysection(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

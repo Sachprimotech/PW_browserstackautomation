@@ -12,8 +12,12 @@ from object.seleniumhelper import SeleniumHelper
 import requests
 import time
 
+import pytest
+
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=21)
+    @pytest.mark.dependency(depends=["test_Cartoonpage"])
     def test_cartoonfunct(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

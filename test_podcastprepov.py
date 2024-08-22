@@ -12,8 +12,12 @@ from object.seleniumhelper import SeleniumHelper
 import requests
 import time
 
+import pytest
+
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=36)
+    @pytest.mark.dependency(depends=["test_peer_peerprogramelinks"])
     def test_prePodcastui(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

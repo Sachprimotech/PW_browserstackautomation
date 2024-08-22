@@ -11,9 +11,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from object.seleniumhelper import SeleniumHelper
 import requests
 import time
+import pytest
 
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=24)
+    @pytest.mark.dependency(depends=["test_Business_of_Medicine"])
     def test_Bompodcastcoloumn(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

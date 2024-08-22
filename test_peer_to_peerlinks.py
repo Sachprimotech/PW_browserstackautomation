@@ -13,9 +13,12 @@ from object.seleniumhelper import SeleniumHelper
 import requests
 import time
 import platform
+import pytest
 
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=35)
+    @pytest.mark.dependency(depends=["test_Peer_to_Peerpage"])
     def test_peer_peerprogramelinks(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name

@@ -10,9 +10,12 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
 import time
+import pytest
 
 
 class Testone(BaseClass):
+    @pytest.mark.run(order=4)
+    @pytest.mark.dependency(depends=["test_HomePageNews"])
     def test_HomePageFeatured(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
