@@ -16,7 +16,7 @@ import pytest
 
 class Testone(BaseClass):
     @pytest.mark.run(order=5)
-    @pytest.mark.dependency(depends=["test_HomePageEditor"])
+    @pytest.mark.dependency(depends=["test_HomePageFeatured"])
     def test_HomePageDoctorvoice(self):
         wait = WebDriverWait(self.driver, 20)
         name = self.driver.name
