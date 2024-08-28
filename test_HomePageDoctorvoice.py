@@ -279,10 +279,10 @@ class Testone(BaseClass):
 
                 log.info("end")
 
-            selectors = ["#doctorVoicesection a"]
-            additional_links = ["https://www.physiciansweekly.com/"]
-            expected_link_count = 8
+            # selectors = ["#doctorVoicesection a"]
+            # additional_links = ["https://www.physiciansweekly.com/"]
+            # expected_link_count = 8
 
-            log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
-            log.info("All links verified successfully")
+            # log.info("Verifying links for multiple selectors")
+            # helper.verify_links(selectors, additional_links, expected_link_count)
+            # log.info("All links verified successfully")

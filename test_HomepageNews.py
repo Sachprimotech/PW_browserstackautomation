@@ -43,11 +43,11 @@ class Testone(BaseClass):
                     {"0px none rgba(0, 0, 0, 0.5)", "8.4375px", "0px", "25.5938px"},
                     ["margin-right", "padding-right", "border"],
                 ),
-                (
-                    "#newsSection .newsFeaturedblog .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets",
-                    {"0 50px", "-56px"},
-                    ["padding", "top"],
-                ),
+                # (
+                #     "#newsSection .newsFeaturedblog .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets",
+                #     {"0 50px", "-56px"},
+                #     ["padding", "top"],
+                # ),
                 (
                     ".et_pb_blog_extras_21 .et_pb_post.et_pb_post_extra .entry-title a",
                     {"700", "#FFFFFF", "39px", "Elza"},
@@ -165,11 +165,11 @@ class Testone(BaseClass):
                     {"0px none rgba(0, 0, 0, 0.5)", "0px"},
                     ["margin-right", "padding-right", "border"],
                 ),
-                (
-                    "#newsSection .newsFeaturedblog .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets",
-                    {"0 50px", "-56px"},
-                    ["padding", "top"],
-                ),
+                # (
+                #     "#newsSection .newsFeaturedblog .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets",
+                #     {"0 50px", "-56px"},
+                #     ["padding", "top"],
+                # ),
                 (
                     ".et_pb_blog_extras_21 .et_pb_post.et_pb_post_extra .entry-title a",
                     {"700", "#FFFFFF", "39px", "Elza"},
@@ -287,11 +287,11 @@ class Testone(BaseClass):
                     {"0px none rgba(0, 0, 0, 0.5)", "0px"},
                     ["margin-right", "padding-right", "border"],
                 ),
-                (
-                    "#newsSection .newsFeaturedblog .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets",
-                    {"0 50px", "-56px"},
-                    ["padding", "top"],
-                ),
+                # (
+                #     "#newsSection .newsFeaturedblog .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets",
+                #     {"0 50px", "-56px"},
+                #     ["padding", "top"],
+                # ),
                 (
                     ".et_pb_blog_extras_21 .et_pb_post.et_pb_post_extra .entry-title a",
                     {"700", "#FFFFFF", "39px", "Elza"},

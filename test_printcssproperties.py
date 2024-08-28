@@ -14,6 +14,7 @@ import time
 
 
 class Testone(BaseClass):
+    
     def test_cssslector(self):
         log = self.getLogger()
         self.driver.get("https://www.physiciansweekly.com/")

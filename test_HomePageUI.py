@@ -39,10 +39,14 @@ class Testone(BaseClass):
         log.info("start")
         window_size = self.driver.get_window_size()
         if window_size["width"] > 767:
-            popup = self.driver.find_element(
-                By.CSS_SELECTOR, "#onesignal-slidedown-dialog .primary.slidedown-button"
-            )
-            popup.click()
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
 
             Tittles = self.driver.find_elements(
                 By.CSS_SELECTOR, "#et-boc .homepage-section-hdng"

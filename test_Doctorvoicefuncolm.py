@@ -27,6 +27,7 @@ import requests
 import time
 import platform
 import pytest
+import asyncio
 
 
 class Testone(BaseClass):
@@ -47,44 +48,44 @@ class Testone(BaseClass):
             li = link.get_attribute("href")
             opened_links.append(li)
 
-        def verify_listlinks(
-            selectors,
-            additional_links,
-        ):
-            all_links = []
+        # def verify_listlinks(
+        #     selectors,
+        #     additional_links,
+        # ):
+        #     all_links = []
 
-            for selector in selectors:
-                elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
-                links = [element.get_attribute("href") for element in elements]
-                all_links.extend(links)
+        #     for selector in selectors:
+        #         elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
+        #         links = [element.get_attribute("href") for element in elements]
+        #         all_links.extend(links)
 
-            if additional_links:
-                all_links.extend(additional_links)
+        #     if additional_links:
+        #         all_links.extend(additional_links)
 
-            # for link in all_links:
-            #     self.driver.execute_script("window.open(arguments[0])", link)
+        # for link in all_links:
+        #     self.driver.execute_script("window.open(arguments[0])", link)
 
-            # handles = self.driver.window_handles
-            # opened_links = []
+        # handles = self.driver.window_handles
+        # opened_links = []
 
-            # for window in handles:
-            #     self.driver.switch_to.window(window)
-            #     opened_links.append(self.driver.current_url)
+        # for window in handles:
+        #     self.driver.switch_to.window(window)
+        #     opened_links.append(self.driver.current_url)
 
-            # assert set(all_links) == set(opened_links) or (
-            #     expected_link_count and len(all_links) == expected_link_count
-            # )
+        # assert set(all_links) == set(opened_links) or (
+        #     expected_link_count and len(all_links) == expected_link_count
+        # )
 
-            for link in all_links:
-                response = requests.get(link)
-                status_code = response.status_code
-                if status_code == 404:
+        # for link in all_links:
+        #     response = requests.get(link)
+        #     status_code = response.status_code
+        #     if status_code == 404:
 
-                    result_broken.append("fail")
-                    log.info(f"Link {link} is broken with status code {status_code}")
+        #         result_broken.append("fail")
+        #         log.info(f"Link {link} is broken with status code {status_code}")
 
-                elif status_code != 404:
-                    result_broken.append("pass")
+        #     elif status_code != 404:
+        #         result_broken.append("pass")
 
         main_window = self.driver.current_window_handle
         window_size = self.driver.get_window_size()
@@ -109,14 +110,12 @@ class Testone(BaseClass):
                     ()
                 log.info("start")
                 try:
-                    selectors = [".doctor-voice-spcl-sec .et_pb_code_inner a"]
-                    additional_links = ["url"]
 
                     log.info("Verifying links for multiple selectors")
-                    verify_listlinks(
-                        selectors,
-                        additional_links,
-                    )
+                    selectors = [
+                        ".doctor-voice-spcl-sec .et_pb_code_inner a"
+                    ]  # Example CSS selectors
+                    asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
                     log.info("All links verified successfully")
 
                 except Exception:
@@ -141,14 +140,11 @@ class Testone(BaseClass):
                     ()
                 log.info("start")
                 try:
-                    selectors = [".doctor-voice-spcl-sec .et_pb_code_inner a"]
-                    additional_links = ["url"]
-
                     log.info("Verifying links for multiple selectors")
-                    verify_listlinks(
-                        selectors,
-                        additional_links,
-                    )
+                    selectors = [
+                        ".doctor-voice-spcl-sec .et_pb_code_inner a"
+                    ]  # Example CSS selectors
+                    asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
                     log.info("All links verified successfully")
 
                 except Exception:
@@ -169,14 +165,11 @@ class Testone(BaseClass):
                     ()
                 log.info("start")
                 try:
-                    selectors = [".doctor-voice-spcl-sec .et_pb_code_inner a"]
-                    additional_links = ["url"]
-
                     log.info("Verifying links for multiple selectors")
-                    verify_listlinks(
-                        selectors,
-                        additional_links,
-                    )
+                    selectors = [
+                        ".doctor-voice-spcl-sec .et_pb_code_inner a"
+                    ]  # Example CSS selectors
+                    asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
                     log.info("All links verified successfully")
 
                 except Exception:

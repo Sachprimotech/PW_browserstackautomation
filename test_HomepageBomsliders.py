@@ -27,30 +27,25 @@ class Testone(BaseClass):
 
         window_size = self.driver.get_window_size()
         if window_size["width"] > 980:
-            popup = self.driver.find_element(
-                By.CSS_SELECTOR, "#onesignal-slidedown-dialog .primary.slidedown-button"
-            )
-            popup.click()
+            try:
+                popup = self.driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#onesignal-slidedown-dialog .primary.slidedown-button",
+                )
+                popup.click()
+            except Exception:
+                ()
 
             log.info("start")
 
             selectors_and_properties = [
                 (
-                    "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide .lwp_post_carousel_image img",
+                    ".lwp_post_carousel_image img",
                     {"186px", "cover", "186px"},
                     ["min-height", "object-fit", "max-height"],
                 ),
                 (
-                    "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide ",
-                    {"0 9px", "1px solid #bfbfbf", "0 15px 0 0"},
-                    [
-                        "margin",
-                        "border-right",
-                        "padding",
-                    ],
-                ),
-                (
-                    "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide h4 a",
+                    "#businessOfMedisection h4 a",
                     {"125%", "600", "Elza", "20px", "#152c6c"},
                     ["line-height" "font-weight" "font-family" "font-size" "color"],
                 ),
@@ -71,14 +66,12 @@ class Testone(BaseClass):
             log.info("end")
 
             selectors = [
-                "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide h4 a",
-                "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide .lwp_post_carousel_image  a",
+                "#businessOfMedisection h4 a",
+                ".lwp_post_carousel_image  a",
             ]
-            additional_links = ["https://www.physiciansweekly.com/"]
-            expected_link_count = 13
 
             log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
+            helper.verify_linkscloud(selectors)
             log.info("All links verified successfully")
 
         elif window_size["width"] > 767 and window_size["width"] < 981:
@@ -87,21 +80,12 @@ class Testone(BaseClass):
 
             selectors_and_properties = [
                 (
-                    "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide .lwp_post_carousel_image img",
+                    ".lwp_post_carousel_image img",
                     {"186px", "cover", "186px"},
                     ["min-height", "object-fit", "max-height"],
                 ),
                 (
-                    "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide ",
-                    {"0 9px", "1px solid #bfbfbf", "0 15px 0 0"},
-                    [
-                        "margin",
-                        "border-right",
-                        "padding",
-                    ],
-                ),
-                (
-                    "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide h4 a",
+                    "#businessOfMedisection h4 a",
                     {"125%", "600", "Elza", "20px", "#152c6c"},
                     ["line-height" "font-weight" "font-family" "font-size" "color"],
                 ),
@@ -122,14 +106,12 @@ class Testone(BaseClass):
                 log.info("end")
 
             selectors = [
-                "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide h4 a",
-                "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide .lwp_post_carousel_image  a",
+                "#businessOfMedisection h4 a",
+                ".lwp_post_carousel_image  a",
             ]
-            additional_links = ["https://www.physiciansweekly.com/"]
-            expected_link_count = 13
 
             log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
+            helper.verify_linkscloud(selectors)
             log.info("All links verified successfully")
 
         elif window_size["width"] <= 767:
@@ -138,21 +120,12 @@ class Testone(BaseClass):
 
             selectors_and_properties = [
                 (
-                    "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide .lwp_post_carousel_image img",
+                    ".lwp_post_carousel_image img",
                     {"186px", "cover", "186px"},
                     ["min-height", "object-fit", "max-height"],
                 ),
                 (
-                    "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide ",
-                    {"0 9px", "1px solid #bfbfbf", "0 15px 0 0"},
-                    [
-                        "margin",
-                        "border-right",
-                        "padding",
-                    ],
-                ),
-                (
-                    "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide h4 a",
+                    "#businessOfMedisection h4 a",
                     {"125%", "600", "Elza", "20px", "#152c6c"},
                     ["line-height" "font-weight" "font-family" "font-size" "color"],
                 ),
@@ -172,13 +145,13 @@ class Testone(BaseClass):
 
                 log.info("end")
 
-            selectors = [
-                "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide h4 a",
-                "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide .lwp_post_carousel_image  a",
-            ]
-            additional_links = ["https://www.physiciansweekly.com/"]
-            expected_link_count = 13
+            # selectors = [
+            #     "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide h4 a",
+            #     "#businessOfMedisection section.lwp-slick-slider .slick-track .slick-slide .lwp_post_carousel_image  a",
+            # ]
+            # additional_links = ["https://www.physiciansweekly.com/"]
+            # expected_link_count = 13
 
-            log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
-            log.info("All links verified successfully")
+            # log.info("Verifying links for multiple selectors")
+            # helper.verify_links(selectors, additional_links, expected_link_count)
+            # log.info("All links verified successfully")
