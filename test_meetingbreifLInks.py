@@ -52,42 +52,6 @@ class Testone(BaseClass):
             "https://www.physiciansweekly.com/clinical-report-addresses-management-of-sickle-cell-disease-in-children-teens/",
         ]
 
-        def verify_listlinks(selectors, additional_links, expected_link_count):
-            all_links = []
-
-            for selector in selectors:
-                elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
-                links = [element.get_attribute("href") for element in elements]
-                all_links.extend(links)
-
-            if additional_links:
-                all_links.extend(additional_links)
-
-            for link in all_links:
-                self.driver.execute_script("window.open(arguments[0])", link)
-
-            handles = self.driver.window_handles
-            opened_links = []
-
-            for window in handles:
-                self.driver.switch_to.window(window)
-                opened_links.append(self.driver.current_url)
-
-            assert set(all_links) == set(opened_links) or (
-                expected_link_count and len(all_links) == expected_link_count
-            )
-
-            for link in opened_links:
-                response = requests.get(link)
-                status_code = response.status_code
-                if status_code == 404:
-
-                    result_broken.append("fail")
-                    log.info(f"Link {link} is broken with status code {status_code}")
-
-                elif status_code != 404:
-                    result_broken.append("pass")
-
         main_window = self.driver.current_window_handle
         window_size = self.driver.get_window_size()
         if window_size["width"] > 980:
@@ -114,11 +78,7 @@ class Testone(BaseClass):
                     selectors = [
                         "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
                     ]
-                    additional_links = ["url"]
-                    expected_link_count = 21
-
-                    log.info("Verifying links for multiple selectors")
-                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
                     log.info("All links verified successfully")
 
                 except Exception:
@@ -152,11 +112,7 @@ class Testone(BaseClass):
                     selectors = [
                         "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
                     ]
-                    additional_links = ["url"]
-                    expected_link_count = 21
-
-                    log.info("Verifying links for multiple selectors")
-                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
                     log.info("All links verified successfully")
 
                 except Exception:
@@ -186,11 +142,7 @@ class Testone(BaseClass):
                     selectors = [
                         "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
                     ]
-                    additional_links = ["url"]
-                    expected_link_count = 21
-
-                    log.info("Verifying links for multiple selectors")
-                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
                     log.info("All links verified successfully")
 
                 except Exception:

@@ -14,6 +14,7 @@ import requests
 import time
 import platform
 import pytest
+import asyncio
 
 
 class Testone(BaseClass):
@@ -26,50 +27,16 @@ class Testone(BaseClass):
         log = self.getLogger()
         log.info(name)
         helper = SeleniumHelper(self.driver)
-        opened_links = [
-            "https://www.physiciansweekly.com/deep-dives/peer-to-peer/crohns-disease/",
-            "https://www.physiciansweekly.com/deep-dives/peer-to-peer/peer-to-peer-advanced-hcc/"
-            "https://www.physiciansweekly.com/deep-dives/peer-to-peer/copd-and-asthma/",
-            "https://www.physiciansweekly.com/deep-dives/peer-to-peer/peer-to-peer-ibs-c/",
-        ]
+        self.driver.get("https://www.physiciansweekly.com/deep-dives/spotlight/")
+        opened_links = []
         main_window = self.driver.current_window_handle
         window_size = self.driver.get_window_size()
-
-        def verify_listlinks(selectors, additional_links, expected_link_count):
-            all_links = []
-
-            for selector in selectors:
-                elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
-                links = [element.get_attribute("href") for element in elements]
-                all_links.extend(links)
-
-            if additional_links:
-                all_links.extend(additional_links)
-
-            for link in all_links:
-                self.driver.execute_script("window.open(arguments[0])", link)
-
-            handles = self.driver.window_handles
-            opened_links = []
-
-            for window in handles:
-                self.driver.switch_to.window(window)
-                opened_links.append(self.driver.current_url)
-
-            assert set(all_links) == set(opened_links) or (
-                expected_link_count and len(all_links) == expected_link_count
-            )
-
-            for link in opened_links:
-                response = requests.get(link)
-                status_code = response.status_code
-                if status_code == 404:
-
-                    result_broken.append("fail")
-                    log.info(f"Link {link} is broken with status code {status_code}")
-
-                elif status_code != 404:
-                    result_broken.append("pass")
+        self.driver.get
+        peertoPeer_pages = By.CSS_SELECTOR, "a.more-link"
+        spotlightpp = wait.until(EC.presence_of_all_elements_located(peertoPeer_pages))
+        for spot in spotlightpp:
+            link = spot.get_attribute("href")
+            opened_links.append(link)
 
         if window_size["width"] > 980:
             try:
@@ -95,11 +62,7 @@ class Testone(BaseClass):
                     selectors = [
                         "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
                     ]
-                    additional_links = [url]
-                    expected_link_count = 10
-
-                    log.info("Verifying links for multiple selectors")
-                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
                     log.info("All links verified successfully")
                 except NoSuchElementException and TimeoutException:
                     self.driver.close()
@@ -110,7 +73,7 @@ class Testone(BaseClass):
 
                 # Switch back to the main window
                 self.driver.switch_to.window(main_window)
-            assert all in result_broken == "pass"
+
             # work is pending for programme pages
 
         elif window_size["width"] > 767 and window_size["width"] < 981:
@@ -123,11 +86,7 @@ class Testone(BaseClass):
                     selectors = [
                         "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
                     ]
-                    additional_links = [url]
-                    expected_link_count = 10
-
-                    log.info("Verifying links for multiple selectors")
-                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
                     log.info("All links verified successfully")
                 except NoSuchElementException and TimeoutException:
                     self.driver.close()
@@ -138,7 +97,6 @@ class Testone(BaseClass):
 
                 # Switch back to the main window
                 self.driver.switch_to.window(main_window)
-            assert all in result_broken == "pass"
 
         elif window_size["width"] <= 767:
 
@@ -148,11 +106,7 @@ class Testone(BaseClass):
                     selectors = [
                         "div#cat-relevant.sub-cat-section .et_pb_row.cat-section.column-list-items a"
                     ]
-                    additional_links = [url]
-                    expected_link_count = 10
-
-                    log.info("Verifying links for multiple selectors")
-                    verify_listlinks(selectors, additional_links, expected_link_count)
+                    asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
                     log.info("All links verified successfully")
                 except NoSuchElementException and TimeoutException:
                     self.driver.close()
@@ -163,4 +117,3 @@ class Testone(BaseClass):
 
                 # Switch back to the main window
                 self.driver.switch_to.window(main_window)
-            assert all in result_broken == "pass"

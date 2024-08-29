@@ -12,6 +12,7 @@ from object.seleniumhelper import SeleniumHelper
 import requests
 import time
 import pytest
+import asyncio
 
 
 class Testone(BaseClass):
@@ -41,11 +42,7 @@ class Testone(BaseClass):
             log.info("start")
 
             selectors = ["#special-sidbar-two a"]
-            additional_links = ["https://www.physiciansweekly.com/deep-dives/"]
-            expected_link_count = 14
-
-            log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
+            asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
             log.info("All links verified successfully")
 
         elif window_size["width"] > 767 and window_size["width"] < 981:
@@ -57,11 +54,8 @@ class Testone(BaseClass):
             log.info("start")
 
             selectors = ["#special-sidbar-two a"]
-            additional_links = ["https://www.physiciansweekly.com/deep-dives/"]
-            expected_link_count = 14
+            asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
 
-            log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
             log.info("All links verified successfully")
 
         elif window_size["width"] <= 767:
@@ -73,9 +67,5 @@ class Testone(BaseClass):
             log.info("start")
 
             selectors = ["#special-sidbar-two a"]
-            additional_links = ["https://www.physiciansweekly.com/deep-dives/"]
-            expected_link_count = 14
-
-            log.info("Verifying links for multiple selectors")
-            helper.verify_links(selectors, additional_links, expected_link_count)
+            asyncio.run(SeleniumHelper.verify_links_async(self, selectors))
             log.info("All links verified successfully")

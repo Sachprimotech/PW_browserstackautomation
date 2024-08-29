@@ -1312,3 +1312,84 @@
 2024-08-28 21:39:56,479 :INFO : testcolmlinks :start
 2024-08-28 21:39:56,481 :INFO : testcolmlinks :Verifying links for multiple selectors
 2024-08-28 21:40:01,038 :INFO : testcolmlinks :All links verified successfully
+2024-08-29 11:22:17,943 :INFO : test_doctorvoicecolm :chrome
+2024-08-29 11:22:48,411 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:22:49,830 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:22:53,448 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:03,167 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:17,596 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:19,716 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:22,081 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:25,071 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:26,775 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:28,445 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:30,182 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:32,104 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:23:56,731 :INFO : test_doctorvoicecolm :safari
+2024-08-29 11:23:56,807 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:24:10,887 :INFO : test_doctorvoicecolm :chrome
+2024-08-29 11:24:20,330 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:24:41,008 :INFO : test_doctorvoicecolm :MicrosoftEdge
+2024-08-29 11:25:30,955 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:31,942 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:32,898 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:34,270 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:35,588 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:36,373 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:37,509 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:39,033 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:40,015 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:41,016 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:42,428 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:25:43,747 :INFO : test_doctorvoicecolm :start
+2024-08-29 11:36:53,244 :INFO : test_Deep_Dives_UI :chrome
+2024-08-29 11:36:56,209 :INFO : test_Deep_Dives_UI :start
+2024-08-29 11:37:16,743 :INFO : test_Deep_Dives_UI :MicrosoftEdge
+2024-08-29 11:37:19,977 :INFO : test_Deep_Dives_UI :start
+2024-08-29 11:37:41,879 :INFO : test_Deep_Dives_UI :safari
+2024-08-29 11:37:41,969 :INFO : test_Deep_Dives_UI :start
+2024-08-29 11:37:43,903 :INFO : test_Deep_Dives_UI :start
+2024-08-29 11:38:02,136 :INFO : test_Deep_Dives_UI :chrome
+2024-08-29 11:38:05,689 :INFO : test_Deep_Dives_UI :start
+2024-08-29 11:42:31,313 :INFO : test_deepdivesidebar :chrome
+2024-08-29 11:42:31,434 :INFO : test_deepdivesidebar :start
+2024-08-29 11:42:32,789 :INFO : test_deepdivesidebar :start
+2024-08-29 11:42:39,398 :INFO : test_deepdivesidebar :All links verified successfully
+2024-08-29 11:42:58,286 :INFO : test_deepdivesidebar :safari
+2024-08-29 11:42:58,382 :INFO : test_deepdivesidebar :start
+2024-08-29 11:43:00,074 :INFO : test_deepdivesidebar :start
+2024-08-29 11:43:02,594 :INFO : test_deepdivesidebar :All links verified successfully
+2024-08-29 11:43:14,468 :INFO : test_deepdivesidebar :chrome
+2024-08-29 11:43:17,033 :INFO : test_deepdivesidebar :start
+2024-08-29 11:43:20,504 :INFO : test_deepdivesidebar :All links verified successfully
+2024-08-29 11:43:37,574 :INFO : test_deepdivesidebar :MicrosoftEdge
+2024-08-29 11:43:38,409 :INFO : test_deepdivesidebar :start
+2024-08-29 11:43:39,984 :INFO : test_deepdivesidebar :All links verified successfully
+2024-08-29 11:45:23,479 :INFO : test_deepmeetingsection :MicrosoftEdge
+2024-08-29 11:45:26,262 :INFO : test_deepmeetingsection :start
+2024-08-29 11:45:29,856 :INFO : test_deepmeetingsection :All links verified successfully
+2024-08-29 11:45:46,325 :INFO : test_deepmeetingsection :chrome
+2024-08-29 11:45:46,386 :INFO : test_deepmeetingsection :start
+2024-08-29 11:45:50,365 :INFO : test_deepmeetingsection :start
+2024-08-29 11:45:54,358 :INFO : test_deepmeetingsection :All links verified successfully
+2024-08-29 11:46:14,821 :INFO : test_deepmeetingsection :safari
+2024-08-29 11:46:14,883 :INFO : test_deepmeetingsection :start
+2024-08-29 11:46:18,414 :INFO : test_deepmeetingsection :start
+2024-08-29 11:46:20,680 :INFO : test_deepmeetingsection :All links verified successfully
+2024-08-29 11:46:36,152 :INFO : test_deepmeetingsection :chrome
+2024-08-29 11:46:38,128 :INFO : test_deepmeetingsection :start
+2024-08-29 11:46:40,625 :INFO : test_deepmeetingsection :All links verified successfully
+2024-08-29 11:48:35,240 :INFO : test_deepdivesbodylinks :chrome
+2024-08-29 11:48:36,466 :INFO : test_deepdivesbodylinks :start
+2024-08-29 11:48:42,333 :INFO : test_deepdivesbodylinks :All links verified successfully
+2024-08-29 11:48:59,273 :INFO : test_deepdivesbodylinks :chrome
+2024-08-29 11:48:59,324 :INFO : test_deepdivesbodylinks :start
+2024-08-29 11:49:00,943 :INFO : test_deepdivesbodylinks :start
+2024-08-29 11:49:08,973 :INFO : test_deepdivesbodylinks :All links verified successfully
+2024-08-29 11:49:28,202 :INFO : test_deepdivesbodylinks :safari
+2024-08-29 11:49:28,308 :INFO : test_deepdivesbodylinks :start
+2024-08-29 11:49:29,985 :INFO : test_deepdivesbodylinks :start
+2024-08-29 11:49:35,101 :INFO : test_deepdivesbodylinks :All links verified successfully
+2024-08-29 11:49:54,289 :INFO : test_deepdivesbodylinks :MicrosoftEdge
+2024-08-29 11:49:56,469 :INFO : test_deepdivesbodylinks :start
+2024-08-29 11:50:05,145 :INFO : test_deepdivesbodylinks :All links verified successfully
