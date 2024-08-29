@@ -15,6 +15,8 @@ import platform
 
 import pytest
 
+import asyncio
+
 
 class Testone(BaseClass):
     @pytest.mark.run(order=29)
